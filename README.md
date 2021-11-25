@@ -1,3 +1,7 @@
+Website for Security and Software Engineering Lab at the University of Notre Dame
+
+<!---
+
 Solid. A Bootstrap theme for Jekyll.
 ============
 ![Screenshot](https://st4ple.github.io/solid-jekyll/assets/img/browser.png)
@@ -81,3 +85,4 @@ If you want to host your website somewhere else than GitHub (or just would like 
 
 ## License
 This theme is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+--->
