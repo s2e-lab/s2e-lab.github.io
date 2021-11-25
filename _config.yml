@@ -78,6 +78,28 @@ members:
         url: mailto:jagron@nd.edu
       - title: twitter
         url: http://twitter.com/AKAgron
+  - name: Megan Campbell
+    position: Undergraduate Student
+    text: Computer Science
+    img: mcambp24.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:mcampb24@nd.edu      
+  - name: Latif Siddiq Sunny
+    position: PhD Student
+    text: Computer Science and Engineering
+    img: msiddiq3.jpg
+    social:
+      - title: envelope
+        url: mailto:msiddiq3@nd.edu
+  - name: Vinicius Carvalho Lopes
+    position: PhD Student
+    text: Computer Science and Engineering
+    img: vinicius.jpg
+    # social:
+    #   - title: envelope
+    #     url: mailto:msiddiq3@nd.edu
+
 
 # Clients information. Shown on Home and About pages. (Leftover from original, unnecessary?)
 clients:
