@@ -59,47 +59,52 @@ tel: (574) 631-0353
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
-members:
+professors:
   - name: Joanna C. S. Santos
     position: Assistant Professor
     text: Computer Science and Engineering
     img: jdasilv2.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:jdasilv2@nd.edu
-      - title: twitter
-        url: http://twitter.com/joannacss
-  - name: Joshua Agron
-    position: Undergraduate Student
-    text: Computer Science
-    img: jagron.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:jagron@nd.edu
-      - title: twitter
-        url: http://twitter.com/AKAgron
-  - name: Megan Campbell
-    position: Undergraduate Student
-    text: Computer Science
-    img: mcambp24.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:mcampb24@nd.edu      
+      - title: linkedin #use for email address
+        url: https://www.linkedin.com/in/joannacss/
+    time: Fall 2021 - Present
+        
+graduates:      
   - name: Latif Siddiq Sunny
     position: PhD Student
     text: Computer Science and Engineering
     img: msiddiq3.jpg
     social:
-      - title: envelope
-        url: mailto:msiddiq3@nd.edu
+      - title: linkedin
+        url: https://www.linkedin.com/in/lsiddiqsunny/
+    time: Spring 2022 - Present
   - name: Vinicius Carvalho Lopes
     position: PhD Student
     text: Computer Science and Engineering
     img: vinicius.jpg
-    # social:
-    #   - title: envelope
-    #     url: mailto:msiddiq3@nd.edu
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/vinilopes03/
+    time: Spring 2022 - Present
 
+undergraduates:
+  - name: Joshua Agron
+    position: Undergraduate Student
+    text: Computer Science
+    img: jagron.jpg
+    social:
+      - title: linkedin #use for email address
+        url: https://www.linkedin.com/in/joshua-agron/
+    time: Fall 2021 - Present
+  - name: Megan Campbell
+    position: Undergraduate Student
+    text: Computer Science
+    img: mcambp24.jpg
+    social:
+      - title: linkedin #use for email address
+        url: https://www.linkedin.com/in/megan-campbell-nd2023/
+    time: Fall 2021 - Present
+alumni:
 
 # Clients information. Shown on Home and About pages. (Leftover from original, unnecessary?)
 clients:
