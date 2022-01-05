@@ -1,7 +1,36 @@
 <div id="blue">
     <div class="container">
         <div class="row">
-            <h3>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h3>
+            <div class="col-md-6">
+                <h1 class="pubText">{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+            </div>
+            {% if page.wrap_title == "Publications" or page.title == "Publications" %}
+                <div class="col-md-6">
+                    <ul class="list-inline list-social-icons my-0 text-left">
+                    <li class="text-muted-wrap">See also on:</li>
+                    <li class="list-inline-item my-0 py-0 px-1">
+                        <a target="_blank" href="https://scholar.google.com/citations?user=mkGmYyAAAAAJ" class="text-primary">
+                            <span class="ai ai-google-scholar"></span> Google Scholar
+                        </a>
+                    </li>
+                    <li class="list-inline-item my-0 py-0 px-1">
+                        <a target="_blank" href="https://dblp.org/pid/115/4772.html" class="text-primary">
+                            <span class="ai ai-dblp"></span> DBLP
+                        </a>  
+                    </li>
+                    <li class="list-inline-item my-0 py-0 px-1">
+                        <a target="_blank" href="https://www.researchgate.net/profile/Joanna_Cecilia_Da_Silva_Santos" class="text-primary">
+                            <span class="ai ai-researchgate"></span> Research Gate
+                        </a>
+                    </li>
+                    <li class="list-inline-item my-0 py-0 px-1">
+                        <a target="_blank" href="https://orcid.org/0000-0001-8743-2516" class="text-primary">
+                            <i class="ai ai-orcid"></i> ORCID
+                        </a>
+                    </li> 
+                    </ul>
+                </div>
+            {% endif %}
         </div><!-- /row -->
     </div> <!-- /container -->
 </div><!-- /blue -->

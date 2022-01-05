@@ -498,11 +498,14 @@ cite {
 .text-justify {
   text-align: justify;
 }
+.text-muted-wrap {
+  color: #ffffff;
+}
 .text-muted {
-  color: #999;
+  color: #999
 }
 .text-primary {
-  color: #428bca;
+  color: #004d91;
 }
 a.text-primary:hover {
   color: #3071a9;
