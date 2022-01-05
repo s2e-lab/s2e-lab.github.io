@@ -1,0 +1,90 @@
+{% for item in publications %}
+
+<div class="row my-4" id="{{item.id}}">
+    <div class="col-lg-12"> 
+        {% if item.award %}
+            <center><h2 class="d-none d-sm-inline"><i class="mx-0 px-0 pt-2 fa-li fa fa-trophy text-warning"></i></h2></center>
+        {% endif %}
+        {% if item.to_appear %}
+            <i class="d-none d-sm-inline fa-li far fa-clock text-danger">
+                <p class="small"><span class="my-0 py-0 text-danger font-italics">To appear</span></p>
+            </i>
+        {% endif %}
+        <p class="my-0 h5">
+            <span class="font-weight-bolder text-info publication-title">
+                {{item.title}}
+            </span>            
+        </p>
+        <p class="my-0">
+            <span class="text-muted">Authors:</span>
+            {% for author in item.authors %}
+            {% if forloop.last %}<span class="text-muted">and</span>{% endif %}
+            <span class="author {%if author=="Santos, J. C. S." or author == "Joanna C. S. Santos" %}author-myself{% endif %}">{{author}}</span>{% if forloop.last == false %},{% endif %}
+            {%endfor %}
+        </p>
+        <p class="my-0">
+            <span class="text-muted">In:</span>
+            <span class="badge badge-secondary">{{item.venue_abbr}}</span>
+            <span class="venue">{{item.venue}}.</span>
+            {%if item.venue_location %}
+                {% if item.virtual %}
+                    <del class="text-danger">{{item.venue_location}}</del>
+                    <span class="text-secondary">(Virtual due to COVID-19)</span>. 
+                {% else %}
+                    {{item.venue_location}}.
+                {% endif %} 
+            {% endif %}
+            {{item.year}}.
+        </p>
+        {% if item.to_appear %}
+            <i class="far fa-clock text-danger d-inline d-sm-none">
+                <span class="my-0 py-0 text-danger font-italics">To appear</span>
+            </i>
+        {% endif %}        
+        {% if item.bibtex %}
+            <button type="button" class="mr-2 btn btn-outline-secondary btn-xs"
+                data-toggle="modal" data-target="#modalBibtex" data-bibtex="{{item.bibtex}}">
+                BibTex 
+                <i class="fas fa-quote-right fa-lg" data-toggle="tooltip" data-placement="top" title="Bibtex citation"></i>
+            </button>
+        {% endif %}
+        {% if item.preprint %}
+            <a  target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-xs" 
+                href="{{ "/preprints/" | prepend: site.baseurl }}{{item.preprint}}"> 
+                Preprint
+                <i class="far fa-file-pdf fa-lg"></i>  
+            </a>
+        {% endif %}
+        {% if item.url %}
+            <a target="_blank" href="{{item.url}}" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-xs">
+                URL
+                <i class="fas fa-external-link-alt fa-lg"></i>  
+            </a>
+        {% endif %}
+        {% if item.presentation %}
+            <a target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-xs"
+                href="{{item.presentation}}">
+                Video 
+                <i class="fab fa-youtube fa-lg"></i>
+            </a>
+        {% endif %}
+        {% if item.github %}
+            <a target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-xs" 
+                href="https://github.com/{{item.github}}">
+                GitHub 
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+        {% endif %}
+        {% if item.doi %}
+            <a  target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-xs"
+                href="https://dx.doi.org/{{item.doi}}">
+                DOI
+                <i class="ai ai-doi fa-lg"></i>  
+            </a>
+        {% endif %}
+        {% if item.award %}
+            <span class="my-0 py-0"><b class="badge badge-success">{{item.award}} <i class="d-inline d-sm-none fa fa-trophy text-warning"></i></b></span>
+        {% endif %}               
+    </div>
+</div>
+{% endfor %}

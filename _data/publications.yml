@@ -1,0 +1,596 @@
+international:
+  - soap-2021:
+    id: soap-2021
+    title: Serialization-Aware Call Graph Construction
+    venue: 10th ACM SIGPLAN International Workshop on the State of the Art in Program Analysis
+    venue_abbr: SOAP'21
+    venue_location: Virtual Conference
+    year: 2021
+    authors: 
+      - Joanna C. S. Santos
+      - Reese A. Jones
+      - Chinomso Ashiogwu
+      - Mehdi Mirakhorli
+    to_appear: true
+    github: SoftwareDesignLab/Salsa
+    preprint: soap21-preprint.pdf
+    bibtex: |
+      @inproceedings{santos2021serialization,
+          author={Joanna C. S. Santos and Reese A. Jones and Chinomso Ashiogwu and Mehdi Mirakhorli},
+          title={Serialization-Aware Call Graph Construction},
+          booktitle={10th ACM SIGPLAN International Workshop on the State of the Art in Program Analysis},
+          year={2021},
+          volume={},
+          number={},
+          doi={10.1145/3460946.3464319},
+          notes={To appear}          
+      }
+
+  - icsa-2021:
+    id: icsa-2021
+    title: 'ArCode: Facilitating the Use of Application Frameworks to Implement Tactics and Patterns'
+    venue: 2021 IEEE International Conference on Software Architecture
+    venue_abbr: ICSA'21
+    venue_location: Stuttgart, Germany
+    year: 2021
+    authors: 
+      - Ali Shokri
+      - Joanna C. S. Santos
+      - Mehdi Mirakhorli
+    to_appear: true
+    virtual: true
+    preprint: icsa21-preprint.pdf
+    presentation: https://www.youtube.com/watch?v=dzugRQKKGZc
+    bibtex: |
+      @inproceedings{shokri2021arcode,
+          author={A. {Shokri} and J. C. S. {Santos} and M. {Mirakhorli}},
+          booktitle={2021 IEEE International Conference on Software Architecture},
+          title={ArCode: Facilitating the Use of Application Frameworks to Implement Tactics and Patterns},
+          year={2021},
+          volume={},
+          number={},
+          notes={To appear}          
+      }
+
+  - scam-2020: 
+    id: scam-2020
+    title: Looking for Software Defects?  First Find the Nonconformists - An Outlier-Based Defect Prediction Approach
+    venue: 20th IEEE International Working Conference on Source Code Analysis and Manipulation
+    venue_abbr: SCAM'20
+    venue_location: Adelaide, Australia
+    year: 2020
+    authors: 
+      - Sara Moshtari
+      - Joanna C. S. Santos
+      - Mehdi Mirakhorli
+      - Ahmet Okutan
+    presentation: https://www.youtube.com/watch?v=OtLA-NlMJ7I
+    preprint: scam20-preprint.pdf
+    virtual: true
+    pages: pp75-86
+    doi: 10.1109/SCAM51674.2020.00014
+    bibtex: |
+      @inproceedings{moshtari2020looking,
+        author={Moshtari, Sara and Santos, Joanna C. S. and Mirakhorli, Mehdi and Okutan, Ahmet},
+        booktitle={2020 IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)}, 
+        title={Looking for Software Defects? First Find the Nonconformists}, 
+        year={2020},
+        volume={},
+        number={},
+        pages={75-86},
+        doi={10.1109/SCAM51674.2020.00014}
+      }
+
+
+  - ftfjp-2020: 
+    id: ftfjp-2020
+    title: 'Salsa: Static Analysis of Serialization Features'
+    venue: 22th ACM SIGPLAN International Workshop on Formal Techniques for Java-Like Programs
+    venue_abbr: FTfJP'20
+    venue_location: Berlin, Germany
+    year: 2020
+    authors:
+      - Joanna C. S. Santos
+      - Reese A. Jones
+      - Mehdi Mirakhorli
+    github: SoftwareDesignLab/Salsa
+    preprint: ftfjp20-preprint.pdf
+    virtual: true
+    doi: 10.1145/3427761.3428343
+    bibtex: |
+      @InProceedings{santos2020salsa,
+        author    = {Joanna C. S. Santos and Reese A. Jones and Mehdi Mirakhorli},
+        title     = {Salsa: Static Analysis of Serialization Features},
+        booktitle = {Proceedings of the 22th ACM SIGPLAN International Workshop on Formal Techniques for Java-Like Programs (FTfJP '20)},
+        publisher = {ACM},
+        pages     = {18--25},
+        doi       = {10.1145/3427761.3428343},
+        year      = {2020}
+      }
+
+  - issrew-2020:
+    id: issrew-2020
+    title: Towards Automated Evidence Generation for Rapid and Continuous Software Certification
+    venue: 10th IEEE International Workshop on Software Certification
+    venue_abbr: WoSoCer'20
+    venue_location: Coimbra, Portugal
+    year: 2020
+    authors:
+      - Joanna C. S. Santos
+      - Ali Shokri
+      - Mehdi Mirakhorli  
+    preprint: issrew20-preprint.pdf
+    virtual: true
+    to_appear: false
+    pages: pp287-294
+    doi: 10.1109/ISSREW51248.2020.00087
+    presentation: https://youtu.be/Zy8uKGi7Cd0
+    bibtex: |
+      @InProceedings{santos2020sherlock
+        author    = {Joanna C. S. Santos and Ali Shokri and Mehdi Mirakhorli}
+        title     = {Towards Automated Evidence Generation for Rapid and Continuous Software Certification}
+        booktitle = {2020 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)}
+        publisher = {IEEE}
+        pages     = {287--294}
+        doi       = {10.1109/ISSREW51248.2020.00087}
+        year      = {2020}
+      }
+
+  - encycris-2020:
+    id: encycris-2020
+    title: Towards an Automated Approach for Detecting Architectural Weaknesses in Critical Systems
+    venue: 1st International Workshop on Engineering and Cybersecurity of Critical Systems
+    venue_abbr: EnCyCriS'20
+    venue_location: Seoul, South Korea
+    year: 2020
+    authors:
+      - Joanna C. S. Santos
+      - Selma Suloglu
+      - Joanna Ye
+      - Mehdi Mirakhorli
+    doi: 10.1145/3387940.3392222
+    preprint: icsew20-preprint.pdf
+    virtual: true
+    presentation: https://youtu.be/mftF_a2yDkQ
+    bibtex: |
+      @inproceedings{santos2020weaknesses
+        author = {Santos, Joanna C. S. and Suloglu, Selma and Ye, Joanna and Mirakhorli, Mehdi}
+        title = {Towards an Automated Approach for Detecting Architectural Weaknesses in Critical Systems}
+        year = {2020}
+        isbn = {9781450379632}
+        publisher = {Association for Computing Machinery}
+        address = {New York, NY, USA}
+        url = {https://doi.org/10.1145/3387940.3392222}
+        doi = {10.1145/3387940.3392222}
+        abstract = {Architecture-first approaches are increasingly widely adopted for addressing resiliency requirements in critical systems. In these approaches, the system is built from the ground-up to be resilient, starting with the system's architecture design. Therefore, it is crucial to ensure that the architecture design is robust, without any flaws that could compromise the system's ability to detect, prevent, react to or recover from adverse conditions, such as cyber-attacks. In this paper, we describe our ongoing efforts in aiding software architects in designing cyber-resilient systems by automatically detecting weaknesses in their architectural models.}
+        booktitle = {Proceedings of the IEEE/ACM 42nd International Conference on Software Engineering Workshops}
+        pages = {250–253}
+        numpages = {4}
+        keywords = {Architecture Analysis and Design Language, Architectural flaws, Automated Architectural Weaknesses Detection}
+        location = {Seoul, Republic of Korea}
+        series = {ICSEW'20}
+      }
+
+  - icsa-2020:
+    id: icsa-2020
+    title: An Automated Approach to Recover the Use-case View of an Architecture
+    venue: 2020 IEEE International Conference on Software Architecture - New and Emerging Ideas
+    venue_abbr: ICSA-NEMI Track
+    year: 2020
+    authors:
+      - Joanna C. S. Santos
+      - Sara Moshtari
+      - Mehdi Mirakhorli    
+    preprint: icsaw20-preprint.pdf
+    presentation: https://youtu.be/KyTGWlV22ic
+    doi: 10.1109/ICSA-C50368.2020.00020
+    virtual: false
+    bibtex: |
+      @inproceedings{
+        author={Joanna C. S. {Santos} and Sara {Moshtari} and Mehdi {Mirakhorli}}
+        booktitle={2020 IEEE International Conference on Software Architecture Companion (ICSA-C)}
+        title={An Automated Approach to Recover the Use-case View of an Architecture}
+        year={2020}
+        volume={}
+        number={}
+        pages={63-66}
+        doi={10.1109/ICSA-C50368.2020.00020}
+      }
+
+  - fse-2019:
+    id: fse-2019
+    title: 'Achilles’ Heel of Plug-and-Play Software Architectures: A Grounded Theory Based Approach'
+    venue: 2019 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+    venue_abbr: ESEC/FSE'19
+    venue_location: Tallinn, Estonia
+    year: 2019
+    authors:
+      - Joanna C. S. Santos
+      - Adriana Sejfia
+      - Taylor Corrello
+      - Smruthi Gadenkanahalli
+      - Mehdi Mirakhorli
+    preprint: fse19-preprint.pdf
+    github: SoftwareDesignLab/AchillesHeel
+    to_appear: false
+    doi: 10.1145/3338906.3338969
+    virtual: false
+    bibtex: |
+      @inproceedings{santos2019achilles
+        author = {Santos, Joanna C. S. and Sejfia, Adriana and Corrello, Taylor and Gadenkanahalli, Smruthi and Mirakhorli, Mehdi}
+        title = {Achilles’ Heel of Plug-and-Play Software Architectures: A Grounded Theory Based Approach}
+        year = {2019}
+        isbn = {9781450355728}
+        publisher = {Association for Computing Machinery}
+        address = {New York, NY, USA}
+        url = {https://doi.org/10.1145/3338906.3338969}
+        doi = {10.1145/3338906.3338969}
+        abstract = {Through a set of well-defined interfaces, plug-and-play architectures enable additional functionalities to be added or removed from a system at its runtime. However, plug-ins can also increase the application’s attack surface or introduce untrusted behavior into the system. In this paper, we (1) use a grounded theory-based approach to conduct an empirical study of common vulnerabilities in plug-and-play architectures; (2) conduct a systematic literature survey and evaluate the extent that the results of the empirical study are novel or supported by the literature; (3) evaluate the practicality of the findings by interviewing practitioners with several years of experience in plug-and-play systems. By analyzing Chromium, Thunderbird, Firefox, Pidgin, WordPress, Apache OfBiz, and OpenMRS, we found a total of 303 vulnerabilities rooted in extensibility design decisions and observed that these plugin-related vulnerabilities were caused by 16 different types of vulnerabilities. Out of these 16 vulnerability types we identified 19 mitigation procedures for fixing them. The literature review supported 12 vulnerability types and 8 mitigation techniques discovered in our empirical study, and indicated that 5 mitigation techniques were not covered in our empirical study. Furthermore, it indicated that 4 vulnerability types and 11 mitigation techniques discovered in our empirical study were not covered in the literature. The interviews with practitioners confirmed the relevance of the findings and highlighted ways that the results of this empirical study can have an impact in practice.}
+        booktitle = {Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering}
+        pages = {671–682}
+        numpages = {12}
+        keywords = {Software Security, Plug-and-Play Design, Vulnerabilities}
+        location = {Tallinn, Estonia}
+        series = {ESEC/FSE 2019}
+      }
+
+  - jss-2019:
+    id: jss-2019
+    title: An Empirical Study of Tactical Vulnerabilities
+    venue: Journal of Systems and Software
+    venue_abbr: JSS
+    venue_location: Volume 149
+    year: 2019
+    authors:
+      - Joanna C. S. Santos
+      - Katy Tarrit
+      - Adriana Sejfia
+      - Mehdi Mirakhorli
+      - Matthias Galster    
+    preprint: jss19-preprint.pdf
+    to_appear: false
+    doi: 10.1016/j.jss.2018.10.030
+    virtual: false
+    bibtex: |
+      @article{santos2019empirical
+        author = {Joanna C. S. Santos and Katy Tarrit and Adriana Sejfia and Mehdi Mirakhorli and Matthias Galster}
+        title = {An empirical study of tactical vulnerabilities}
+        journal = {Journal of Systems and Software}
+        volume = {149}
+        pages = {263--284}
+        year = {2019}
+        issn = {0164-1212}
+        doi = {https://doi.org/10.1016/j.jss.2018.10.030}
+        url = {http://www.sciencedirect.com/science/article/pii/S0164121218302322}
+        keywords = {Software security architecture, Security tactics, Tactical vulnerabilities, Architectural weaknesses}
+        abstract = {Architectural security tactics (e.g., authorization, authentication) are used to achieve stakeholders’ security requirements. Security tactics allow the system to react, resist, detect and recover from attacks. Flaws in the adoption of these tactics into the system’s architecture, an incorrect implementation of security tactics, or deterioration of tactic implementations over time can introduce severe vulnerabilities that are exploitable by attackers. Therefore, in this work, we present the Common Architectural Weakness Enumeration (CAWE), a catalog of known weaknesses rooted in the design or implementation of security tactics which can result in tactical vulnerabilities. We categorized all known software weaknesses as tactic-related and non-tactic related. This way, our CAWE catalog enumerates common weaknesses in a security architecture that can lead to tactical vulnerabilities. From our CAWE catalog, we found 223 different types of tactical vulnerabilities. In this work, we also used this catalog to study tactical vulnerabilities in three large-scale open source projects: Chromium, PHP, and Thunderbird. In a detailed analysis, we identified the most occurring vulnerability types on these projects. From this study we observed that (i) Improper Input Validation and Improper Access Control were the most occurring vulnerability types in Chromium, PHP and Thunderbird and (ii) “Validate Inputs” and “Authorize Actors” were the security tactics mostly affected by these tactical vulnerabilities. Moreover, in a qualitative analysis of 632 tactical vulnerabilities and their fixes in these systems, we characterized their root causes and investigated the way the original developers of each system fixed these vulnerabilities. From this qualitative analysis, we found 44 distinct root causes that lead to these tactical vulnerabilities. The results of this study not only show how architectural weaknesses in systems have created severe vulnerabilities, but also provide recommendations driven by empirical data for addressing such security problems.}
+      }
+
+  - icsa-2017: 
+    id: icsa-2017
+    title: 'Understanding Software Vulnerabilities Related to Architectural Security Tactics: An Empirical Investigation of Chromium, PHP and Thunderbird'
+    venue: 2017 IEEE International Conference on Software Architecture
+    venue_abbr: ICSA'17
+    venue_location: Gothenburg, Sweden
+    year: 2017
+    award: Best paper award
+    authors:
+      - Joanna C. S. Santos
+      - Anthony Peruma
+      - Mehdi Mirakhorli
+      - Matthias Galster
+      - Jairo Veloz Vidal
+      - Adriana Sejfia  
+    doi: 10.1109/ICSA.2017.39
+    preprint: icsa17-preprint.pdf
+    to_appear: false
+    virtual: false
+    bibtex: |
+      @inproceedings{santos2017understanding
+        author={Joanna C. S. Santos and Anthony Peruma and Mehdi Mirakhorli and Matthias Galster and Jairo Veloz Vidal and Adriana Sejfia}
+        booktitle={2017 IEEE International Conference on Software Architecture (ICSA)}
+        title={Understanding Software Vulnerabilities Related to Architectural Security Tactics: An Empirical Investigation of Chromium, PHP and Thunderbird}
+        year={2017}
+        volume={}
+        number={}
+        pages={69-78}
+        doi={10.1109/ICSA.2017.39}
+      }
+
+  - icsaw-2017:
+    id: icsaw-2017
+    title: A Catalog of Security Architecture Weaknesses
+    venue: 2017 IEEE International Conference on Software Architecture Workshops
+    venue_abbr: ICSAW'17
+    venue_location: Gothenburg, Sweden
+    year: 2017
+    authors:
+      - Joanna C. S. Santos
+      - Katy Tarrit
+      - Mehdi Mirakhorli
+    doi: 10.1109/ICSAW.2017.25
+    preprint: icsaw17-preprint.pdf
+    url: https://cwe.mitre.org/data/definitions/1008.html
+    to_appear: false
+    virtual: false
+    bibtex: |
+      @inproceedings{santos2017cawe
+        author={Joanna C. S. Santos and Katy Tarrit and Mehdi Mirakhorli}
+        booktitle={2017 IEEE International Conference on Software Architecture Workshops (ICSAW)}
+        title={A Catalog of Security Architecture Weaknesses}
+        year={2017}
+        volume={}
+        number={}
+        pages={220-223}
+        doi={10.1109/ICSAW.2017.25}
+      }
+
+  - msr-2017:
+    id: msr-2017
+    title: A Large-Scale Study on the Usage of Testing Patterns That Address Maintainability Attributes (Patterns for Ease of Modification, Diagnoses, and Comprehension)
+    venue: Proceedings of the 14th International Conference on Mining Software Repositories
+    venue_abbr: MSR'17
+    venue_location: Buenos Aires, Argentina
+    year: 2017
+    authors:
+      - Danielle Gonzalez
+      - Joanna C. S. Santos
+      - Andrew Popovich
+      - Mehdi Mirakhorli
+      - Meiyappan Nagappan  
+    to_appear: false
+    doi: 10.1109/MSR.2017.8
+    virtual: false
+    bibtex: |
+      @inproceedings{gonzalez2017study
+        author={Danielle Gonzalez and Joanna C. S. Santos and Andrew Popovich and Mehdi Mirakhorli and Meiyappan Nagappan}
+        booktitle={2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)}
+        title={A Large-Scale Study on the Usage of Testing Patterns That Address Maintainability Attributes: Patterns for Ease of Modification, Diagnoses, and Comprehension}
+        year={2017}
+        volume={}
+        number={}
+        pages={391-401}
+        doi={10.1109/MSR.2017.8}
+      }
+
+  - jss-2016:
+    id: jss-2016
+    title: A search engine for finding and reusing architecturally significant code
+    venue: Journal of Systems and Software
+    venue_abbr: JSS
+    venue_location: Volume 130
+    year: 2016
+    authors:
+      - Ibrahim Mujhid
+      - Joanna C. S. Santos
+      - Raghuram Gopalakrishnan
+      - Mehdi Mirakhorli  
+    preprint: jss16-preprint.pdf
+    to_appear: false
+    doi: 10.1016/j.jss.2016.11.034
+    virtual: false
+    bibtex: |
+      @article{mujhid2017search
+        title={A search engine for finding and reusing architecturally significant code}
+        author={Mujhid, Ibrahim Jameel and Santos, Joanna C. S. and Gopalakrishnan, Raghuram and Mirakhorli, Mehdi}
+        journal={Journal of Systems and Software}
+        volume={130}
+        pages={81--93}
+        year={2017}
+        issn = {0164-1212}
+        doi = {10.1016/j.jss.2016.11.034}
+        publisher={Elsevier}
+      } 
+
+  - emse-2016:
+    id: emse-2016
+    title: Automated training-set creation for software architecture traceability problem
+    venue: Empirical Software Engineering
+    venue_abbr: EMSE
+    venue_location: Volume 22, Issue 3
+    year: 2016
+    authors:
+      - Waleed Zogaan
+      - Ibrahim Mujhid
+      - Joanna C. S. Santos
+      - Danielle Gonzalez
+      - Mehdi Mirakhorli
+    preprint: emse16-preprint.pdf
+    to_appear: false
+    doi: 10.1007/s10664-016-9476-y
+    virtual: false
+    bibtex: |
+      @article{zogaan2017automated
+        title={Automated training-set creation for software architecture traceability problem}
+        author={Zogaan, Waleed and Mujhid, Ibrahim and Santos, Joanna CS and Gonzalez, Danielle and Mirakhorli, Mehdi}
+        journal={Empirical Software Engineering}
+        volume={22}
+        number={3}
+        isbn = {1573-7616}
+        pages={1028--1062}
+        year={2017}
+        publisher={Springer}
+        doi={10.1007/s10664-016-9476-y}
+      }
+
+  - wicsa-2016:
+    id: wicsa-2016
+    title: 'BUDGET: a Tool for Supporting Software Architecture Traceability Research'
+    venue: Proceedings of the 13th Working IEEE/IFIP Conference on Software Architecture
+    venue_abbr: WICSA'16
+    venue_location: Venice, Italy
+    year: 2016
+    authors:
+      - Joanna C. S. Santos
+      - Mehdi Mirakhorli
+      - Ibrahim Mujhid
+      - Waleed Zogaan
+    presentation: https://www.youtube.com/watch?v=CFXNHz2LV7Y
+    preprint: wicsa16-preprint.pdf
+    to_appear: false
+    doi: 10.1109/WICSA.2016.47
+    virtual: false
+    bibtex: |
+      @inproceedings{santos2016budget
+        author = {Joanna C. S. Santos and Mehdi Mirakhorli and Ibrahim Mujhid and Waleed Zogaan}
+        title = {BUDGET: A Tool for Supporting Software Architecture Traceability Research}
+        booktitle = {Proceedings of the 13th IEEE/IFIP Conference on Software Architecture}
+        doi = {10.1109/WICSA.2016.47}
+        isbn = {978-1-5090-2131-4}
+        pages = {303--306}
+        publisher = {IEEE Computer Society}
+        year = 2016
+      }
+
+  - itng-2016:
+    id: itng-2016
+    title: A Model-Driven Solution for Automatic Software Deployment in the Cloud
+    venue: 'Proceedings of the 13th International Conference on Information Technology: New Generations'
+    venue_abbr: ITNG'15
+    year: 2015
+    authors:
+      - Franklin Magalhães Ribeiro Jr
+      - Tarcísio da Rocha
+      - Joanna C. S. Santos
+      - Edward David Moreno
+    to_appear: false
+    preprint: itng16-preprint.pdf
+    doi: 10.1007/978-3-319-32467-8_52
+    virtual: false
+    bibtex: |
+      @incollection{ribeiro2016model
+        title={A model-driven solution for automatic software deployment in the cloud}
+        author={Ribeiro, Franklin Magalh{\~a}es and da Rocha, Tarc{\'\i}sio and Santos, Joanna C. S. and Moreno, Edward David}
+        booktitle={Information Technology: New Generations}
+        pages={591--601}
+        year={2016}
+        doi={10.1007/978-3-319-32467-8_52}
+        publisher={Springer}
+      }
+
+  - eatis-2012:
+    id: eatis-2012
+    title: 'ERLab: a middleware for remote access electronic laboratories'
+    venue: Proceedings of the 6th Euro American Conference on Telematics and Information Systems
+    venue_abbr: EATIS'12
+    venue_location: Valencia, Spain
+    year: 2012
+    authors:
+      - Admilson R. L. Ribeiro
+      - Marco T. Chella
+      - Luiz M. M. A. Santos
+      - Joanna C. S. Santos
+      - Wedla R. Melo
+    to_appear: false
+    doi: 10.1145/2261605.2261635
+    virtual: false
+    preprint: eatis12-preprint.pdf
+    bibtex: |
+      @inproceedings{ribeiro2012erlab
+        title={ERLab: a middleware for remote access electronic laboratories}
+        author={Ribeiro, Admilson RL and Chella, Marco T and Santos, Luiz Marcus MA and Santos, Joanna CS and Melo, Wedla R}
+        booktitle = {Proceedings of the 6th Euro American Conference on Telematics and Information Systems}
+        pages={199--205}
+        year = {2012}
+        isbn = {9781450310123}
+        publisher = {Association for Computing Machinery}
+        address = {New York, NY, USA}
+        doi = {10.1145/2261605.2261635}
+        numpages = {7}
+        location = {Valencia, Spain}
+        series = {EATIS '12}
+      }
+
+brazilian:
+  - erbase-2013:
+    title: A Location Service using the HTML5 Geolocation API (Serviço de localização utilizando a API de geolocalização do HTML5)
+    year: 2013
+    venue: 13th Regional School of Computing of the States of Bahia, Alagoas and Sergipe - Scientific Initiation and Undergraduate Works Workshop (XIII Escola Regional de Computação dos Estados da Bahia, Alagoas e Sergipe - Workshop de Trabalhos de IC e de Graduação - ERBASE 2013 - WTICG)
+    venue_abbr: ERBASE 2013 - WTICG
+    venue_location: Aracaju, Sergipe
+    authors:
+      - Joanna C. S. Santos
+      - Sandra C. P. Hoentsch
+      - Rafael A. Nascimento
+      - Admilson R. L. Ribeiro
+    award: 🥉 Paper Award (3rd place)
+    preprint: 112061.pdf
+    bibtex: |
+      @inproceedings{santos2013location,
+          author={J. C. S. {Santos} and Sandra C. P. {Hoentsch} and Rafael A. Nascimento and Admilson R. L. Ribeiro},
+          booktitle={XIII Escola Regional de Computação dos Estados da Bahia, Alagoas e Sergipe - Workshop de Trabalhos de IC e de Graduação - ERBASE 2013 - WTICG},
+          title={Serviço de localização utilizando a API de geolocalização do HTML5},
+          year={2013},
+          series = {ERBASE 2013 - WTICG},
+          pages={60--69}          
+      }
+    
+  - erbase-2012:
+    title: Uma Proposta de Site de Rede Social M&oacute;vel para Pesquisa e Educa&ccedil;&atilde;o.
+    venue: XII Escola Regional de Computa&ccedil;&atilde;o dos Estados da Bahia, Alagoas e Sergipe - X Workshop de Educa&ccedil;&atilde;o e Inform&aacute;tica Bahia-Alagoas-Sergipe
+    venue_abbr: ERBASE 2012 - X WEIBASE
+    venue_location: Juazeiro, Bahia
+    year: 2012
+    authors:
+      - Sandra C. P. Hoentsch
+      - Admilson R. L. Ribeiro
+      - Joanna C. S. Santos
+      - Lucas L. B. Menezes
+    preprint: erbase2012-preprint.pdf
+    bibtex: 
+    
+    
+  - sbie-2011:
+    title: 'JOnline: Proposta preliminar de um juiz online didático para o ensino de programação'
+    venue: 22º Simpósio Brasileiro de Informática na Educação (SBIE) e 17º Workshop de Informática na Escola
+    venue_abbr: XXII SBIE - XVII WIE
+    venue_location: Aracaju, Sergipe
+    year: 2011
+    authors:    
+      - Joanna C. S. Santos
+      - Admilson R. L. Ribeiro
+    preprint: 1863-2958-1-SM.pdf
+    bibtex: 
+    
+    
+  - enined-2011-jonline:
+    title: Uma proposta de um juiz online didático para o ensino de programação
+    venue: II Encontro Nacional de Informática e Educação
+    venue_abbr: II ENINED
+    venue_location: Cascavel, Paraná
+    year: 2011 
+    authors:
+      - Joanna C. S. Santos
+      - Admilson R. L. Ribeiro
+    preprint: A36.pdf
+    bibtex: 
+    
+    
+  - enined-2011-lew:
+    title: 'LEW: Laboratório de Engenharia Web para ensino, pesquisa e extensão'
+    venue: II Encontro Nacional de Informática e Educação
+    venue_abbr: II ENINED
+    venue_location: Cascavel, Paraná
+    year: 2011
+    authors:
+      - Admilson R. L. Ribeiro
+      - Marco T. Chella
+      - Luiz M. M. A. Santos
+      - Joanna C. S. Santos
+      - Wedla R. Melo
+    preprint: A39.pdf
+    bibtex: 
+    
+    
+  - enined-2011-socialnetlab:
+    title: SocialNetLab - Uma Proposta de Site de Rede Social para Educação
+    venue: II Encontro Nacional de Informática e Educação
+    venue_abbr: II ENINED
+    venue_location: Cascavel, Paraná
+    year: 2011
+    authors:
+      - Sandra C. P. Hoentsch
+      - Admilson R. L. Ribeiro
+      - Joanna C. S. Santos            
+    preprint: A9.pdf
+    bibtex: 
