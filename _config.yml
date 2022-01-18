@@ -96,14 +96,6 @@ undergraduates:
       - title: linkedin #use for email address
         url: https://www.linkedin.com/in/joshua-agron/
     time: Fall 2021 - Present
-  - name: Megan Campbell
-    position: Undergraduate Student
-    text: Computer Science
-    img: mcambp24.jpg
-    social:
-      - title: linkedin #use for email address
-        url: https://www.linkedin.com/in/megan-campbell-nd2023/
-    time: Fall 2021 - Present
   - name: Mark Cheng
     position: Undergraduate Student
     text: Computer Engineering
@@ -113,6 +105,14 @@ undergraduates:
         url: https://www.linkedin.com/in/mark-cheng-6a9101189/
     time: Spring 2022 - Present
 alumni:
+  - name: Megan Campbell
+    position: Undergraduate Student
+    text: Computer Science
+    img: mcambp24.jpg
+    social:
+      - title: linkedin #use for email address
+        url: https://www.linkedin.com/in/megan-campbell-nd2023/
+    time: Fall 2021 - Fall 2021
 
 # Clients information. Shown on Home and About pages. (Leftover from original, unnecessary?)
 clients:
