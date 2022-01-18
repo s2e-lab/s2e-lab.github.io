@@ -104,6 +104,14 @@ undergraduates:
       - title: linkedin #use for email address
         url: https://www.linkedin.com/in/megan-campbell-nd2023/
     time: Fall 2021 - Present
+  - name: Mark Cheng
+    position: Undergraduate Student
+    text: Computer Engineering
+    img: mcheng3.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/mark-cheng-6a9101189/
+    time: Spring 2022 - Present
 alumni:
 
 # Clients information. Shown on Home and About pages. (Leftover from original, unnecessary?)
