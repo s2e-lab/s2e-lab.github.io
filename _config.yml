@@ -69,7 +69,15 @@ professors:
         url: https://www.linkedin.com/in/joannacss/
     time: Fall 2021 - Present
         
-graduates:      
+graduates:
+  - name: Beatrice Casey
+    position: PhD Student
+    text: Computer Science and Engineering
+    img: bacasey6.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/beatrice-casey-4ab6aa1b2
+    time: Fall 2022 - Present
   - name: Latif Siddiq Sunny
     position: PhD Student
     text: Computer Science and Engineering
