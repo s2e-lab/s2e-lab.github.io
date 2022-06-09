@@ -13,9 +13,9 @@ permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#ae9142" #"#00b3fe" #"#F70031"
-  primary_rgb: "0,165,181" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#0c2340" #384452" #"#33004D"
+  primary: "#00b3fe"
+  primary_rgb: "0, 178, 254" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#0c2340" #384452" 
   link: "#5aabbc"
   link_hover: "#f6e7a1"
   footer_heading: "#ffffff"
@@ -39,7 +39,7 @@ social:
   - title: facebook
     url:
   - title: twitter
-    url:
+    url: joannacss
   - title: instagram
     url:
   - title: tumblr
@@ -78,7 +78,7 @@ graduates:
       - title: linkedin
         url: https://www.linkedin.com/in/beatrice-casey-4ab6aa1b2
     time: Fall 2022 - Present
-  - name: Latif Siddiq Sunny
+  - name: Mohammed Latif Siddiq 
     position: PhD Student
     text: Computer Science and Engineering
     img: msiddiq3.jpg
@@ -94,8 +94,8 @@ graduates:
       - title: linkedin
         url: https://www.linkedin.com/in/vinilopes03/
     time: Spring 2022 - Present
-
 undergraduates:
+alumni:
   - name: Joshua Agron
     position: Undergraduate Student
     text: Computer Science
@@ -103,7 +103,7 @@ undergraduates:
     social:
       - title: linkedin #use for email address
         url: https://www.linkedin.com/in/joshua-agron/
-    time: Fall 2021 - Present
+    time: Fall 2021 - Spring 2022
   - name: Mark Cheng
     position: Undergraduate Student
     text: Computer Engineering
@@ -111,8 +111,7 @@ undergraduates:
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/mark-cheng-6a9101189/
-    time: Spring 2022 - Present
-alumni:
+    time: Spring 2022 - Spring 2022
   - name: Megan Campbell
     position: Undergraduate Student
     text: Computer Science

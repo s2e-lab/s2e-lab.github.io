@@ -1,4 +1,28 @@
 international:
+  - nlbse-2022:
+    id: nlbse-2022
+    title: BERT-Based GitHub Issue Report Classification
+    venue: The 1st Intl. Workshop on Natural Language-based Software Engineering
+    venue_abbr: NLBSE'22
+    venue_location: Pittsburgh, PA, USA
+    year: 2021
+    authors: 
+      - Mohamed Latif Siddiq
+      - Joanna C. S. Santos
+    to_appear: true
+    github: s2e-lab/BERT-Based-GitHub-Issue-Classification
+    preprint: nlbse22-preprint.pdf
+    bibtex: |
+      @inproceedings{sunny2021serialization,
+          author={Mohamed Latif Siddiq and Joanna C. S. Santos},
+          title={{BERT}-Based GitHub Issue Report Classification},
+          booktitle={The 1st Intl. Workshop on Natural Language-based Software Engineering},
+          year={2022},
+          volume={},
+          number={},
+          doi={10.1145/3528588.3528660},
+          notes={To appear}          
+      }
   - soap-2021:
     id: soap-2021
     title: Serialization-Aware Call Graph Construction
@@ -11,20 +35,27 @@ international:
       - Reese A. Jones
       - Chinomso Ashiogwu
       - Mehdi Mirakhorli
-    to_appear: true
     github: SoftwareDesignLab/Salsa
     preprint: soap21-preprint.pdf
+    doi: 10.1145/3460946.3464319
     bibtex: |
       @inproceedings{santos2021serialization,
-          author={Joanna C. S. Santos and Reese A. Jones and Chinomso Ashiogwu and Mehdi Mirakhorli},
-          title={Serialization-Aware Call Graph Construction},
-          booktitle={10th ACM SIGPLAN International Workshop on the State of the Art in Program Analysis},
-          year={2021},
-          volume={},
-          number={},
-          doi={10.1145/3460946.3464319},
-          notes={To appear}          
+        author = {Santos, Joanna C. S. and Jones, Reese A. and Ashiogwu, Chinomso and Mirakhorli, Mehdi},
+        title = {Serialization-Aware Call Graph Construction},
+        year = {2021},
+        isbn = {9781450384681},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3460946.3464319},
+        doi = {10.1145/3460946.3464319},
+        booktitle = {Proceedings of the 10th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis},
+        pages = {37–42},
+        numpages = {6},
+        keywords = {Call graphs, Deserialization, Serialization},
+        location = {Virtual, Canada},
+        series = {SOAP 2021}
       }
+
 
   - icsa-2021:
     id: icsa-2021
@@ -37,19 +68,21 @@ international:
       - Ali Shokri
       - Joanna C. S. Santos
       - Mehdi Mirakhorli
-    to_appear: true
     virtual: true
+    doi: 
     preprint: icsa21-preprint.pdf
     presentation: https://www.youtube.com/watch?v=dzugRQKKGZc
+    doi: 10.1109/ICSA51549.2021.00021
     bibtex: |
       @inproceedings{shokri2021arcode,
-          author={A. {Shokri} and J. C. S. {Santos} and M. {Mirakhorli}},
-          booktitle={2021 IEEE International Conference on Software Architecture},
-          title={ArCode: Facilitating the Use of Application Frameworks to Implement Tactics and Patterns},
-          year={2021},
-          volume={},
-          number={},
-          notes={To appear}          
+        author={Shokri, Ali and Santos, Joanna C. S. and Mirakhorli, Mehdi},
+        booktitle={2021 IEEE 18th International Conference on Software Architecture (ICSA)}, 
+        title={ArCode: Facilitating the Use of Application Frameworks to Implement Tactics and Patterns}, 
+        year={2021},
+        volume={},
+        number={},
+        pages={138-149},
+        doi={10.1109/ICSA51549.2021.00021}
       }
 
   - scam-2020: 
