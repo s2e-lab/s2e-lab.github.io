@@ -85,6 +85,8 @@ graduates:
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/lsiddiqsunny/
+      - title: twitter
+        url: https://twitter.com/lsiddiqsunny
     time: Spring 2022 - Present
   - name: Vinicius Carvalho Lopes
     position: PhD Student
@@ -133,7 +135,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "To be filled in; About S2E Lab at Notre Dame"
+about: "Security and Software Engineering Lab at University of Notre Dame, Notre Dame, IN 46556"
 
 # Testimonial content. Shown on Home and About page. (Leftover from original, unnecessary?)
 testimonial:
