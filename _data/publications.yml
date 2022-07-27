@@ -2,7 +2,7 @@ international:
   - scam-2022: 
     id: scam-2022
     title: An Empirical Study of Code Smells in Transformer-based Code Generation Techniques
-    venue: 21th IEEE International Working Conference on Source Code Analysis and Manipulation
+    venue: 22nd IEEE International Working Conference on Source Code Analysis and Manipulation
     venue_abbr: SCAM'22
     venue_location: Limassol, Cyprus
     year: 2022
