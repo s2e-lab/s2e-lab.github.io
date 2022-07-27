@@ -14,7 +14,7 @@ international:
       - Sourov Jajodia
       - Joanna C. S. Santos
     bibtex: |
-      @inproceedings{siddiqScam2022,
+      @inproceedings{siddiq2022empirical,
         author={Siddiq, Mohammed Latif and Majumder, Shafayat Hossain and Mim, Maisha Rahman and Jajodia, Sourov and Santos, Joanna C. S },
         booktitle={2022 IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)}, 
         title={An Empirical Study of Code Smells in Transformer-based Code Generation Techniques}, 
@@ -27,20 +27,20 @@ international:
   - nlbse-2022:
     id: nlbse-2022
     title: BERT-Based GitHub Issue Report Classification
-    venue: The 1st Intl. Workshop on Natural Language-based Software Engineering
+    venue: The 1st International Workshop on Natural Language-based Software Engineering (co-located with ICSE'22)
     venue_abbr: NLBSE'22
     venue_location: Pittsburgh, PA, USA
-    year: 2021
+    year: 2022
     authors: 
       - Mohamed Latif Siddiq
       - Joanna C. S. Santos
     github: s2e-lab/BERT-Based-GitHub-Issue-Classification
     preprint: nlbse22-preprint.pdf
     bibtex: |
-      @INPROCEEDINGS {siddiq_bert_2022,
-        author = {M. Siddiq and J. S. Santos},
+      @inproceedings{siddiq2022bert,
+        author = {M. Siddiq and J. C. S. Santos},
         booktitle = {2022 IEEE/ACM 1st International Workshop on Natural Language-Based Software Engineering (NLBSE)},
-        title = {BERT-Based GitHub Issue Report Classification},
+        title = {{BERT}-Based GitHub Issue Report Classification},
         year = {2022},
         volume = {1},
         issn = {978-1-4503-9343-0},
