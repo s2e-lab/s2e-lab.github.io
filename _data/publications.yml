@@ -1,4 +1,29 @@
 international:
+ - scam-2022: 
+    id: scam-2022
+    title: An Empirical Study of Code Smells in Transformer-based Code Generation Techniques
+    venue: 21th IEEE International Working Conference on Source Code Analysis and Manipulation
+    venue_abbr: SCAM'22
+    venue_location: Limassol, Cyprus
+    year: 2022
+    to_appear: true
+    authors: 
+      - Mohammed Latif Siddiq
+      - Shafayat Hossain Majumder
+      - Maisha Rahman Mim
+      - Sourov Jajodia
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{siddiqScam2022,
+        author={Siddiq, Mohammed Latif and Majumder, Shafayat Hossain and Mim, Maisha Rahman and Jajodia, Sourov and Santos, Joanna C. S },
+        booktitle={2022 IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)}, 
+        title={An Empirical Study of Code Smells in Transformer-based Code Generation Techniques}, 
+        year={2022},
+        volume={},
+        number={},
+        pages={},
+        doi={}
+      }
   - nlbse-2022:
     id: nlbse-2022
     title: BERT-Based GitHub Issue Report Classification
@@ -9,7 +34,6 @@ international:
     authors: 
       - Mohamed Latif Siddiq
       - Joanna C. S. Santos
-    to_appear: true
     github: s2e-lab/BERT-Based-GitHub-Issue-Classification
     preprint: nlbse22-preprint.pdf
     bibtex: |
