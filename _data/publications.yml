@@ -15,7 +15,7 @@ international:
       - Joanna C. S. Santos
     bibtex: |
       @inproceedings{siddiq2022empirical,
-        author={Siddiq, Mohammed Latif and Majumder, Shafayat Hossain and Mim, Maisha Rahman and Jajodia, Sourov and Santos, Joanna C. S },
+        author={Siddiq, Mohammed Latif and Majumder, Shafayat Hossain and Mim, Maisha Rahman and Jajodia, Sourov and Santos, Joanna CS },
         booktitle={Proceedings of the 22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)}, 
         title={An Empirical Study of Code Smells in Transformer-based Code Generation Techniques}, 
         year={2022},
