@@ -25,10 +25,17 @@ permalink: /
                 <i class="fa fa-microphone" aria-hidden="true"></i>
                 <span class="sr-only">An image of a microphone</span>
                 <h4>Latest News</h4>
-
-                {% for post in site.posts limit:5 %}
-                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-                {% endfor %}                
+                {%if site.posts %}
+                    <ul>
+                    {% for post in site.posts limit:5 %}
+                        <li>
+                            <a href="{{ post.url | prepend: site.baseurl }}">
+                                {{ post.title }}.
+                            </a>
+                        </li>
+                    {% endfor %}                
+                    </ul>
+                {% endif %}
                 <!--p><br/><a href="#" class="btn btn-theme">More Info</a></p-->
             </div>
         </div>
