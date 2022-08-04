@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: S<sup>2</sup>E Lab
+title: S2E Lab
 description: "All about the Security and Software Engineering Lab at the University of Notre Dame!"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
