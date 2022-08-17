@@ -1,4 +1,23 @@
 international:
+  - msr4ps-2022: 
+    id: msr4ps-2022
+    title: SecurityEval Dataset":" Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques
+    venue: 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (co-located with ESEC/FSE'22)
+    venue_abbr: MSR4P&S'22
+    venue_location: Singapore
+    year: 2022
+    to_appear: true
+    virtual: true
+    authors: 
+      - Mohammed Latif Siddiq
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{siddiq2022empirical,
+        author={Siddiq, Mohammed Latif and Santos, Joanna C. S. },
+        booktitle={1st International Workshop on Mining Software Repositories Applications for Privacy and Security(MSR4P&S)}, 
+        title={SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques}, 
+        year={2022},
+      }
   - scam-2022: 
     id: scam-2022
     title: An Empirical Study of Code Smells in Transformer-based Code Generation Techniques
