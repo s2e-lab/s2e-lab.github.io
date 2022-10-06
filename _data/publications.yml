@@ -25,6 +25,49 @@ international:
         pages={},
         doi={}
       }
+  - msr4ps-2022: 
+    id: msr4ps-2022
+    title: "SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques"
+    venue: 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (co-located with ESEC/FSE'22)
+    venue_abbr: MSR4P&S'22
+    venue_location: Singapore
+    year: 2022
+    to_appear: true
+    preprint: msr4ps22-preprint.pdf
+    doi: 10.1145/3549035.3561184
+    authors: 
+      - Mohammed Latif Siddiq
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{siddiq2022seceval,
+        author={Siddiq, Mohammed Latif and Santos, Joanna C. S. },
+        booktitle={Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S22)}, 
+        title={SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques}, 
+        year={2022},
+        doi={10.1145/3549035.3561184}
+      }
+  - msr4ps-coop-2022: 
+    id: msr4ps-coop-2022
+    title: "Counterfeit Object-Oriented Programming Vulnerabilities: An Empirical Study in Java"
+    venue: 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (co-located with ESEC/FSE'22)
+    venue_abbr: MSR4P&S'22
+    venue_location: Singapore
+    year: 2022
+    to_appear: true
+    preprint: msr4ps22-coop-preprint.pdf
+    doi: 10.1145/3549035.3561184
+    authors: 
+      - Joanna C. S. Santos
+      - Xueling Zhang
+      - Mehdi Mirakhorli
+    bibtex: |
+      @inproceedings{siddiq2022seceval,
+        author={Santos, Joanna C. S. and Zhang, X. and Mirakhorli, M.},
+        booktitle={Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S22)}, 
+        title={Counterfeit Object-Oriented Programming Vulnerabilities: An Empirical Study in Java}, 
+        year={2022},
+        doi={10.1145/3549035.3561183}
+      }
   - nlbse-2022:
     id: nlbse-2022
     title: BERT-Based GitHub Issue Report Classification
@@ -53,6 +96,26 @@ international:
         address = {Los Alamitos, CA, USA},
         month = {may}
       }
+  - demessa-2022:
+    id: demessa-2022
+    title: A Methodological Approach to Verify Architecture Resiliency 
+    venue: 2nd International Workshop on Designing and Measuring Security in Software Architecture (co-located with ECSA'22)
+    venue_abbr: DeMeSSA'22
+    venue_location: Prague,  Czech Republic
+    year: 2022
+    authors: 
+      - Joanna C. S. Santos
+      - Selma Suloglu
+      - Nestor Catano
+      - Mehdi Mirakhorli
+    bibtex: |
+      @inproceedings{santos2022methodological,
+        author = {J. C. S. Santos and S. Suloglu and N. Catano and M. Mirakhorli},
+        booktitle = {2nd International Workshop on Designing and Measuring Security in Software Architecture (DeMeSSA'22)},
+        title = {A Methodological Approach to Verify Architecture Resiliency },
+        year = {2022}        
+      }
+    preprint: demessa22-preprint.pdf
   - soap-2021:
     id: soap-2021
     title: Serialization-Aware Call Graph Construction
