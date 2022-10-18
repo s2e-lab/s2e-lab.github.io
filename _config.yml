@@ -106,8 +106,10 @@ graduates:
         url: https://www.linkedin.com/in/lsiddiqsunny/
       - title: twitter
         url: https://twitter.com/lsiddiqsunny
-      - title: google-scholar
+      - title: google
         url: https://scholar.google.com/citations?user=oGZL0uIAAAAJ&hl=en
+      - title: globe
+        url: https://lsiddiqsunny.github.io
     time: Spring 2022 - Present
   - name: Vinicius Carvalho Lopes
     position: PhD Student
