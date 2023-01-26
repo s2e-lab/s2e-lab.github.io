@@ -3,12 +3,10 @@ layout: default
 ---
 {% include wrap.html %}
 
-    {{ content }}
+{{ content }}
 
-{% include professors.html %}
+{% include member.html member_list=site.professors member_type="Faculty" %}
+{% include member.html member_list=site.graduates member_type="Current Graduate Students" %}
+{% include member.html member_list=site.undergraduates member_type="Current Undergraduate Students" %}
+{% include member.html member_list=site.alumni member_type="Alumni" %}
 
-{% include graduates.html %}
-
-{% include undergraduates.html %}
-
-{% include alumni.html %}

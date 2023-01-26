@@ -1,8 +1,9 @@
+{%if include.member_list %}
 <div class="container mtb">
     <div class="row ">
-        <h2 class="mb">Faculty</h2>
+        <h2 class="mb">{{include.member_type}}</h2>
         
-        {% for member in site.professors %}
+        {% for member in include.member_list %}
         <div class="col-lg-3 col-md-3 col-sm-3 centered">
             <div class="he-wrap tpl6 thumbnail">
             <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
@@ -16,7 +17,8 @@
                 </div><!-- he view -->		
             </div><!-- he wrap -->
             <h4>{{ member.name }}</h4>
-            <h5 class="ctitle">{{ member.position }}, {{member.time}}</h5>
+            <h5 class="ctitle">{{ member.position }}</h5>
+            <h6>{{member.time}}</h6>
             <p>{{ member.text }}</p>
             <div class="hline"></div>
         </div><! --/col-lg-3 -->	 	
@@ -24,3 +26,4 @@
         
     </div><! --/row -->
 </div><! --/container -->
+{% endif %}

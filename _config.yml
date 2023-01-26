@@ -112,12 +112,22 @@ graduates:
   - name: Vinicius Carvalho Lopes
     position: PhD Student
     text: Computer Science and Engineering
-    img: vlopes.jpg
+    img: vlopes.png
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/vinilopes03/
     time: Spring 2022 - Present
 undergraduates:
+  - name: George Perry
+    position: Undergraduate Student
+    text: Computer Science
+    img: gperry.jpg
+    time: Fall 2022 - Present
+  - name: Desereé Frink-Larcart 
+    position: Undergraduate Student
+    text: Computer Science
+    img: dfrinkla.jpg
+    time: Spring 2023 - Present
 alumni:
   - name: Joshua Agron
     position: Undergraduate Student
