@@ -24,6 +24,7 @@ international:
     year: 2022
     preprint: scam22-preprint.pdf
     doi: 10.1109/SCAM55253.2022.00014
+    github: s2e-lab/Code-Smell-Code-Generation
     authors: 
       - Mohammed Latif Siddiq
       - Shafayat Hossain Majumder
@@ -50,6 +51,7 @@ international:
     year: 2022
     preprint: msr4ps22-preprint.pdf
     doi: 10.1145/3549035.3561184    
+    github: s2e-lab/SecurityEval
     authors: 
       - Mohammed Latif Siddiq
       - Joanna C. S. Santos
