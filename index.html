@@ -11,8 +11,9 @@ permalink: /
                 <i class="fa fa-code" aria-hidden="true"></i>
                 <span class="sr-only">An image of code</span>
                 <h4>Mission</h4>
-                <p>The <b>S<sup>2</sup>E</b> lab is dedicated to studying the broad area of software engineering, primarily focusing on software security and program analysis.</p>
+                <p>The <b>S<sup>2</sup>E</b> lab is dedicated to studying the broad area of software engineering, primarily focusing on software security and program analysis. Our mission is to develop novel techniques to enable secure software systems development. We strive to make a positive impact on society by sharing knowledge, tools, and best practices related to engineering secure software systems.</p>
                 <!--p><br/><a href="#" class="btn btn-theme">More Info</a></p-->
+                <!-- Our mission is to advance the field of software engineering by providing innovative and practical solutions to software security challenges. Through rigorous research and collaboration, we aim to develop novel techniques to enable secure software systems development. We strive to make a positive impact on society by creating knowledge, tools, and best practices that are widely adopted and accessible to all. -->
             </div>
             <div class="col-md-4">
                 <i class="fa fa-group" aria-hidden="true"></i>
@@ -26,11 +27,11 @@ permalink: /
                 <span class="sr-only">An image of a microphone</span>
                 <h4>Latest News</h4>
                 {%if site.posts %}
-                    <ul>
+                    <ul class="text-left">
                     {% for post in site.posts limit:5 %}
                         <li>
                             <a href="{{ post.url | prepend: site.baseurl }}">
-                                {{ post.title }}.
+                                {{ post.short_title }}.
                             </a>
                         </li>
                     {% endfor %}                

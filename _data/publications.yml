@@ -1,4 +1,20 @@
 international:
+  - tse-2023: 
+    id: tse-2023
+    title: Empirical Validation of Automated Vulnerability Curation and Characterization
+    venue: IEEE Transactions on Software Engineering
+    venue_abbr: TSE
+    year: 2023
+    to_appear: true
+    preprint: tse23-preprint.pdf
+    authors: 
+      - Ahmet Okutan
+      - Peter Mell
+      - Mehdi Mirakhorli
+      - Igor Khokholov
+      - Joanna C. S. Santos
+      - Danielle Gonzalez
+      - Steven Simmons
   - scam-2022: 
     id: scam-2022
     title: An Empirical Study of Code Smells in Transformer-based Code Generation Techniques
@@ -6,8 +22,8 @@ international:
     venue_abbr: SCAM'22
     venue_location: Limassol, Cyprus
     year: 2022
-    to_appear: true
     preprint: scam22-preprint.pdf
+    doi: 10.1109/SCAM55253.2022.00014
     authors: 
       - Mohammed Latif Siddiq
       - Shafayat Hossain Majumder
@@ -16,14 +32,14 @@ international:
       - Joanna C. S. Santos
     bibtex: |
       @inproceedings{siddiq2022empirical,
-        author={Siddiq, Mohammed Latif and Majumder, Shafayat Hossain and Mim, Maisha Rahman and Jajodia, Sourov and Santos, Joanna C. S. },
+        author={Siddiq, Mohammed Latif and Majumder, Shafayat H. and Mim, Maisha R. and Jajodia, Sourov and Santos, Joanna C. S.},
         booktitle={2022 IEEE 22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)}, 
         title={An Empirical Study of Code Smells in Transformer-based Code Generation Techniques}, 
         year={2022},
         volume={},
         number={},
-        pages={},
-        doi={}
+        pages={71-82},
+        doi={10.1109/SCAM55253.2022.00014}
       }
   - msr4ps-2022: 
     id: msr4ps-2022
@@ -32,19 +48,27 @@ international:
     venue_abbr: MSR4P&S'22
     venue_location: Singapore
     year: 2022
-    to_appear: true
     preprint: msr4ps22-preprint.pdf
-    doi: 10.1145/3549035.3561184
+    doi: 10.1145/3549035.3561184    
     authors: 
       - Mohammed Latif Siddiq
       - Joanna C. S. Santos
     bibtex: |
       @inproceedings{siddiq2022seceval,
-        author={Siddiq, Mohammed Latif and Santos, Joanna C. S. },
-        booktitle={Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S22)}, 
-        title={SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques}, 
-        year={2022},
-        doi={10.1145/3549035.3561184}
+        author = {Siddiq, Mohammed Latif and Santos, Joanna C. S.},
+        title = {SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques},
+        year = {2022},
+        isbn = {9781450394574},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3549035.3561184},
+        doi = {10.1145/3549035.3561184},
+        booktitle = {Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Security},
+        pages = {29–33},
+        numpages = {5},
+        keywords = {dataset, common weakness enumeration, security, code generation},
+        location = {Singapore, Singapore},
+        series = {MSR4P&S 2022}
       }
   - msr4ps-coop-2022: 
     id: msr4ps-coop-2022
@@ -53,7 +77,6 @@ international:
     venue_abbr: MSR4P&S'22
     venue_location: Singapore
     year: 2022
-    to_appear: true
     preprint: msr4ps22-coop-preprint.pdf
     doi: 10.1145/3549035.3561184
     authors: 
@@ -62,11 +85,21 @@ international:
       - Mehdi Mirakhorli
     bibtex: |
       @inproceedings{siddiq2022seceval,
-        author={Santos, Joanna C. S. and Zhang, X. and Mirakhorli, M.},
-        booktitle={Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S22)}, 
-        title={Counterfeit Object-Oriented Programming Vulnerabilities: An Empirical Study in Java}, 
-        year={2022},
-        doi={10.1145/3549035.3561183}
+        author = {Santos, Joanna C. S. and Zhang, Xueling and Mirakhorli, Mehdi},
+        title = {Counterfeit Object-Oriented Programming Vulnerabilities: An Empirical Study in Java},
+        year = {2022},
+        isbn = {9781450394574},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3549035.3561183},
+        doi = {10.1145/3549035.3561183},
+        abstract = {Many modern applications rely on Object-Oriented (OO) design principles, where the basic system components are objects and classes. They share objects with other processes, store them in disk/files for future retrieval or transport them over network to other systems. Object-oriented programs leverage numerous dynamic features and design principles such as runtime dispatching and object-oriented callbacks which allow flexible software design. Although seemingly innocuous, these features can be abused by the attackers to hijack the program's control flow to an undesirable behavior. This is referred to as Counterfeit Object-Oriented Programming (COOP), in which attackers hijack objects in the program in order to create a sequence of method calls that introduce a malicious behavior. COOP is a type of code reuse attack in which a hacker hijacks objects (gadgets) in the program and use that to control the program execution flow via manipulating the sequence of methods and data being passed among these methods (gadget chains). In this paper, we describe a preliminary empirical investigation of COOP attacks in real software systems caused by untrusted object deserialization. In this preliminary study, we investigated the severity of these attacks, their consequences, and how they were mitigated by developers. Furthermore, we used the findings to create a dataset of vulnerable software projects and their fixes.},
+        booktitle = {Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Security},
+        pages = {21–28},
+        numpages = {8},
+        keywords = {common weakness enumeration, untrusted object deserialization, counterfeit object-oriented programming},
+        location = {Singapore, Singapore},
+        series = {MSR4P&S 2022}
       }
   - nlbse-2022:
     id: nlbse-2022
