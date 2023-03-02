@@ -12,37 +12,31 @@
             </i>
         {% endif %}
         -->
-        <p class="my-0 h3">
+        <p class="h3">
+            {% if item.award %}
+                <i class="fa fa-trophy text-danger"></i>
+                &nbsp;
+            {% endif %}
+            {% if item.to_appear %}
+                <i class=" fa fa-clock-o d-inline d-sm-none text-muted"></i>
+            {% endif %}
             <span class="font-weight-bolder text-info publication-title">
-                {% if item.to_appear %}
-                    <i class="fas fa-clock text-danger d-inline d-sm-none">
-                        <span class="my-0 py-0 text-danger font-italics">To appear</span>
-                    </i>
-                    &nbsp;
-                {% endif %}
-                <!--
-                {% if item.award %}
-                    <i class="fa fa-trophy text-warning"></i>
-                    &nbsp;
-                {% endif %}
-                -->
                 {{item.title}}
                 &nbsp;
                 {% if item.award %}
                     <span class="my-0 py-0"><b class="badge badge-success">{{item.award}} <i class="d-inline d-sm-none fa fa-trophy text-warning"></i></b></span>
                 {% endif %}
-
             </span>            
         </p>
         <p class="my-0">
-            <span class="text-muted">Authors:</span>
+            <strong class="text-muted">Authors:</strong>
             {% for author in item.authors %}
             {% if forloop.last %}<span class="text-muted">and</span>{% endif %}
             <span class="author {%if author=="Santos, J. C. S." or author == "Joanna C. S. Santos" %}author-myself{% endif %}">{{author}}</span>{% if forloop.last == false %},{% endif %}
             {%endfor %}
         </p>
         <p class="my-0">
-            <span class="text-muted">In:</span>
+            <strong class="text-muted">In:</strong>
             <span class="badge badge-secondary">{{item.venue_abbr}}</span>
             <span class="venue">{{item.venue}}.</span>
             {%if item.venue_location %}
@@ -55,6 +49,13 @@
             {% endif %}
             {{item.year}}.
         </p>
+        <p>
+        {% if item.to_appear %}
+        <span class="text-danger" >
+            <i class="fa fa-clock-o d-inline d-sm-none"></i>
+            To appear
+        </span>&nbsp;
+        {% endif %}
         <!--
         {% if item.to_appear %}
             <i class="far fa-clock text-danger d-inline d-sm-none">
@@ -63,51 +64,51 @@
         {% endif %}       
         --> 
         {% if item.bibtex %}
-            <button type="button" class="mr-2 btn btn-outline-secondary btn-s"
+            <button type="button" class="mr-2 btn btn-xs btn-success"
                 data-toggle="modal" data-target="#modalBibtex" data-bibtex="{{item.bibtex}}">
                 BibTex 
                 <i class="fa fa-quote-right fa-lg" data-toggle="tooltip" data-placement="top" title="Bibtex citation"></i>
             </button>
         {% endif %}
         {% if item.preprint %}
-            <a  target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-s" 
+            <a   target="_blank" role="button" class="mr-2 px-1 btn btn-xs btn-success" 
                 href="{{ "/preprints/" | prepend: site.baseurl }}{{item.preprint}}"> 
                 Preprint
-                <i class="fa fa-file-pdf fa-lg"></i>  
+                <i class="fa fa-file-text fa-lg"></i>  
             </a>
         {% endif %}
         {% if item.url %}
-            <a target="_blank" href="{{item.url}}" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-s">
+            <a target="_blank" href="{{item.url}}" role="button" class="mr-2 px-1 btn btn-xs btn-success">
                 URL
                 <i class="fa fa-external-link-alt fa-lg"></i>  
             </a>
         {% endif %}
         {% if item.presentation %}
-            <a target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-s"
+            <a target="_blank" role="button" class="mr-2 px-1 btn btn-xs btn-success"
                 href="{{item.presentation}}">
                 Video 
                 <i class="fa fa-youtube fa-lg"></i>
             </a>
         {% endif %}
         {% if item.github %}
-            <a target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-s" 
+            <a target="_blank" role="button" class="mr-2 px-1 btn btn-xs btn-success" 
                 href="https://github.com/{{item.github}}">
                 GitHub 
                 <i class="fa fa-github fa-lg"></i>
             </a>
         {% endif %}
         {% if item.doi %}
-            <a  target="_blank" role="button" class="mr-2 px-1 btn btn-outline-secondary btn-s"
+            <a  target="_blank" role="button" class="mr-2 px-1 btn btn-xs btn-success"
                 href="https://dx.doi.org/{{item.doi}}">
-                DOI
-                <i class="ai ai-doi fa-lg"></i>  
+                DOI: {{item.doi}}
+                <!-- <i class="ai ai-doi fa-lg"></i>   -->
             </a>
         {% endif %}
         <!--
         {% if item.award %}
             <span class="my-0 py-0"><b class="badge badge-success">{{item.award}} <i class="d-inline d-sm-none fa fa-trophy text-warning"></i></b></span>
         {% endif %}         
-        -->      
+        -->      </p>
     </div>
 </div>
 {% endfor %}

@@ -15,6 +15,30 @@ international:
       - Joanna C. S. Santos
       - Danielle Gonzalez
       - Steven Simmons
+  - nlbse-2023:
+    id: nlbse-2023
+    title: "Zero-shot Prompting for Code Complexity Prediction Using GitHub Copilot"
+    venue: 2nd International Workshop on Natural Language-based Software Engineering (co-located with ICSE'23)
+    venue_abbr: NLBSE'23
+    venue_location: Melbourne, Australia
+    year: 2023
+    authors: 
+      - Mohamed Latif Siddiq
+      - Abdus Samee
+      - Sk Ruhul Azgor
+      - Md. Asif Haider
+      - Shehabul Islam Sawraz
+      - Joanna C. S. Santos
+    preprint: nlbse23-preprint.pdf
+    to_appear: true
+    bibtex: |
+      @inproceedings{siddiq2023zero,
+        author = {M. Siddiq and A. Samee and S. R. Azgor and S. I. Sawraz and J. C. S. Santos},
+        booktitle = {2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE)},
+        title = {Zero-shot Prompting for Code Complexity Prediction Using {GitHub} Copilot},
+        year = {2023}
+        notes = {(to appear)}       
+      }
   - scam-2022: 
     id: scam-2022
     title: An Empirical Study of Code Smells in Transformer-based Code Generation Techniques
@@ -215,7 +239,7 @@ international:
 
   - scam-2020: 
     id: scam-2020
-    title: Looking for Software Defects?  First Find the Nonconformists - An Outlier-Based Defect Prediction Approach
+    title: "Looking for Software Defects?  First Find the Nonconformists - An Outlier-Based Defect Prediction Approach"
     venue: 20th IEEE International Working Conference on Source Code Analysis and Manipulation
     venue_abbr: SCAM'20
     venue_location: Adelaide, Australia

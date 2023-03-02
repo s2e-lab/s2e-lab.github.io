@@ -156,21 +156,21 @@ alumni:
 visiting:
   - name: Shafayat Hossain Majumder
     position: Undergraduate Research Assistant
-    text: Computer Science \& Engineering
+    text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
-    img: shafayat.jpeg
+    img: shafayat.jpg
     time: Summer 2022
   - name: Maisha Rahman Mim
     position: Undergraduate Research Assistant
-    text: Computer Science \& Engineering
+    text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
-    img: maisha.jpeg
+    img: maisha.jpg
     time: Summer 2022
   - name: Sourov Jajodia
     position: Undergraduate Research Assistant
-    text: Computer Science \& Engineering
+    text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
-    img: sourov.jpeg
+    img: sourov.png
     time: Summer 2022
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.

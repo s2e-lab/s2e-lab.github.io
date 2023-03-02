@@ -25,15 +25,27 @@
 
     <h4>Recent Posts</h4>
     <div class="hline"></div>
-        <ul class="popular-posts">
-            {% for post in site.posts limit:4 %}
-                <li>
-                    <a href="{{ post.url  | prepend: site.baseurl }}"><img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ post.thumb }}" alt="Popular Post"></a>
-                    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                <em>Posted on {{ post.date | date_to_string }}</em>
-            </li>
-            {% endfor %}
-        </ul>
+
+        {% for post in site.posts limit:4 %}
+            <!-- <li>
+                <a href="{{ post.url  | prepend: site.baseurl }}">
+                    <img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ post.thumb }}" alt="Popular Post">
+                </a>
+                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+            <em>Posted on {{ post.date | date_to_string }}</em> -->
+            <div class="media">
+              <div class="pull-left">
+                <a href="{{ post.url  | prepend: site.baseurl }}">
+                    <img class="media-object"  src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ post.thumb }}" alt="Popular Post">
+                </a>
+              </div>
+              <div class="media-body">
+                <!-- <h4 class="media-heading">{{post.title}}</h4> -->
+                <small><p class="media-heading" style="font-size: 12px; line-height: 1.15em;"><a href="{{ post.url }}">{{ post.title }}</a></p>
+                <em class="text-muted">Posted on {{ post.date | date_to_string }}</em></small>
+              </div>
+            </div>
+        {% endfor %}
 
     <div class="spacing"></div>
 
