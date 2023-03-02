@@ -130,7 +130,7 @@ undergraduates:
     time: Spring 2023 - Present
 alumni:
   - name: Joshua Agron
-    position: Undergraduate Student
+    position: Undergraduate Research Assistant
     text: Computer Science
     img: jagron.jpg
     social:
@@ -138,7 +138,7 @@ alumni:
         url: https://www.linkedin.com/in/joshua-agron/
     time: Fall 2021 - Spring 2022
   - name: Mark Cheng
-    position: Undergraduate Student
+    position: Undergraduate Research Assistant
     text: Computer Engineering
     img: mcheng3.jpg
     social:
@@ -146,13 +146,32 @@ alumni:
         url: https://www.linkedin.com/in/mark-cheng-6a9101189/
     time: Spring 2022 - Spring 2022
   - name: Megan Campbell
-    position: Undergraduate Student
+    position: Undergraduate Research Assistant
     text: Computer Science
     img: mcambp24.jpg
     social:
       - title: linkedin #use for email address
         url: https://www.linkedin.com/in/megan-campbell-nd2023/
     time: Fall 2021 - Fall 2021
+visiting:
+  - name: Shafayat Hossain Majumder
+    position: Undergraduate Research Assistant
+    text: Computer Science \& Engineering
+    org: Bangladesh University of Engineering and Technology (BUET)
+    img: shafayat.jpeg
+    time: Summer 2022
+  - name: Maisha Rahman Mim
+    position: Undergraduate Research Assistant
+    text: Computer Science \& Engineering
+    org: Bangladesh University of Engineering and Technology (BUET)
+    img: maisha.jpeg
+    time: Summer 2022
+  - name: Sourov Jajodia
+    position: Undergraduate Research Assistant
+    text: Computer Science \& Engineering
+    org: Bangladesh University of Engineering and Technology (BUET)
+    img: sourov.jpeg
+    time: Summer 2022
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Security and Software Engineering Lab at University of Notre Dame, Notre Dame, IN 46556"

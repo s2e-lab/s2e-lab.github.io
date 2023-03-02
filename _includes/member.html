@@ -20,6 +20,7 @@
             <h5 class="ctitle">{{ member.position }}</h5>
             <h6>{{member.time}}</h6>
             <p>{{ member.text }}</p>
+            {% if member.org %}<p>{{ member.org }}</p>{% endif %}
             <div class="hline"></div>
         </div><! --/col-lg-3 -->	 	
         {% endfor %}
