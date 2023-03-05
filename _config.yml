@@ -213,7 +213,7 @@ visiting:
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: sourov.png
-    time: Summer 2022
+    time: Summer 2022 <span class="label label-default">Remote</span>
   
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
