@@ -154,24 +154,6 @@ alumni:
         url: https://www.linkedin.com/in/megan-campbell-nd2023/
     time: Fall 2021 - Fall 2021
 visiting:
-  - name: Shafayat Hossain Majumder
-    position: Undergraduate Research Assistant
-    text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
-    img: shafayat.jpg
-    time: Summer 2022
-  - name: Maisha Rahman Mim
-    position: Undergraduate Research Assistant
-    text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
-    img: maisha.jpg
-    time: Summer 2022
-  - name: Sourov Jajodia
-    position: Undergraduate Research Assistant
-    text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
-    img: sourov.png
-    time: Summer 2022
   - name: Noshin Ulfat
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
@@ -214,6 +196,25 @@ visiting:
     org: Bangladesh University of Engineering and Technology (BUET)
     img: man_placeholder.jpg
     time: Fall 2022
+  - name: Shafayat Hossain Majumder
+    position: Undergraduate Research Assistant
+    text: Computer Science & Engineering
+    org: Bangladesh University of Engineering and Technology (BUET)
+    img: shafayat.jpg
+    time: Summer 2022
+  - name: Maisha Rahman Mim
+    position: Undergraduate Research Assistant
+    text: Computer Science & Engineering
+    org: Bangladesh University of Engineering and Technology (BUET)
+    img: maisha.jpg
+    time: Summer 2022
+  - name: Sourov Jajodia
+    position: Undergraduate Research Assistant
+    text: Computer Science & Engineering
+    org: Bangladesh University of Engineering and Technology (BUET)
+    img: sourov.png
+    time: Summer 2022
+  
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Security and Software Engineering Lab at University of Notre Dame, Notre Dame, IN 46556"
