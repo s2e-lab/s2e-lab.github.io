@@ -159,55 +159,55 @@ visiting:
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: woman_placeholder.jpg
-    time: Fall 2022
+    time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Fahmid Al Rifat
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: man_placeholder.jpg
-    time: Fall 2022
+    time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Ridwanul Hasan Tanvir
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: Ridwanul_Hasan_Tanvir.jpg
-    time: Fall 2022
+    time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Abdus Samee
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: samee.JPG
-    time: Fall 2022
+    time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Sk Ruhul Azgor
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: ruhul.jpg
-    time: Fall 2022
+    time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Md. Asif Haider
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: man_placeholder.jpg
-    time: Fall 2022
+    time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shehabul Islam Sawraz
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: man_placeholder.jpg
-    time: Fall 2022
+    time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shafayat Hossain Majumder
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: shafayat.jpg
-    time: Summer 2022
+    time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Maisha Rahman Mim
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: maisha.jpg
-    time: Summer 2022
+    time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Sourov Jajodia
     position: Undergraduate Research Assistant
     text: Computer Science & Engineering
