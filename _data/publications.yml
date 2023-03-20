@@ -15,6 +15,7 @@ international:
       - Joanna C. S. Santos
       - Danielle Gonzalez
       - Steven Simmons
+    doi: 10.1109/TSE.2023.3250479
   - nlbse-2023:
     id: nlbse-2023
     title: "Zero-shot Prompting for Code Complexity Prediction Using GitHub Copilot"
