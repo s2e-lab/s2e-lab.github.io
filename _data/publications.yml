@@ -48,7 +48,7 @@ international:
         author = {M. Siddiq and A. Samee and S. R. Azgor and S. I. Sawraz and J. C. S. Santos},
         booktitle = {2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE)},
         title = {Zero-shot Prompting for Code Complexity Prediction Using {GitHub} Copilot},
-        year = {2023}
+        year = {2023},
         notes = {(to appear)}       
       }
   - scam-2022: 
