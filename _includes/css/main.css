@@ -19,6 +19,12 @@
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 }
+
+.fa-ul > li{
+  margin: 10px 0;
+}
+pre{overflow-x: auto;}
+#twrap h1,#twrap h2,#twrap h3, #twrap  h4,#twrap h5 { color: white; }
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -313,7 +319,7 @@ a:focus {
     width: 100%;
     height: 100%;
 }
-#twrapback  h1,#twrapback h2,#twrapback h3, #twrapback  h4,#twrapback h5{ color: white; }
+
 
 #twrap {
     background: url(../img/t-back.jpg) no-repeat center top;

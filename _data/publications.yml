@@ -16,6 +16,17 @@ international:
       - Danielle Gonzalez
       - Steven Simmons
     doi: 10.1109/TSE.2023.3250479
+    bibtex: |
+      @ARTICLE{10056768,
+        author={Okutan, Ahmet and Mell, Peter and Mirakhorli, Mehdi and Khokhlov, Igor and Santos, Joanna C. S. and Gonzalez, Danielle and Simmons, Steven},
+        journal={IEEE Transactions on Software Engineering}, 
+        title={Empirical Validation of Automated Vulnerability Curation and Characterization}, 
+        year={2023},
+        volume={},
+        number={},
+        pages={1-20},
+        doi={10.1109/TSE.2023.3250479}
+      }
   - nlbse-2023:
     id: nlbse-2023
     title: "Zero-shot Prompting for Code Complexity Prediction Using GitHub Copilot"

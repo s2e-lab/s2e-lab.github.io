@@ -1,0 +1,51 @@
+{% comment %}
+Template used for viewing extra details of a paper that was posted on our blog.
+Input:
+	- include.paper_id (it queries the publications.yaml to find the paper)
+{% endcomment %}
+
+{% assign item = site.data.publications.international | where: "id", include.paper_id %}
+{% assign item = item[0] %}
+
+<h1>Resources</h1>
+
+
+<ul class='fa-ul'>
+{% if item.preprint %}
+<li>
+	<i class="fa fa-li fa-lg fa-file-text"></i>
+	<a target="_blank" href="{{ "/preprints/" | prepend: site.baseurl }}{{item.preprint}}">Preprint</a>
+</li>
+{% endif %}
+
+{% if item.url %}
+<li>
+	<i class="fa fa-external-link-alt fa-li fa-lg"></i>
+	<a target="_blank" href="{{item.url}}">URL</a>
+</li>
+{% endif %}
+{% if item.presentation %}
+<li>
+	<i class="fa fa-youtube fa-li fa-lg"></i>
+	<a target="_blank" href="{{item.presentation}}">Presentation</a>
+</li>
+{% endif %}
+{% if item.github %}
+<li>
+	<i class="fa fa-github fa-li fa-lg"></i>
+	<a target="_blank" href="https://github.com/{{item.github}}">{{item.github}}</a>
+</li>
+{% endif %}
+{% if item.doi %}
+<li>
+	<i class="ai ai-doi fa-li fa-lg fa-lg"></i>
+	<a  target="_blank" href="https://dx.doi.org/{{item.doi}}">{{item.doi}}</a>
+</li>
+{% endif %}
+</ul>
+
+<h1>Bibtex</h1>
+
+{% highlight bibtex %}
+{{ item.bibtex }}
+{% endhighlight %}
