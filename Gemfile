@@ -31,6 +31,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem 'bootstrap', '~> 4.5.2'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
+gem 'rouge'
 # gem "github-pages", "~> 207", group: :jekyll_plugins
 # gem 'jekyll-autoprefixer'
 # gem 'therubyracer'

@@ -80,6 +80,7 @@ international:
     authors: 
       - Mohammed Latif Siddiq
       - Joanna C. S. Santos
+    presentation: https://www.youtube.com/watch?v=cFrr-k6n4_M
     bibtex: |
       @inproceedings{siddiq2022seceval,
         author = {Siddiq, Mohammed Latif and Santos, Joanna C. S.},

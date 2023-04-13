@@ -313,6 +313,7 @@ a:focus {
     width: 100%;
     height: 100%;
 }
+#twrapback  h1,#twrapback h2,#twrapback h3, #twrapback  h4,#twrapback h5{ color: white; }
 
 #twrap {
     background: url(../img/t-back.jpg) no-repeat center top;
