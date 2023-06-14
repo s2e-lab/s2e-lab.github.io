@@ -7,7 +7,7 @@ Input:
 {% assign item = site.data.publications.international | where: "id", include.paper_id %}
 {% assign item = item[0] %}
 
-<h1>Resources</h1>
+<h1>Related Links</h1>
 
 
 <ul class='fa-ul'>
@@ -44,7 +44,7 @@ Input:
 {% endif %}
 </ul>
 
-<h1>Bibtex</h1>
+<h1>BibTeX</h1>
 
 {% highlight bibtex %}
 {{ item.bibtex }}

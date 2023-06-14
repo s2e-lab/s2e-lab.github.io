@@ -220,6 +220,11 @@ visiting:
     img: sourov.png
     time: Summer 2022 <span class="label label-default">Remote</span>
   
+mascots:
+  - name: Kratos
+    img: kratos.png
+  - name: Pea
+    img: pea.jpg
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Security and Software Engineering Lab at University of Notre Dame, Notre Dame, IN 46556"
