@@ -225,6 +225,10 @@ mascots:
     img: kratos.png
   - name: Pea
     img: pea.jpg
+  - name: Nash
+    img: nash.jpg
+  - name: Ravan
+    img: ravan.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Security and Software Engineering Lab at University of Notre Dame, Notre Dame, IN 46556"
