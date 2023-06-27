@@ -123,17 +123,37 @@ graduates:
         url: https://www.linkedin.com/in/vinilopes03/
     time: Spring 2022 - Present
 undergraduates:
+  - name: Mark Rumsey
+    position: Undergraduate Research Assistant
+    text: Computer Science
+    img: mrumsey.jpg
+    time: Summer 2023
+  - name: Eva Gorzkiewicz
+    position: Undergraduate Research Assistant
+    text: Computer Science
+    img: egorzkie.jpg
+    time: Summer 2023
+  - name: Angel Ortiz
+    position: Undergraduate Research Assistant
+    text: Computer Science
+    img: man_placeholder.jpg
+    time: Summer 2023
+  - name: Emmanuel de La Paz
+    position: Undergraduate Research Assistant
+    text: Computer Science
+    img: man_placeholder.jpg
+    time: Summer 2023
   - name: George Perry
-    position: Undergraduate Student
+    position: Undergraduate Research Assistant
     text: Computer Science
     img: gperry.jpg
     time: Fall 2022 - Present
+alumni:
   - name: Desereé Frink-Larcart 
-    position: Undergraduate Student
+    position: Undergraduate Research Assistant
     text: Computer Science
     img: dfrinkla.jpg
     time: Spring 2023 - Present
-alumni:
   - name: Joshua Agron
     position: Undergraduate Research Assistant
     text: Computer Science
@@ -160,61 +180,61 @@ alumni:
     time: Fall 2021 - Fall 2021
 visiting:
   - name: Noshin Ulfat
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: woman_placeholder.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Fahmid Al Rifat
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
-    img: man_placeholder.jpg
+    img: fahmid.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Ridwanul Hasan Tanvir
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: Ridwanul_Hasan_Tanvir.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Abdus Samee
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: samee.JPG
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Sk Ruhul Azgor
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: ruhul.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Md. Asif Haider
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: asif.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shehabul Islam Sawraz
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: man_placeholder.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shafayat Hossain Majumder
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: shafayat.jpg
     time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Maisha Rahman Mim
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: maisha.png
     time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Sourov Jajodia
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
     img: sourov.png
