@@ -167,7 +167,7 @@ alumni:
   - name: Angel Ortiz
     position: Undergraduate Research Assistant
     text: Computer Science (ND)
-    img: man_placeholder.jpg
+    img: aortiz.jpeg
     time: Summer 2023
   - name: Emmanuel de La Paz
     position: Undergraduate Research Assistant
@@ -244,7 +244,7 @@ visiting:
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: Bangladesh University of Engineering and Technology (BUET)
-    img: man_placeholder.jpg
+    img: sawraz.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shafayat Hossain Majumder
     position: Undergraduate Student
