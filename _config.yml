@@ -266,6 +266,8 @@ visiting:
     time: Summer 2022 <span class="label label-default">Remote</span>
   
 mascots:
+  - name: Atreus
+    img: atreus.jpg
   - name: Kratos
     img: kratos.png
   - name: Pea
