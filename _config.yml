@@ -124,63 +124,63 @@ graduates:
     time: Spring 2022 - Present
 undergraduates:
   - name: Lindsay Roney
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: lroney.jpg
     time: Fall 2023 - Present
   - name: Claudia Kuczun
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: ckuczun.jpg
     time: Fall 2023 - Present
   - name: Jiahao Zhang
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (SUSTech)
     img: jzhang.jpg
     time: Fall 2023 - Present
   - name: Anna Muller
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: amuller.jpg
     time: Fall 2023 - Present
   - name: Dan Krill
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: dkrill.jpg
     time: Fall 2023 - Present
   - name: Mark Rumsey
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: mrumsey.jpg
     time: Summer 2023 - Present
   - name: Eva Gorzkiewicz
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science
     img: egorzkie.jpg
     time: Summer 2023 - Present
   - name: George Perry
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: gperry.jpg
     time: Fall 2022 - Present
 alumni:
   - name: Angel Ortiz
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: aortiz.jpeg
     time: Summer 2023
   - name: Emmanuel de La Paz
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: man_placeholder.jpg
     time: Summer 2023
   - name: Desereé Frink-Larcart 
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: dfrinkla.jpg
     time: Spring 2023 - Spring 2023
   - name: Joshua Agron
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: jagron.jpg
     social:
@@ -188,7 +188,7 @@ alumni:
         url: https://www.linkedin.com/in/joshua-agron/
     time: Fall 2021 - Spring 2022
   - name: Mark Cheng
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Engineering (ND)
     img: mcheng3.jpg
     social:
@@ -196,7 +196,7 @@ alumni:
         url: https://www.linkedin.com/in/mark-cheng-6a9101189/
     time: Spring 2022 - Spring 2022
   - name: Megan Campbell
-    position: Undergraduate Research Assistant
+    position: Undergraduate Student
     text: Computer Science (ND)
     img: mcambp24.jpg
     social:
@@ -207,61 +207,61 @@ visiting:
   - name: Noshin Ulfat
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: ulfat.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Fahmid Al Rifat
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: fahmid.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Ridwanul Hasan Tanvir
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: Ridwanul_Hasan_Tanvir.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Abdus Samee
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: samee.JPG
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Sk Ruhul Azgor
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: ruhul.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Md. Asif Haider
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: asif.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shehabul Islam Sawraz
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: sawraz.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shafayat Hossain Majumder
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: shafayat.jpg
     time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Maisha Rahman Mim
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: maisha.png
     time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Sourov Jajodia
     position: Undergraduate Student
     text: Computer Science & Engineering
-    org: Bangladesh University of Engineering and Technology (BUET)
+    org: BUET
     img: sourov.png
     time: Summer 2022 <span class="label label-default">Remote</span>
   

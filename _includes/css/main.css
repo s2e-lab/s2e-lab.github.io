@@ -20,6 +20,16 @@
 	margin-bottom: 0 !important;
 }
 
+.my-1{
+	margin-top: 10 !important;
+	margin-bottom: 10 !important;
+}
+
+.mt-1{
+	margin-top: 10 !important;
+	margin-bottom: 0 !important;
+}
+
 .fa-ul > li{
   margin: 10px 0;
 }
