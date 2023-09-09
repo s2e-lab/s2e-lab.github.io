@@ -125,12 +125,14 @@ graduates:
 undergraduates:
   - name: Lindsay Roney
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: lroney.jpg
     time: Fall 2023 - Present
   - name: Claudia Kuczun
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science ND
+    org: ND
     img: ckuczun.jpg
     time: Fall 2023 - Present
   - name: Jiahao Zhang
@@ -183,25 +185,16 @@ alumni:
     position: Undergraduate Student
     text: Computer Science (ND)
     img: jagron.jpg
-    social:
-      - title: linkedin #use for email address
-        url: https://www.linkedin.com/in/joshua-agron/
     time: Fall 2021 - Spring 2022
   - name: Mark Cheng
     position: Undergraduate Student
     text: Computer Engineering (ND)
     img: mcheng3.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/mark-cheng-6a9101189/
     time: Spring 2022 - Spring 2022
   - name: Megan Campbell
     position: Undergraduate Student
     text: Computer Science (ND)
     img: mcambp24.jpg
-    social:
-      - title: linkedin #use for email address
-        url: https://www.linkedin.com/in/megan-campbell-nd2023/
     time: Fall 2021 - Fall 2021
 visiting:
   - name: Noshin Ulfat
