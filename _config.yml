@@ -197,6 +197,24 @@ alumni:
     img: mcambp24.jpg
     time: Fall 2021 - Fall 2021
 visiting:
+  - name: Ridwanul Hasan Tanvir
+    position: Undergraduate Student
+    text: Computer Science & Engineering
+    org: BUET
+    img: Ridwanul_Hasan_Tanvir.jpg
+    time: Fall 2022-23 <span class="label label-default">Remote</span>
+  - name: Simantika Dristi 
+    position: Undergraduate Student 
+    text: Computer Science & Engineering 
+    org: BUET 
+    img: dristi.jpg 
+    time: Fall 2023 <span class="label label-default">Remote</span> 
+  - name: Joy Saha 
+    position: Undergraduate Student 
+    text: Computer Science & Engineering 
+    org: BUET 
+    img: joy_saha.jpg 
+    time: Fall 2023 <span class="label label-default">Remote</span>
   - name: Noshin Ulfat
     position: Undergraduate Student
     text: Computer Science & Engineering
@@ -208,12 +226,6 @@ visiting:
     text: Computer Science & Engineering
     org: BUET
     img: fahmid.jpg
-    time: Fall 2022 <span class="label label-default">Remote</span>
-  - name: Ridwanul Hasan Tanvir
-    position: Undergraduate Student
-    text: Computer Science & Engineering
-    org: BUET
-    img: Ridwanul_Hasan_Tanvir.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Abdus Samee
     position: Undergraduate Student
