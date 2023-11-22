@@ -1,11 +1,23 @@
 international:
+  - icse-2024-nier:
+    id: icse-2024-nier
+    title: "Re(gEx|DoS)Eval: Evaluating Generated Regular Expressions and their Proneness to DoS Attacks"
+    venue: 46th International Conference on Software Engineering - New Ideas and Emerging Results Track
+    venue_abbr: ICSE NIER
+    year: 2024
+    to_appear: true
+    preprint: icse_nier24-preprint.pdf
+    authors: 
+      - Mohamed Latif Siddiq
+      - Jiahao Zhang
+      - Lindsay Roney
+      - Joanna C. S. Santos    
   - tse-2023: 
     id: tse-2023
     title: Empirical Validation of Automated Vulnerability Curation and Characterization
     venue: IEEE Transactions on Software Engineering
     venue_abbr: TSE
     year: 2023
-    to_appear: true
     preprint: tse23-preprint.pdf
     authors: 
       - Ahmet Okutan
@@ -16,17 +28,6 @@ international:
       - Danielle Gonzalez
       - Steven Simmons
     doi: 10.1109/TSE.2023.3250479
-    bibtex: |
-      @ARTICLE{10056768,
-        author={Okutan, Ahmet and Mell, Peter and Mirakhorli, Mehdi and Khokhlov, Igor and Santos, Joanna C. S. and Gonzalez, Danielle and Simmons, Steven},
-        journal={IEEE Transactions on Software Engineering}, 
-        title={Empirical Validation of Automated Vulnerability Curation and Characterization}, 
-        year={2023},
-        volume={},
-        number={},
-        pages={1-20},
-        doi={10.1109/TSE.2023.3250479}
-      }
   - nlbse-2023:
     id: nlbse-2023
     title: "Zero-shot Prompting for Code Complexity Prediction Using GitHub Copilot"
@@ -42,14 +43,17 @@ international:
       - Shehabul Islam Sawraz
       - Joanna C. S. Santos
     preprint: nlbse23-preprint.pdf
-    to_appear: true
+    doi: 10.1109/NLBSE59153.2023.00018
     bibtex: |
       @inproceedings{siddiq2023zero,
-        author = {M. Siddiq and A. Samee and S. R. Azgor and S. I. Sawraz and J. C. S. Santos},
-        booktitle = {2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE)},
-        title = {Zero-shot Prompting for Code Complexity Prediction Using {GitHub} Copilot},
-        year = {2023},
-        notes = {(to appear)}       
+        author={Siddiq, Mohammed Latif and Samee, Abdus and Azgor, Sk Ruhul and Haider, Md. Asif and Sawraz, Shehabul Islam and Santos, Joanna C. S.},
+        booktitle={2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE)}, 
+        title={Zero-shot Prompting for Code Complexity Prediction Using GitHub Copilot}, 
+        year={2023},
+        volume={},
+        number={},
+        pages={56-59},
+        doi={10.1109/NLBSE59153.2023.00018}
       }
   - scam-2022: 
     id: scam-2022
@@ -188,6 +192,7 @@ international:
         year = {2022}        
       }
     preprint: demessa22-preprint.pdf
+    doi: 10.1007/978-3-031-36889-9_22
   - soap-2021:
     id: soap-2021
     title: Serialization-Aware Call Graph Construction
