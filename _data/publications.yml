@@ -7,11 +7,20 @@ international:
     year: 2024
     to_appear: true
     preprint: icse_nier24-preprint.pdf
+    github: s2e-lab/RegexEval
     authors: 
       - Mohamed Latif Siddiq
       - Jiahao Zhang
       - Lindsay Roney
-      - Joanna C. S. Santos    
+      - Joanna C. S. Santos   
+
+    bibtex: |
+      @inproceedings{siddiq2024regexeval,
+        author={Siddiq, Mohammed Latif and Zhang, Jiahao and Roney, Lindsay and Santos, Joanna C. S.},
+        booktitle={Proceedings of the 46th International Conference on Software Engineering, NIER Track (ICSE-NIER '24)}, 
+        title={Re(gEx|DoS)Eval: Evaluating Generated Regular Expressions and their Proneness to DoS Attacks}, 
+        year={2024}
+      }
   - tse-2023: 
     id: tse-2023
     title: Empirical Validation of Automated Vulnerability Curation and Characterization
