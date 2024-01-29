@@ -1,4 +1,26 @@
 international:
+  - msr-2024-mining:
+    id: msr-2024-mining
+    title: "Quality Assessment of ChatGPT Generated Code and their Use by Developers"
+    venue: 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)
+    venue_abbr: MSR MINING CHALLENGE
+    year: 2024
+    to_appear: true
+    preprint: MSR_Mining_Challenges.pdf
+    github: s2e-lab/DevGPT-Study
+    authors: 
+      - Mohamed Latif Siddiq
+      - Lindsay Roney
+      - Jiahao Zhang
+      - Joanna C. S. Santos   
+
+    bibtex: |
+      @inproceedings{siddiq2024devgpt,
+        author={Siddiq, Mohammed Latif and Roney, Lindsay and Zhang, Jiahao and Santos, Joanna C. S.},
+        booktitle={Proceedings of the 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)}, 
+        title={Quality Assessment of ChatGPT Generated Code and their Use by Developers}, 
+        year={2024}
+      }
   - icse-2024-nier:
     id: icse-2024-nier
     title: "Re(gEx|DoS)Eval: Evaluating Generated Regular Expressions and their Proneness to DoS Attacks"
@@ -8,6 +30,7 @@ international:
     to_appear: true
     preprint: icse_nier24-preprint.pdf
     github: s2e-lab/RegexEval
+    doi: 10.1145/3639476.3639757
     authors: 
       - Mohamed Latif Siddiq
       - Jiahao Zhang

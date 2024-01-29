@@ -102,6 +102,14 @@ graduates:
       - title: linkedin
         url: https://www.linkedin.com/in/beatrice-casey-4ab6aa1b2
     time: Fall 2022 - Present
+  - name: Vinicius Carvalho Lopes
+    position: PhD Student
+    text: Computer Science and Engineering
+    img: vlopes.png
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/vinilopes03/
+    time: Spring 2022 - Present
   - name: Mohammed Latif Siddiq 
     position: PhD Student
     text: Computer Science and Engineering
@@ -113,14 +121,6 @@ graduates:
         url: https://twitter.com/lsiddiqsunny
       - title: globe
         url: https://lsiddiqsunny.github.io
-    time: Spring 2022 - Present
-  - name: Vinicius Carvalho Lopes
-    position: PhD Student
-    text: Computer Science and Engineering
-    img: vlopes.png
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/vinilopes03/
     time: Spring 2022 - Present
 undergraduates:
   - name: Lindsay Roney
