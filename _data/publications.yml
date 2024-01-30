@@ -9,7 +9,7 @@ international:
     preprint: MSR_Mining_Challenges.pdf
     github: s2e-lab/DevGPT-Study
     authors: 
-      - Mohamed Latif Siddiq
+      - Mohammed Latif Siddiq
       - Lindsay Roney
       - Jiahao Zhang
       - Joanna C. S. Santos   
@@ -32,7 +32,7 @@ international:
     github: s2e-lab/RegexEval
     doi: 10.1145/3639476.3639757
     authors: 
-      - Mohamed Latif Siddiq
+      - Mohammed Latif Siddiq
       - Jiahao Zhang
       - Lindsay Roney
       - Joanna C. S. Santos   
@@ -68,7 +68,7 @@ international:
     venue_location: Melbourne, Australia
     year: 2023
     authors: 
-      - Mohamed Latif Siddiq
+      - Mohammed Latif Siddiq
       - Abdus Samee
       - Sk Ruhul Azgor
       - Md. Asif Haider
@@ -184,7 +184,7 @@ international:
     venue_location: Pittsburgh, PA, USA
     year: 2022
     authors: 
-      - Mohamed Latif Siddiq
+      - Mohammed Latif Siddiq
       - Joanna C. S. Santos
     github: s2e-lab/BERT-Based-GitHub-Issue-Classification
     preprint: nlbse22-preprint.pdf
