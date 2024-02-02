@@ -1,7 +1,7 @@
 international:
   - icpc-2024: 
     id: icpc-2024
-    title: Understanding Regular Expression Denial of Service (ReDoS)':' Insights from LLM-Generated Regexes and Developer Forums
+    title: "Understanding Regular Expression Denial of Service (ReDoS): Insights from LLM-Generated Regexes and Developer Forums"
     venue: 32nd IEEE/ACM International Conference on Program Comprehension
     venue_abbr: ICPC'24
     venue_location: Lisbon, Portugal
@@ -17,8 +17,8 @@ international:
       @inproceedings{siddiq2024regex,
         author={Siddiq, Mohammed Latif and Zhang, Jiahao and Santos, Joanna C. S.},
         booktitle={32nd IEEE/ACM International Conference on Program Comprehension (ICPC 2024)}, 
-        title={Understanding Regular Expression Denial of Service (ReDoS)':' Insights from LLM-Generated Regexes and Developer Forums}, 
-        year={2025},
+        title={Understanding Regular Expression Denial of Service (ReDoS): Insights from LLM-Generated Regexes and Developer Forums}, 
+        year={2024},
         doi={10.1145/3643916.3644424}
       }
   - msr-2024-mining:
