@@ -1,4 +1,26 @@
 international:
+  - icpc-2024: 
+    id: icpc-2024
+    title: Understanding Regular Expression Denial of Service (ReDoS)':' Insights from LLM-Generated Regexes and Developer Forums
+    venue: 32nd IEEE/ACM International Conference on Program Comprehension
+    venue_abbr: ICPC'24
+    venue_location: Lisbon, Portugal
+    year: 2024
+    preprint: icpc_24.pdf
+    doi: 10.1145/3643916.3644424
+    github: s2e-lab/redos-study
+    authors: 
+      - Mohamed Latif Siddiq
+      - Jiahao Zhang
+      - Joanna C. S. Santos  
+    bibtex: |
+      @inproceedings{siddiq2024regex,
+        author={Siddiq, Mohammed Latif and Zhang, Jiahao and Santos, Joanna C. S.},
+        booktitle={32nd IEEE/ACM International Conference on Program Comprehension (ICPC 2024)}, 
+        title={Understanding Regular Expression Denial of Service (ReDoS)':' Insights from LLM-Generated Regexes and Developer Forums}, 
+        year={2025},
+        doi={10.1145/3643916.3644424}
+      }
   - msr-2024-mining:
     id: msr-2024-mining
     title: "Quality Assessment of ChatGPT Generated Code and their Use by Developers"
