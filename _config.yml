@@ -101,19 +101,19 @@ graduates:
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/beatrice-casey-4ab6aa1b2
-    time: Fall 2022 - Present
+    time: Aug. 2022 - Present
   - name: Vinicius Carvalho Lopes
     position: PhD Student
     text: Computer Science and Engineering
-    img: vlopes.png
+    img: vlopes.jpg
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/vinilopes03/
-    time: Spring 2022 - Present
+    time: Jan. 2022 - Present
   - name: Mohammed Latif Siddiq 
     position: PhD Student
     text: Computer Science and Engineering
-    img: msiddiq3.jpeg
+    img: msiddiq3.jpg
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/lsiddiqsunny/
@@ -121,51 +121,85 @@ graduates:
         url: https://twitter.com/lsiddiqsunny
       - title: globe
         url: https://lsiddiqsunny.github.io
-    time: Spring 2022 - Present
+    time: Jan. 2022 - Present
+  - name: Luka Cvetko 
+    position: MS Student
+    text: Computer Science and Engineering
+    img: lcvetko.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/luka-cvetko-649655162
+    time: Jan. 2024 - Present
 undergraduates:
   - name: Lindsay Roney
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: lroney.jpg
-    time: Fall 2023 - Present
+    time: Fall 2023 - Present  
+  - name: Miguel Jose Maninang
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: mmaninan.jpg
+    time: Spring 2024 - Present  
+  - name: Neol Gutierrez
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: ngutier4.jpg
+    time: Spring 2024 - Present  
+  - name: Sajith Devareddy
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: sdevared.jpg
+    time: Spring 2024 - Present  
+  - name: Matthew Spadafore
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: mspadafo.jpg
+    time: Spring 2024 - Present  
+
+
+alumni:
   - name: Claudia Kuczun
     position: Undergraduate Student
     text: Computer Science ND
     org: ND
     img: ckuczun.jpg
-    time: Fall 2023 - Present
+    time: Fall 2023 - Fall 2023
   - name: Jiahao Zhang
     position: Undergraduate Student
     text: Computer Science (SUSTech)
     img: jzhang.jpg
-    time: Fall 2023 - Present
+    time: Fall 2023 - Fall 2023
   - name: Anna Muller
     position: Undergraduate Student
     text: Computer Science (ND)
     img: amuller.jpg
-    time: Fall 2023 - Present
+    time: Fall 2023 - Fall 2023
   - name: Dan Krill
     position: Undergraduate Student
     text: Computer Science (ND)
     img: dkrill.jpg
-    time: Fall 2023 - Present
+    time: Fall 2023 - Fall 2023
   - name: Mark Rumsey
     position: Undergraduate Student
     text: Computer Science (ND)
     img: mrumsey.jpg
-    time: Summer 2023 - Present
+    time: Summer 2023 - Fall 2023
   - name: Eva Gorzkiewicz
     position: Undergraduate Student
     text: Computer Science
     img: egorzkie.jpg
-    time: Summer 2023 - Present
+    time: Summer 2023 - Fall 2023
   - name: George Perry
     position: Undergraduate Student
     text: Computer Science (ND)
     img: gperry.jpg
-    time: Fall 2022 - Present
-alumni:
+    time: Fall 2022 - Fall 2023
   - name: Angel Ortiz
     position: Undergraduate Student
     text: Computer Science (ND)

@@ -21,6 +21,18 @@ international:
         year={2024},
         doi={10.1145/3643916.3644424}
       }
+  - oopsla-2024:
+    id: oopsla-2024
+    title: "Seneca: Taint-Based Call Graph Construction for Java Object Deserialization"
+    venue: ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)
+    venue_abbr: OOPSLA
+    year: 2024
+    to_appear: true
+    preprint: oopsla24-preprint.pdf
+    authors: 
+      - Joanna C. S. Santos
+      - Mehdi Mirakhorli
+      - Ali Shokri 
   - msr-2024-mining:
     id: msr-2024-mining
     title: "Quality Assessment of ChatGPT Generated Code and their Use by Developers"
