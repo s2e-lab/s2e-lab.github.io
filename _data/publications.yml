@@ -1,4 +1,20 @@
 international:
+  - ease-2024: 
+    id: ease-2024
+    title: "Using Large Language Models to Generate JUnit Tests: An Empirical Study"
+    venue: 28th International Conference on Evaluation and Assessment in Software Engineering (EASE)
+    venue_abbr: EASE'24
+    venue_location: Salerno, Italy
+    year: 2024
+    preprint: ease24-preprint.pdf
+    authors: 
+      - Mohamed Latif Siddiq
+      - Joanna C. S. Santos
+      - Ridwanul Hasan Tanvir
+      - Noshin Ulfat
+      - Fahmid Al Rifat
+      - Vinicius Carvalho Lopes        
+    to_appear: true
   - icpc-2024: 
     id: icpc-2024
     title: "Understanding Regular Expression Denial of Service (ReDoS): Insights from LLM-Generated Regexes and Developer Forums"
@@ -6,7 +22,7 @@ international:
     venue_abbr: ICPC'24
     venue_location: Lisbon, Portugal
     year: 2024
-    preprint: icpc_24.pdf
+    preprint: icpc24-preprint.pdf
     doi: 10.1145/3643916.3644424
     github: s2e-lab/redos-study
     authors: 
@@ -32,30 +48,8 @@ international:
     authors: 
       - Joanna C. S. Santos
       - Mehdi Mirakhorli
-      - Ali Shokri 
-  - msr-2024-mining:
-    id: msr-2024-mining
-    title: "Quality Assessment of ChatGPT Generated Code and their Use by Developers"
-    venue: 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)
-    venue_abbr: MSR MINING CHALLENGE
-    year: 2024
-    to_appear: true
-    preprint: MSR_Mining_Challenges.pdf
-    github: s2e-lab/DevGPT-Study
-    doi: 10.1145/3643991.3645071
-    authors: 
-      - Mohammed Latif Siddiq
-      - Lindsay Roney
-      - Jiahao Zhang
-      - Joanna C. S. Santos   
-
-    bibtex: |
-      @inproceedings{siddiq2024devgpt,
-        author={Siddiq, Mohammed Latif and Roney, Lindsay and Zhang, Jiahao and Santos, Joanna C. S.},
-        booktitle={Proceedings of the 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)}, 
-        title={Quality Assessment of ChatGPT Generated Code and their Use by Developers}, 
-        year={2024}
-      }
+      - Ali Shokri
+    doi: 10.1145/3649851   
   - icse-2024-nier:
     id: icse-2024-nier
     title: "Re(gEx|DoS)Eval: Evaluating Generated Regular Expressions and their Proneness to DoS Attacks"
@@ -77,6 +71,28 @@ international:
         author={Siddiq, Mohammed Latif and Zhang, Jiahao and Roney, Lindsay and Santos, Joanna C. S.},
         booktitle={Proceedings of the 46th International Conference on Software Engineering, NIER Track (ICSE-NIER '24)}, 
         title={Re(gEx|DoS)Eval: Evaluating Generated Regular Expressions and their Proneness to DoS Attacks}, 
+        year={2024}
+      }
+  - msr-2024-mining:
+    id: msr-2024-mining
+    title: "Quality Assessment of ChatGPT Generated Code and their Use by Developers"
+    venue: 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)
+    venue_abbr: MSR MINING CHALLENGE
+    year: 2024
+    to_appear: true
+    preprint: msr_mining_challenge24-preprint.pdf
+    github: s2e-lab/DevGPT-Study
+    doi: 10.1145/3643991.3645071
+    authors: 
+      - Mohammed Latif Siddiq
+      - Lindsay Roney
+      - Jiahao Zhang
+      - Joanna C. S. Santos   
+    bibtex: |
+      @inproceedings{siddiq2024devgpt,
+        author={Siddiq, Mohammed Latif and Roney, Lindsay and Zhang, Jiahao and Santos, Joanna C. S.},
+        booktitle={Proceedings of the 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)}, 
+        title={Quality Assessment of ChatGPT Generated Code and their Use by Developers}, 
         year={2024}
       }
   - tse-2023: 
