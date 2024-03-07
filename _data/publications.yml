@@ -15,10 +15,17 @@ international:
       - Fahmid Al Rifat
       - Vinicius Carvalho Lopes        
     to_appear: true
+    bibtex: |
+      @inproceedings{siddiq2024junit,
+        author={Siddiq, Mohammed Latif and Santos, Joanna C. S. and Tanvir, Ridwanul Hasan and Ulfat, Noshin and Rifat, Fahmid Al and Lopes, Vinicius Carvalho},
+        booktitle={28th International Conference on Evaluation and Assessment in Software Engineering (EASE 2024)}, 
+        title={Using Large Language Models to Generate JUnit Tests: An Empirical Study}, 
+        year={2024},
+      }
   - icpc-2024: 
     id: icpc-2024
     title: "Understanding Regular Expression Denial of Service (ReDoS): Insights from LLM-Generated Regexes and Developer Forums"
-    venue: 32nd IEEE/ACM International Conference on Program Comprehension
+    venue: 32nd IEEE/ACM International Conference on Program Comprehension (ICPC)
     venue_abbr: ICPC'24
     venue_location: Lisbon, Portugal
     year: 2024
@@ -29,6 +36,7 @@ international:
       - Mohamed Latif Siddiq
       - Jiahao Zhang
       - Joanna C. S. Santos  
+    to_appear: true
     bibtex: |
       @inproceedings{siddiq2024regex,
         author={Siddiq, Mohammed Latif and Zhang, Jiahao and Santos, Joanna C. S.},
@@ -53,7 +61,7 @@ international:
   - icse-2024-nier:
     id: icse-2024-nier
     title: "Re(gEx|DoS)Eval: Evaluating Generated Regular Expressions and their Proneness to DoS Attacks"
-    venue: 46th International Conference on Software Engineering - New Ideas and Emerging Results Track
+    venue: 46th International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER)
     venue_abbr: ICSE NIER
     year: 2024
     to_appear: true
