@@ -7,6 +7,12 @@ Input:
 {% assign item = site.data.publications.international | where: "id", include.paper_id %}
 {% assign item = item[0] %}
 
+
+{% if item.has_infographic %}
+<h1>Infographic</h1>
+<img class="img-responsive" src="{{ "/assets/img/infographics/" | prepend: site.baseurl }}{{ page.paper_id }}-infographic.png">
+{% endif %}
+
 <h1>Related Links</h1>
 
 

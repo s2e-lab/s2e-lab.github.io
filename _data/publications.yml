@@ -111,6 +111,18 @@ international:
       - Danielle Gonzalez
       - Steven Simmons
     doi: 10.1109/TSE.2023.3250479
+    bibtex: |
+      @ARTICLE{10056768,
+        author={Okutan, Ahmet and Mell, Peter and Mirakhorli, Mehdi and Khokhlov, Igor and Santos, Joanna C. S. and Gonzalez, Danielle and Simmons, Steven},
+        journal={IEEE Transactions on Software Engineering}, 
+        title={Empirical Validation of Automated Vulnerability Curation and Characterization}, 
+        year={2023},
+        volume={49},
+        number={5},
+        pages={3241-3260},
+        keywords={Security;NIST;Databases;Virtual machine monitors;Software;Feature extraction;Codes;CVE;NIST vulnerability description ontology;software vulnerability;vulnerability characterization},
+        doi={10.1109/TSE.2023.3250479}
+      }
   - nlbse-2023:
     id: nlbse-2023
     title: "Zero-shot Prompting for Code Complexity Prediction Using GitHub Copilot"
@@ -148,6 +160,7 @@ international:
     preprint: scam22-preprint.pdf
     doi: 10.1109/SCAM55253.2022.00014
     github: s2e-lab/Code-Smell-Code-Generation
+    has_infographic: true
     authors: 
       - Mohammed Latif Siddiq
       - Shafayat Hossain Majumder
@@ -175,6 +188,7 @@ international:
     preprint: msr4ps22-preprint.pdf
     doi: 10.1145/3549035.3561184    
     github: s2e-lab/SecurityEval
+    has_infographic: true
     authors: 
       - Mohammed Latif Siddiq
       - Joanna C. S. Santos
@@ -210,7 +224,7 @@ international:
       - Xueling Zhang
       - Mehdi Mirakhorli
     bibtex: |
-      @inproceedings{siddiq2022seceval,
+      @inproceedings{santos2022coop,
         author = {Santos, Joanna C. S. and Zhang, Xueling and Mirakhorli, Mehdi},
         title = {Counterfeit Object-Oriented Programming Vulnerabilities: An Empirical Study in Java},
         year = {2022},
