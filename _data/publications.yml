@@ -8,7 +8,7 @@ international:
     year: 2024
     preprint: ease24-preprint.pdf
     authors: 
-      - Mohamed Latif Siddiq
+      - Mohammed Latif Siddiq
       - Joanna C. S. Santos
       - Ridwanul Hasan Tanvir
       - Noshin Ulfat
@@ -33,7 +33,7 @@ international:
     doi: 10.1145/3643916.3644424
     github: s2e-lab/redos-study
     authors: 
-      - Mohamed Latif Siddiq
+      - Mohammed Latif Siddiq
       - Jiahao Zhang
       - Joanna C. S. Santos  
     to_appear: true
