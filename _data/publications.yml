@@ -7,6 +7,7 @@ international:
     venue_location: Salerno, Italy
     year: 2024
     preprint: ease24-preprint.pdf
+    has_infographic: true
     authors: 
       - Mohamed Latif Siddiq
       - Joanna C. S. Santos
