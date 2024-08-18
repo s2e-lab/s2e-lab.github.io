@@ -1,4 +1,5 @@
-Website for Security and Software Engineering Lab at the University of Notre Dame
+Website for Security and Software Engineering Lab at the University of Notre Dame.
+Based on the template: http://jekyllthemes.org/themes/solid/
 
 <!---
 
