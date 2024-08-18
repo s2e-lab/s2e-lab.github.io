@@ -15,33 +15,19 @@ kramdown:
 permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
-# colors:  #in hex code if not noted else
-#   primary: "#00b3fe"
-#   primary_rgb: "0, 178, 254" #rgb of the primary. Needed in some places for the transparency effect.
-#   secondary: "#0c2340" #384452" 
-#   link: "#5aabbc"
-#   link_hover: "#f6e7a1"
-#   footer_heading: "#ffffff"
-#   footer_content: "#bfc9d3"
 
-# 26a69a
-colors:  #in hex code if not noted else
-  primary: "#26a69a"
-  primary_rgb: "38,166,154" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#333c47" #384452" 
-  link: "#dd614a"
-  link_hover: "#6d213c"
+
+# ORIGINAL TEMPLATE'S COLORS
+
+# Palette: https://palettes.shecodes.io/palettes/1313#palette
+colors:  
+  primary: "#9fd3c7" 
+  primary_rgb: "236,236,236" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#142d4c" 
+  link: "#385170"
+  link_hover: "#9fd3c7"
   footer_heading: "#ffffff"
-  footer_content: "#e7e4e4"
-
-# colors:  #in hex code if not noted else
-#   primary: "#273238"
-#   primary_rgb: "39,50,56" #rgb of the primary. Needed in some places for the transparency effect.
-#   secondary: "#0d47a1" #384452" 
-#   link: "#fc5622"
-#   link_hover: "#0d47a1"
-#   footer_heading: "#e7e4e4"
-#   footer_content: "#eeff41"
+  footer_content: "#bfc9d3"
 
 # Making projects separate from posts
 collections:

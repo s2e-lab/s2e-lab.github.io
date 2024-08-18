@@ -1,4 +1,35 @@
 international:
+  - scam-2024-franc: 
+    id: scam-2024-franc
+    title: "FRANC: A Lightweight Framework for High-Quality Code Generation"
+    venue: 24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)
+    venue_abbr: SCAM'24
+    venue_location:  Flagstaff, AZ, USA
+    year: 2024
+    preprint: scam24-franc-preprint.pdf
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Mohammed Latif Siddiq
+      - Beatrice Casey
+      - Joanna C. S. Santos   
+
+  - scam-2024-benchmarks: 
+    id: scam-2024-benchmarks
+    title: "The Fault in our Stars: Quality Assessment of Code Generation Benchmarks"
+    venue: 24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)
+    venue_abbr: SCAM'24
+    venue_location:  Flagstaff, AZ, USA
+    year: 2024
+    preprint: scam24-benchmarks-preprint.pdf
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Mohammed Latif Siddiq
+      - Simantika Bhattacharjee Dristi
+      - Joy Saha
+      - Joanna C. S. Santos      
+    
   - ease-2024: 
     id: ease-2024
     title: "Using Large Language Models to Generate JUnit Tests: An Empirical Study"
@@ -14,15 +45,20 @@ international:
       - Ridwanul Hasan Tanvir
       - Noshin Ulfat
       - Fahmid Al Rifat
-      - Vinicius Carvalho Lopes        
-    to_appear: true
+      - Vinicius Carvalho Lopes     
+    doi: 10.1145/3661167.3661216   
     bibtex: |
       @inproceedings{siddiq2024junit,
         author={Siddiq, Mohammed Latif and Santos, Joanna C. S. and Tanvir, Ridwanul Hasan and Ulfat, Noshin and Rifat, Fahmid Al and Lopes, Vinicius Carvalho},
-        booktitle={28th International Conference on Evaluation and Assessment in Software Engineering (EASE 2024)}, 
         title={Using Large Language Models to Generate JUnit Tests: An Empirical Study}, 
-        year={2024},
+        booktitle = {Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering},
+        pages = {313–322},
+        numpages = {10},
+        keywords = {junit, large language models, test generation, test smells, unit testing},
+        location = {Salerno, Italy},
+        series = {EASE '24}
       }
+
   - icpc-2024: 
     id: icpc-2024
     title: "Understanding Regular Expression Denial of Service (ReDoS): Insights from LLM-Generated Regexes and Developer Forums"
