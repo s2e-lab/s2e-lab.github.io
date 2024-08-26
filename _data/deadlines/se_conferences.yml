@@ -1,179 +1,179 @@
-# List from: https://taoxie.cs.illinois.edu/seconferences.htm
-- Rank 1:
-    - ICSE: 
-        title: "International Conference on Software Engineering"
-        series: "ICSE"        
-    - ESEC/FSE: 
-        title: "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
-        series: "ESEC/FSE" 
-    - FM/FME: 
-        title: "World Congress on Formal Methods/International Symposium of Formal Methods Europe"
-        series: "FM/FME" 
-    - CAV:
-        title: "International Conference on Computer Aided Verification"
-        series: "CAV" 
-- Rank 2:
-    - CP:
-        title: "International Conference on Principles and Practice of Constraint Programming"
-        series: "CP"
-    - TACAS:
-        title: "International Conference on Tools and Algorithms for the Construction and Analysis of Systems"
-        series: "TACAS"
-    - ESOP:
-        title: "European Symposium on Programming"
-        series: "ESOP"
-    - ICCL:
-        title: "International Conference on Computer Languages"
-        series: "ICCL"
-    - PEPM:
-        title: "ACM SIGPLAN Workshop on Partial Evaluation and Semantics-based Program Manipulation"
-        series: "PEPM"
-    - SAS:
-        title: "International Symposium on Static Analysis"
-        series: "SAS"
-    - RTA:
-        title: "International Conference on Rewriting Techniques and Applications"
-        series: "RTA"
-    - ESEC:
-        title: "European Software Engineering Conference"
-        series: "ESEC"
-    - IWSSD:
-        title: "International Workshop on Software Specifications & Design"
-        series: "IWSSD"
-    - CAiSE:
-        title: "International Conference on Advanced Information Systems Engineering"
-        series: "CAiSE"
-    - ITC:
-        title: "IEEE International Test Conference"
-        series: "ITC"
-    - IWCASE:
-        title: "International Workshop on Computer-Aided Software Engineering"
-        series: "IWCASE"
-    - SSR:
-        title: "ACM SIGSOFT Symposium on Software Reusability"
-        series: "SSR"
-    - SEKE:
-        title: "International Conference on Software Engineering and Knowledge Engineering"
-        series: "SEKE"
-    - ICSR:
-        title: "International Conference on Software Reuse"
-        series: "ICSR"
-    - ASE:
-        title: "IEEE International Conference on Automated Software Engineering"
-        series: "ASE"
-    - PADL:
-        title: "International Symposium on Practical Aspects of Declarative Languages"
-        series: "PADL"
-    - RE:
-        title: "IEEE International Conference on Requirements Engineering"
-        series: "RE"
-    - ICECCS:
-        title: "IEEE International Conference on Engineering of Complex Computer Systems"
-        series: "ICECCS"
-    - ICFEM:
-        title: "IEEE International Conference on Formal Engineering Methods"
-        series: "ICFEM"
-    - IFM:
-        title: "International Conference on Integrated Formal Methods"
-        series: "IFM"
-    - FoSSaCS:
-        title: "International Conference on Foundations of Software Science and Computational Structures"
-        series: "FoSSaCS"
-- Rank 3:
-    -FASE:
-        title: "International Conference on Fundamental Approaches to Software Engineering"
-        series: "FASE"
-    -APSEC:
-        title: "Asia-Pacific Software Engineering Conference"
-        series: "APSEC"
-    -PAP/PACT:
-        title: "Practical Application of Prolog Conference"
-        series: "PAP/PACT"
-    -ALP:
-        title: "International Conference on Algebraic and Logic Programming"
-        series: "ALP"
-    -PLILP: 
-        title: "International Symposium on Programming Languages: Implementations, Logics, and Programs"
-        series: "PLILP: International Symposium on Programming Languages"
-    -LOPSTR:
-        title: "International Workshop on Logic Program Synthesis and Transformation"
-        series: "LOPSTR"
-    -CC:
-        title: "International Conference on Compiler Construction"
-        series: "CC"
-    -COMPSAC:
-        title: "International Computer Software and Applications Conference"
-        series: "COMPSAC"
-    -ICSM:
-        title: "IEEE International Conference on Software Maintenance"
-        series: "ICSM"
-    -TAPSOFT:
-        title: "International Joint Conference on Theory and Practice of Software Development"
-        series: "TAPSOFT"
-    -WCRE:
-        title: "Working Conference on Reverse Engineering"
-        series: "WCRE"
-    -AQSDT:
-        title: "Symposium on Assessment of Quality Software Development Tools"
-        series: "AQSDT"
-    -IFIP:
-        title: "International Conference on Open Distributed Processing"
-        series: "IFIP"
-    -ZUM:
-        title: "International Conference of B and Z Users"
-        series: "ZUM"
-    -PSTV:
-        title: "IFIP Joint International Conference on Formal Description Techniques and Protocol Specification, Testing, And Verification"
-        series: "PSTV"
-    -UML:
-        title: "International Conference on the Unified Modeling Language"
-        series: "UML"
-    -EDOC:
-        title: "IEEE Conference on Enterprise Distributed Object Computing Conference"
-        series: "EDOC"
-- Unranked:
-    -ISSTA:
-        title: "ACM SIGSOFT International Symposium on Software Testing and Analysis"
-        series: "ISSTA"
-    -TOOLS:
-        title: "International Conference Technology of Object-Oriented Languages and Systems"
-        series: "TOOLS"
-    -PDS:
-        title: "IFIP TC10 International Workshop on Parallel and Distributed Software Engineering"
-        series: "PDS"
-    -ASWEC:
-        title: "Australian Software Engineering Conference"
-        series: "ASWEC"
-    -WORDS:
-        title: "IEEE International Workshop on Object-oriented Real-time Dependable Systems"
-        series: "WORDS"
-    -HASE:
-        title: "IEEE International Symposium on High Assurance Systems Engineering"
-        series: "HASE"
-    -NFMW:
-        title: "The Northern Formal Methods Workshops"
-        series: "NFMW"
-    -FMP:
-        title: "Formal Methods Pacific"
-        series: "FMP"
-    -FMICS:
-        title: "International Workshop on Formal Methods for Industrial Critical Systems"
-        series: "FMICS"
-    -JFPLC:
-        title: "International French Speaking Conference on Logic and Constraint Programming"
-        series: "JFPLC"
-    -L&L:
-        title: "Workshop on Logic and Learning SFP - Scottish Functional Programming Workshop "
-        series: "L&L"
-    -HASKELL:
-        title: "Haskell Workshop "
-        series: "HASKELL"
-    -LCCS:
-        title: "International Workshop on Logic and Complexity in Computer Science "
-        series: "LCCS"
-    -VLFM:
-        title: "Visual Languages and Formal Methods"
-        series: "VLFM"
-    -LFM:
-        title: "NASA LaRC Formal Methods Workshop"
-        series: "LFM"
+# # List from: https://taoxie.cs.illinois.edu/seconferences.htm
+# - Rank 1:
+#     - ICSE: 
+#         title: "International Conference on Software Engineering"
+#         series: "ICSE"        
+#     - ESEC/FSE: 
+#         title: "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+#         series: "ESEC/FSE" 
+#     - FM/FME: 
+#         title: "World Congress on Formal Methods/International Symposium of Formal Methods Europe"
+#         series: "FM/FME" 
+#     - CAV:
+#         title: "International Conference on Computer Aided Verification"
+#         series: "CAV" 
+# - Rank 2:
+#     - CP:
+#         title: "International Conference on Principles and Practice of Constraint Programming"
+#         series: "CP"
+#     - TACAS:
+#         title: "International Conference on Tools and Algorithms for the Construction and Analysis of Systems"
+#         series: "TACAS"
+#     - ESOP:
+#         title: "European Symposium on Programming"
+#         series: "ESOP"
+#     - ICCL:
+#         title: "International Conference on Computer Languages"
+#         series: "ICCL"
+#     - PEPM:
+#         title: "ACM SIGPLAN Workshop on Partial Evaluation and Semantics-based Program Manipulation"
+#         series: "PEPM"
+#     - SAS:
+#         title: "International Symposium on Static Analysis"
+#         series: "SAS"
+#     - RTA:
+#         title: "International Conference on Rewriting Techniques and Applications"
+#         series: "RTA"
+#     - ESEC:
+#         title: "European Software Engineering Conference"
+#         series: "ESEC"
+#     - IWSSD:
+#         title: "International Workshop on Software Specifications & Design"
+#         series: "IWSSD"
+#     - CAiSE:
+#         title: "International Conference on Advanced Information Systems Engineering"
+#         series: "CAiSE"
+#     - ITC:
+#         title: "IEEE International Test Conference"
+#         series: "ITC"
+#     - IWCASE:
+#         title: "International Workshop on Computer-Aided Software Engineering"
+#         series: "IWCASE"
+#     - SSR:
+#         title: "ACM SIGSOFT Symposium on Software Reusability"
+#         series: "SSR"
+#     - SEKE:
+#         title: "International Conference on Software Engineering and Knowledge Engineering"
+#         series: "SEKE"
+#     - ICSR:
+#         title: "International Conference on Software Reuse"
+#         series: "ICSR"
+#     - ASE:
+#         title: "IEEE International Conference on Automated Software Engineering"
+#         series: "ASE"
+#     - PADL:
+#         title: "International Symposium on Practical Aspects of Declarative Languages"
+#         series: "PADL"
+#     - RE:
+#         title: "IEEE International Conference on Requirements Engineering"
+#         series: "RE"
+#     - ICECCS:
+#         title: "IEEE International Conference on Engineering of Complex Computer Systems"
+#         series: "ICECCS"
+#     - ICFEM:
+#         title: "IEEE International Conference on Formal Engineering Methods"
+#         series: "ICFEM"
+#     - IFM:
+#         title: "International Conference on Integrated Formal Methods"
+#         series: "IFM"
+#     - FoSSaCS:
+#         title: "International Conference on Foundations of Software Science and Computational Structures"
+#         series: "FoSSaCS"
+# - Rank 3:
+#     -FASE:
+#         title: "International Conference on Fundamental Approaches to Software Engineering"
+#         series: "FASE"
+#     -APSEC:
+#         title: "Asia-Pacific Software Engineering Conference"
+#         series: "APSEC"
+#     -PAP/PACT:
+#         title: "Practical Application of Prolog Conference"
+#         series: "PAP/PACT"
+#     -ALP:
+#         title: "International Conference on Algebraic and Logic Programming"
+#         series: "ALP"
+#     -PLILP: 
+#         title: "International Symposium on Programming Languages: Implementations, Logics, and Programs"
+#         series: "PLILP: International Symposium on Programming Languages"
+#     -LOPSTR:
+#         title: "International Workshop on Logic Program Synthesis and Transformation"
+#         series: "LOPSTR"
+#     -CC:
+#         title: "International Conference on Compiler Construction"
+#         series: "CC"
+#     -COMPSAC:
+#         title: "International Computer Software and Applications Conference"
+#         series: "COMPSAC"
+#     -ICSM:
+#         title: "IEEE International Conference on Software Maintenance"
+#         series: "ICSM"
+#     -TAPSOFT:
+#         title: "International Joint Conference on Theory and Practice of Software Development"
+#         series: "TAPSOFT"
+#     -WCRE:
+#         title: "Working Conference on Reverse Engineering"
+#         series: "WCRE"
+#     -AQSDT:
+#         title: "Symposium on Assessment of Quality Software Development Tools"
+#         series: "AQSDT"
+#     -IFIP:
+#         title: "International Conference on Open Distributed Processing"
+#         series: "IFIP"
+#     -ZUM:
+#         title: "International Conference of B and Z Users"
+#         series: "ZUM"
+#     -PSTV:
+#         title: "IFIP Joint International Conference on Formal Description Techniques and Protocol Specification, Testing, And Verification"
+#         series: "PSTV"
+#     -UML:
+#         title: "International Conference on the Unified Modeling Language"
+#         series: "UML"
+#     -EDOC:
+#         title: "IEEE Conference on Enterprise Distributed Object Computing Conference"
+#         series: "EDOC"
+# - Unranked:
+#     -ISSTA:
+#         title: "ACM SIGSOFT International Symposium on Software Testing and Analysis"
+#         series: "ISSTA"
+#     -TOOLS:
+#         title: "International Conference Technology of Object-Oriented Languages and Systems"
+#         series: "TOOLS"
+#     -PDS:
+#         title: "IFIP TC10 International Workshop on Parallel and Distributed Software Engineering"
+#         series: "PDS"
+#     -ASWEC:
+#         title: "Australian Software Engineering Conference"
+#         series: "ASWEC"
+#     -WORDS:
+#         title: "IEEE International Workshop on Object-oriented Real-time Dependable Systems"
+#         series: "WORDS"
+#     -HASE:
+#         title: "IEEE International Symposium on High Assurance Systems Engineering"
+#         series: "HASE"
+#     -NFMW:
+#         title: "The Northern Formal Methods Workshops"
+#         series: "NFMW"
+#     -FMP:
+#         title: "Formal Methods Pacific"
+#         series: "FMP"
+#     -FMICS:
+#         title: "International Workshop on Formal Methods for Industrial Critical Systems"
+#         series: "FMICS"
+#     -JFPLC:
+#         title: "International French Speaking Conference on Logic and Constraint Programming"
+#         series: "JFPLC"
+#     -L&L:
+#         title: "Workshop on Logic and Learning SFP - Scottish Functional Programming Workshop "
+#         series: "L&L"
+#     -HASKELL:
+#         title: "Haskell Workshop "
+#         series: "HASKELL"
+#     -LCCS:
+#         title: "International Workshop on Logic and Complexity in Computer Science "
+#         series: "LCCS"
+#     -VLFM:
+#         title: "Visual Languages and Formal Methods"
+#         series: "VLFM"
+#     -LFM:
+#         title: "NASA LaRC Formal Methods Workshop"
+#         series: "LFM"
