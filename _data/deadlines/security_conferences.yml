@@ -1,0 +1,138 @@
+# This list is extracted from: https://people.engr.tamu.edu/guofei/sec_conf_stat.htm
+- Tier 1:
+    - S&P (Oakland):
+        title: IEEE Symposium on Security and Privacy 
+        series: IEEE S&P
+        deadlines: Spring (March), Summer (June), Fall (September), Winter (December)
+    - CCS:
+        title: ACM Conference on Computer and Communications Security
+        series: CCS
+        deadlines: 
+    - Security:
+        title: USENIX Security Symposium
+        series: USENIX Sec
+    - NDSS:
+        title: ISOC Network and Distributed System Security Symposium
+        series: NDSS
+    - Crypto:
+        title: International Cryptology Conference
+        series: Crypto
+    - Eurocrypt:
+        title: European Cryptology Conference
+        series: Eurocrypt    
+- Tier 2:
+    - ESORICS:
+        title: European Symposium on Research in Computer Security
+        series: ESORICS
+    - RAID:
+        title: International Symposium on Recent Advances in Intrusion Detection
+        series: RAID
+    - ACSAC:
+        title: Annual Computer Security Applications Conference
+        series: ACSAC
+    - DSN:
+        title: The International Conference on Dependable Systems and Networks
+        series: DSN
+    - IMC:
+        title: Internet Measurement Conference
+        series: IMC
+    - ASIACCS:
+        title: ACM Symposium on Information, Computer and Communications Security
+        series: AsiaCCS
+    - PETS:
+        title: Privacy Enhancing Technologies Symposium
+        series: PETS
+    - EuroS&P:
+        title: IEEE European Symposium on Security and Privacy
+        series: EuroS&P
+    - CSF (CSFW):
+        title: IEEE Computer Security Foundations Symposium.
+        series: CSF
+    - Asiacrypt: 
+        title: International Conference on the Theory and Application of Cryptology and Information Security
+        series: Asiacrypt
+    - TCC:
+        title: Theory of Cryptography Conference
+        series: TCC
+    - CHES:
+        title: Conference on Cryptographic Hardware and Embedded Systems 
+        series: CHES
+- Tier 3:
+    - SecureComm:
+        title: Internation Conference on Security and Privacy in Communication Networks
+        series: SecureComm
+    - CNS:
+        title: IEEE Conference on Communications and Network Security
+        series: CNS
+    - DIMVA:
+        title: GI SIG SIDAR Conference on Detection of Intrusions and Malware and Vulnerability Assessment
+        series: DIMVA
+    - ACNS:
+        title: International Conference on Applied Cryptography and Network Security
+        series: ACNS
+    - SAC:
+        title: ACM Symposium on Applied Computing
+        series: SAC
+    - ACISP:
+        title: Australasia Conference on Information Security and Privacy
+        series: ACISP
+    - ICICS:
+        title: International Conference on Information and Communications Security
+        series: ICICS
+    - ISC:
+        title: Information Security Conference
+        series: ISC
+    - ICISC:
+        title: International Conference on Information Security and Cryptology
+        series: ICISC
+    - SACMAT:
+        title: ACM Symposium on Access Control Models and Technologies
+        series: SACMAT
+    IFIP - SEC:
+        title: IFIP International Information Security Conference
+        series: SEC
+    - WiSec(WiSe, SASN):
+        title: ACM Conference on Wireless Network Security
+        series: WiSec
+    - SOUPS:
+        title: Symposium On Usable Privacy and Security
+        series: SOUPS
+    IFIP WG 11.- 9:
+        title: IFIP WG 11.9 International Conference on Digital Forensics
+        series: IFIP WG 11.- 9
+    - DFRWS:
+        title: Digital Forensic Research Conference
+        series: DFRWS
+    - CODASPY:
+        title: ACM Conference on Data and Application Security and Privacy
+        series: CODASPY
+    - MALCON:
+        title: International Conference on Malicious and Unwanted Software
+        series: MALCON
+    - FSE:
+        title: Conference on Fast Software Encryption (FSE)
+        series: FSE
+    - PKC:
+        title: International Conference on Practice and Theory in Public Key Cryptography
+        series: PKC
+    - FC:
+        title: International Conference on Financial Cryptography and Data Security
+        series: FC
+    CT-- RSA:
+        title: RSA Conference, Cryptographers' Track
+        series: RSA
+    - HOST:
+        title: IEEE International Symposium on Hardware Oriented Security and Trust
+        series: HOST
+    - HotSec:
+        title: USENIX Summit on Hot Topics in Security
+        series: HotSec
+    - NSPW:
+        title: New Security Paradigms Workshop
+        series: NSPW
+    IH&- MMSec:
+        title: Workshop on Information Hiding and Multimedia Security
+        series: MMSec
+    - IWIA:
+        title: IEEE International Information Assurance Workshop
+        series: IWIA

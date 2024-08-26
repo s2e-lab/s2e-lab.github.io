@@ -6,6 +6,8 @@ description: "All about the Security and Software Engineering Lab at the Univers
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://s2e-lab.github.io"
+github_username: s2e-lab
+github_repo: s2e-lab.github.io
 
 # Build settings
 markdown: kramdown
@@ -18,16 +20,26 @@ excerpt_separator: <!--more--> #use this in posts to define how long the excerpt
 
 
 # ORIGINAL TEMPLATE'S COLORS
+# Palette: https://palettes.shecodes.io/palettes/267
 
-# Palette: https://palettes.shecodes.io/palettes/1313#palette
 colors:  
-  primary: "#9fd3c7" 
+  primary: "#455d7a" 
   primary_rgb: "236,236,236" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#142d4c" 
-  link: "#385170"
-  link_hover: "#9fd3c7"
+  secondary: "#233142" 
+  link: "#f95959"
+  link_hover: "#e3e3e3"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
+
+# Palette: https://palettes.shecodes.io/palettes/1313#palette
+# colors:  
+#   primary: "#385170" 
+#   primary_rgb: "236,236,236" #rgb of the primary. Needed in some places for the transparency effect.
+#   secondary: "#142d4c" 
+#   link: "#385170"
+#   link_hover: "#9fd3c7"
+#   footer_heading: "#ffffff"
+#   footer_content: "#bfc9d3"
 
 # Making projects separate from posts
 collections:

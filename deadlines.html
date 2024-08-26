@@ -1,0 +1,125 @@
+---
+title: Deadlines Software Engineering, Security, Programming Languages and Special Issues
+permalink: /deadlines/
+---
+
+<!DOCTYPE html>
+
+<html>
+  <!-- prettier-ignore -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>SE/PL/SECURITY CONFERENCE DEADLINES</title>
+    <meta name="description" content="{{ site.description }}" />
+
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/deadlines/bootstrap-v3.4.1.min.css" | prepend:site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/deadlines/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
+
+    <script src="{{ "/assets/js/deadlines/jquery-v3.6.0.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/assets/js/deadlines/jquery.countdown-v2.2.0.min.js" | prepend:site.baseurl }}"></script>
+    <!-- TODO: Remove moment (https://dockyard.com/blog/2020/02/14/you-probably-don-t-need-moment-js-anymore) -->
+    <script src="{{ "/assets/js/deadlines/moment-v2.29.4.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/assets/js/deadlines/moment-timezone-with-data-v0.5.37-2022c.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/assets/js/deadlines/store-v2.0.12.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/assets/js/deadlines/main.js" | prepend: site.baseurl }}" async></script>
+
+  </head>
+  <body>
+    <div class="top-strip"></div>
+    <div class="container">
+      <div class="page-header">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8">
+            <h1>SE/PL/SECURITY CONFERENCE DEADLINES</h1>
+          </div>
+          <div class="col-xs-12">
+            Countdown timers to keep track of the deadlines for Programming Languages, Software Engineering, and Security conferences.
+            <p>
+              To add/update a conference,
+              <a
+                target="_blank"
+                href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}"
+                >send in a pull request</a
+              >.
+            </p>
+            <p>Last update: {{ site.time | date: "%-d %B %Y" }}</p>
+            <p class="small text-secondary">iCalendar feeds:
+              <a target="_blank" href="/sse-deadlines.ics">All Deadlines</a>, or only
+            {%- for type in site.data.types %}
+              <a target="_blank" href="/ics/{{ type.tag }}.ics">{{ type.name }}</a>
+              {%- unless forloop.last %} / {% endunless -%}
+            {%- endfor -%}
+              .
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-xs-12">
+            <form class="form-inline">
+              <div class="form-group">
+                {% for type in site.data.deadlines.types %}
+                <div class="checkbox">
+                  <label>
+                    <input
+                      type="checkbox"
+                      id="{{ type.tag }}-checkbox"
+                    />
+                    {{ type.name }}
+                  </label>
+                </div>
+                {% endfor %}
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="conf-container">
+        {% for conf in site.data.deadlines.conferences %}
+        <div
+          id="{{ conf.name | append: conf.year | slugify }}"
+          class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}"
+        >
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+              <div class="meta">
+                {{ conf.description }}
+                <br />
+                {{conf.date | replace: '-', '–'}}
+                {% if conf.place %} // {{conf.place}}{% endif %}
+                {% if conf.rank %} //
+                  Rank
+                  <a
+                    href="http://portal.core.edu.au/conf-ranks/?by=all&source=all&sort=atitle&page=1&search={{ conf.name | url_encode }}"
+                  >{{conf.rank}}</a>
+                {% endif %}
+                <br />
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+              <span class="timer"></span>
+              <div class="deadline">
+                <div>
+                  Deadline:
+                  <span class="deadline-time"></span>
+                  <div class="meta">{{ conf.comment }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        {% endfor %}
+      </div>
+      <footer>
+        Maintained by
+        <a href="{{site.baseurl}}">S2E Lab Members</a>.
+      </footer>
+    </div>
+  </body>
+</html>
