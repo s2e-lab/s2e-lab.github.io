@@ -1,6 +1,8 @@
+# Overview
 Website for Security and Software Engineering Lab at the University of Notre Dame.
-Based on the template: http://jekyllthemes.org/themes/solid/
 
+Based on the template: http://jekyllthemes.org/themes/solid/
+![Screenshot](https://st4ple.github.io/solid-jekyll/assets/img/browser.png)
 <!---
 
 Solid. A Bootstrap theme for Jekyll.
