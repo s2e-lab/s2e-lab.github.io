@@ -73,7 +73,6 @@ international:
       - Mohammed Latif Siddiq
       - Jiahao Zhang
       - Joanna C. S. Santos  
-    to_appear: true
     bibtex: |
       @inproceedings{siddiq2024regex,
         author={Siddiq, Mohammed Latif and Zhang, Jiahao and Santos, Joanna C. S.},
@@ -101,7 +100,6 @@ international:
     venue: 46th International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER)
     venue_abbr: ICSE NIER
     year: 2024
-    to_appear: true
     preprint: icse_nier24-preprint.pdf
     github: s2e-lab/RegexEval
     doi: 10.1145/3639476.3639757
@@ -124,7 +122,6 @@ international:
     venue: 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)
     venue_abbr: MSR MINING CHALLENGE
     year: 2024
-    to_appear: true
     preprint: msr_mining_challenge24-preprint.pdf
     github: s2e-lab/DevGPT-Study
     doi: 10.1145/3643991.3645071
@@ -381,10 +378,9 @@ international:
       - Joanna C. S. Santos
       - Mehdi Mirakhorli
     virtual: true
-    doi: 
+    doi: 10.1109/ICSA51549.2021.00021
     preprint: icsa21-preprint.pdf
     presentation: https://www.youtube.com/watch?v=dzugRQKKGZc
-    doi: 10.1109/ICSA51549.2021.00021
     bibtex: |
       @inproceedings{shokri2021arcode,
         author={Shokri, Ali and Santos, Joanna C. S. and Mirakhorli, Mehdi},
