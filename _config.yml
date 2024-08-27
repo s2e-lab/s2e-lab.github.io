@@ -129,18 +129,6 @@ graduates:
         url: https://www.linkedin.com/in/luka-cvetko-649655162
     time: Jan. 2024 - Present
 undergraduates:
-  - name: Lindsay Roney
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: lroney.jpg
-    time: Fall 2023 - Present  
-  - name: Miguel Jose Maninang
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: mmaninan.jpg
-    time: Spring 2024 - Present  
   - name: Neol Gutierrez
     position: Undergraduate Student
     text: Computer Science
@@ -153,15 +141,70 @@ undergraduates:
     org: ND
     img: sdevared.jpg
     time: Spring 2024 - Present  
+  - name: Andew Cotaj
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: acotaj.jpg
+    time: Spring 2024 - Present  
+  - name: Antonio Karam
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: akaram.jpg
+    time: Spring 2024 - Present
+  - name: Rena Steele
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: rsteele.jpg
+    time: Spring 2024 - Present
+  - name: Varun   Taneja
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: vtaneja.jpg
+    time: Spring 2024 - Present
+  - name: Maria C. Leal
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: mleal.jpg
+    time: Spring 2024 - Present
+  - name: Leyang Li
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: leyangli.jpg
+    time: Spring 2024 - Present
+  - name: Grace K. Odmark
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: godmark.jpg
+    time: Spring 2024 - Present
+    
+
+
+alumni:
   - name: Matthew Spadafore
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mspadafo.jpg
     time: Spring 2024 - Present  
-
-
-alumni:
+  - name: Lindsay Roney
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: lroney.jpg
+    time: Fall 2023 - Spring 2024  
+  - name: Miguel Jose Maninang
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: mmaninan.jpg
+    time: Spring 2024  
   - name: Claudia Kuczun
     position: Undergraduate Student
     text: Computer Science ND
