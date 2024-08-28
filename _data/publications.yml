@@ -12,7 +12,14 @@ international:
     authors: 
       - Mohammed Latif Siddiq
       - Beatrice Casey
-      - Joanna C. S. Santos   
+      - Joanna C. S. Santos  
+    bibtex: |
+      @inproceedings{siddiq2024franc,
+        author={Siddiq, Mohammed Latif and Casey, Beatrice and Santos, Joanna C. S.},
+        booktitle={24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)}, 
+        title={FRANC: A Lightweight Framework for High-Quality Code Generation}, 
+        year={2024},
+      } 
 
   - scam-2024-benchmarks: 
     id: scam-2024-benchmarks
@@ -28,7 +35,14 @@ international:
       - Mohammed Latif Siddiq
       - Simantika Bhattacharjee Dristi
       - Joy Saha
-      - Joanna C. S. Santos      
+      - Joanna C. S. Santos     
+    bibtex: |
+      @inproceedings{siddiq2024benchmarks,
+        author={Siddiq, Mohammed Latif and Dristi, Simantika Bhattacharjee and Saha, Joy  and Santos, Joanna C. S.},
+        booktitle={24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)}, 
+        title={The Fault in our Stars: Quality Assessment of Code Generation Benchmarksn}, 
+        year={2024},
+      }  
     
   - ease-2024: 
     id: ease-2024
