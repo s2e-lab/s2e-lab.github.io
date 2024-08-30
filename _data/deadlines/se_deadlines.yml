@@ -14,53 +14,12 @@
   rank: A*
   tags: [SE]
 
-- name: ICSE (SEIP)
-  description: ICSE – Software Engineering in Practice
-  year: 2024
-  link: https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-in-practice
-  deadline: "2023-10-06 23:59"
-  date: April 14–20
-  place: Lisbon, Portugal
-  rank: A*
-  tags: [SE]
-
-- name: ICSE (SEIS)
-  description: ICSE – Software Engineering in Society
-  year: 2024
-  link: https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-in-society
-  deadline: "2023-09-28 23:59"
-  date: April 14–20
-  place: Lisbon, Portugal
-  rank: A*
-  tags: [SE]
-
-- name: ICSE (NIER)
-  description: ICSE – New Ideas and Emerging Results
-  year: 2024
-  link: https://conf.researchr.org/track/icse-2024/icse-2024-new-ideas-and-emerging-results
-  deadline: "2023-09-14 23:59"
-  comment: Short papers only (4 pages)
-  date: April 14–20
-  place: Lisbon, Portugal
-  rank: A*
-  tags: [SE]
-
 - name: FSE
   description: ACM International Conference on the Foundations of Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/fse-2025
   deadline: "2024-09-12 23:59"
   comment: Mandatory paper registration on 5 September
-  date: July 23–27
-  place: Trondheim, Norway
-  rank: A*
-  tags: [SE]
-
-- name: FSE (Industry Track)
-  description: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
-  year: 2024
-  link: https://conf.researchr.org/track/fse-2025/fse-2025-industry-papers
-  deadline: "2025-01-15 23:59"
   date: July 23–27
   place: Trondheim, Norway
   rank: A*
@@ -289,119 +248,5 @@
   rank: unranked
   tags: [SE, TEST]
 
-# Programming Languages
-- name: OOPSLA
-  description: Object Oriented Programming Systems Languages and Applications (co-located with SPLASH)
-  year: 2023
-  link: https://2023.splashcon.org/track/splash-2023-oopsla
-  deadline:
-    - "2022-10-28 23:59"
-    - "2023-04-14 23:59"
-  comment: "Two review cycles: October, April"
-  date: October 22–27
-  place: Lisbon, Portugal
-  rank: A
-  tags: [SE]
 
-- name: ECOOP
-  description: European Conference on Object-Oriented Programming
-  year: 2023
-  link: https://conf.researchr.org/home/ecoop-2023
-  deadline:
-    - "2022-12-01 12:00"
-    - "2023-03-01 12:00"
-  comment: "Two review cycles: December, March"
-  date: July 17–21
-  place: Seattle, USA
-  rank: A
-  tags: [SE]
-
-# Security and Privacy
-
-- name: S&P
-  description: IEEE Symposium on Security and Privacy
-  year: 2024
-  link: https://sp2024.ieee-security.org/
-  deadline:
-    - "2023-04-13 23:59"
-    - "2023-08-03 23:59"
-    - "2023-12-06 23:59"
-  comment: "Three review cycles: April, August, December"
-  date: May 20–23
-  place: San Francisco, USA
-  rank: A*
-  tags: [SEC, PRIV]
-
-- name: Euro S&P
-  description: IEEE European Symposium on Security and Privacy
-  year: 2024
-  link: https://www.ieee-security.org/TC/EuroSP2024/
-  deadline: "2023-11-02 23:59"
-  date: July 8–12
-  place: Vienna, Austria
-  rank: NEW
-  tags: [SEC, PRIV]
-
-- name: CCS
-  description: ACM Conference on Computer and Communications Security
-  year: 2023
-  link: https://www.sigsac.org/ccs/CCS2023/
-  deadline:
-    - "2023-01-19 23:59"
-    - "2023-05-04 23:59"
-  comment: "Two review cycles: January, May"
-  date: November 26–30
-  place: Copenhagen, Denmark
-  rank: A*
-  tags: [SEC, PRIV]
-
-- name: AsiaCCS
-  description: ACM Asia Conference on Computer and Communications Security
-  year: 2024
-  link: https://asiaccs2024.sutd.edu.sg/
-  deadline:
-    - "2023-08-21 23:59"
-    - "2023-12-07 23:59"
-  comment: "Two review cycles: August, December"
-  date: July 1–5
-  place: Singapore
-  rank: A
-  tags: [SEC, PRIV]
-
-- name: USENIX Security
-  description: USENIX Security Symposium
-  year: 2024
-  link: https://www.usenix.org/conference/usenixsecurity24
-  deadline:
-    - "2023-06-06 23:59"
-    - "2023-10-17 23:59"
-    - "2024-02-08 23:59"
-  comment: "Three review cycles: June, October, February"
-  date: August 14–16
-  place: Philadelphia, USA
-  rank: A*
-  tags: [SEC, PRIV]
-
-- name: ESORICS
-  description: European Symposium on Research in Computer Security
-  year: 2023
-  link: https://esorics2023.org/
-  deadline:
-    - "2023-01-22 23:59"
-    - "2023-05-28 23:59"
-  comment: "Two review cycles: January and May"
-  date: September 25–29
-  place: The Hague, The Netherlands
-  rank: A
-  tags: [SEC, PRIV]
-
-- name: SOUPS
-  description: USENIX Symposium on Usable Security and Privacy (co-located with USENIX Security)
-  year: 2023
-  link: https://www.usenix.org/conference/soups2023
-  deadline: "2023-02-16 23:59"
-  date: August 6–8
-  place: Anaheim, USA
-  rank: B
-  tags: [SEC, PRIV]
 

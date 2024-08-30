@@ -1,35 +1,68 @@
-# # List from: https://taoxie.cs.illinois.edu/seconferences.htm
-# - Rank 1:
-#     - ICSE: 
-#         title: "International Conference on Software Engineering"
-#         series: "ICSE"        
-#     - FSE: 
-#         title: "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
-#         series: "FSE" 
-#     - ASE:
-#         title: "IEEE International Conference on Automated Software Engineering"
-#         series: "ASE"
-# 
-# - Rank 2:
-#     - MSR:
-#         title: "Mining Software Repositories"
-#         series: "MSR"        
-#     - SEKE:
-#         title: "International Conference on Software Engineering and Knowledge Engineering"
-#         series: "SEKE"
-#     - ICSR:
-#         title: "International Conference on Software Reuse"
-#         series: "ICSR"
-#     - RE:
-#         title: "IEEE International Conference on Requirements Engineering"
-#         series: "RE"
-# - Rank 3:
-#     -FASE:
-#         title: "International Conference on Fundamental Approaches to Software Engineering"
-#         series: "FASE"
-#     -ICSME:
-#         title: "IEEE International Conference on Software Maintenance"
-#         series: "ICSM"
-#     -ISSTA:
-#         title: "ACM SIGSOFT International Symposium on Software Testing and Analysis"
-#         series: "ISSTA"
+# List from: https://taoxie.cs.illinois.edu/seconferences.htm
+- Core Rank A*:
+  - ICSE: 
+    title: "International Conference on Software Engineering"
+    series: "ICSE"        
+  - FSE: 
+    title: "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+    series: "FSE" 
+  - ASE:
+    title: "IEEE International Conference on Automated Software Engineering"
+    series: "ASE"
+  -ISSTA:
+    title: "ACM SIGSOFT International Symposium on Software Testing and Analysis"
+    series: "ISSTA"
+# - Core Rank A:
+#   - MSR:
+#     title: "Mining Software Repositories"
+#     series: "MSR"        
+#   - RE:
+#     title: "IEEE International Conference on Requirements Engineering"
+#     series: "RE"
+#   -ICSME:
+#     title: "IEEE International Conference on Software Maintenance"
+#     series: "ICSME"
+#   - EASE:
+#     title: "International Conference on Evaluation and Assessment in Software Engineering"
+#     series: "EASE"
+#   - ICSA:
+#     title: "International Conference on Software Architecture"
+#     series: "ICSA"
+#   - ECSA:
+#     title: "European Conference on Software Architecture"
+#     series: "ECSA"
+#   - ICPC:
+#     title: "International Conference on Program Comprehension"
+#     series: "ICPC"
+#   - ESEM:
+#     title: "International Symposium on Empirical Software Engineering and Measurement"
+#     series: "ESEM"
+#   - ISSRE:
+#     title: "International Symposium on Software Reliability Engineering"
+#     series: "ISSRE"
+#   - Core Rank B:
+#   - VISSOFT:
+#     title: "IEEE Working Conference on Software Visualization"
+#     series: "VISSOFT"
+#   - SPLC:
+#     title: "Software Product Lines Conference"
+#     series: "SPLC"
+#   -FASE:
+#     title: "International Conference on Fundamental Approaches to Software Engineering"
+#     series: "FASE"
+#   - ICSR:
+#     title: "International Conference on Software Reuse"
+#     series: "ICSR"
+#   - SEAMS:
+#     title: "International Symposium on Software Engineering for Adaptive and Self-Managing Systems"
+#     series: "SEAMS"    
+#   - Core Rank C:
+#   - SCAM:
+#     title: "IEEE International Conference on Source Code Analysis and Manipulation"
+#     series: "SCAM"  
+#   - SEKE:
+#     title: "International Conference on Software Engineering and Knowledge Engineering"
+#     series: "SEKE"
+
+
+

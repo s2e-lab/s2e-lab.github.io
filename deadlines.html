@@ -12,7 +12,8 @@ permalink: /deadlines/
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>SE/PL/SECURITY CONFERENCE DEADLINES</title>
+    <title>SOFTWARE ENGINEERING,
+    /PROGRAMMING LANGUAGES & SECURITY CONFERENCE DEADLINES</title>
     <meta name="description" content="{{ site.description }}" />
 
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/deadlines/bootstrap-v3.4.1.min.css" | prepend:site.baseurl }}" />
@@ -34,7 +35,7 @@ permalink: /deadlines/
       <div class="page-header">
         <div class="row">
           <div class="col-xs-12 col-sm-8">
-            <h1>SE/PL/SECURITY CONFERENCE DEADLINES</h1>
+            <h1>SOFTWARE ENGINEERING, PROGRAMMING LANGUAGES & SECURITY CONFERENCE DEADLINES</h1>
           </div>
           <div class="col-xs-12">
             Countdown timers to keep track of the deadlines for Programming Languages, Software Engineering, and Security conferences.
@@ -49,7 +50,7 @@ permalink: /deadlines/
             <p>Last update: {{ site.time | date: "%-d %B %Y" }}</p>
             <p class="small text-secondary">iCalendar feeds:
               <a target="_blank" href="/sse-deadlines.ics">All Deadlines</a>, or only
-            {%- for type in site.data.types %}
+            {%- for type in site.data.deadlines.types %}
               <a target="_blank" href="/ics/{{ type.tag }}.ics">{{ type.name }}</a>
               {%- unless forloop.last %} / {% endunless -%}
             {%- endfor -%}
@@ -79,41 +80,45 @@ permalink: /deadlines/
         </div>
       </div>
       <div class="conf-container">
-        {% for conf in site.data.deadlines.conferences %}
-        <div
-          id="{{ conf.name | append: conf.year | slugify }}"
-          class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}"
-        >
-          <div class="row">
-            <div class="col-xs-12 col-sm-7">
-              <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
-              <div class="meta">
-                {{ conf.description }}
-                <br />
-                {{conf.date | replace: '-', '–'}}
-                {% if conf.place %} // {{conf.place}}{% endif %}
-                {% if conf.rank %} //
-                  Rank
-                  <a
-                    href="http://portal.core.edu.au/conf-ranks/?by=all&source=all&sort=atitle&page=1&search={{ conf.name | url_encode }}"
-                  >{{conf.rank}}</a>
-                {% endif %}
-                <br />
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-5">
-              <span class="timer"></span>
-              <div class="deadline">
-                <div>
-                  Deadline:
-                  <span class="deadline-time"></span>
-                  <div class="meta">{{ conf.comment }}</div>
+        {% for file in site.data.deadlines %}
+          {% if file.first contains '_deadlines' %}
+            {% for conf in  file[1] %}
+                <div
+                  id="{{ conf.name | append: conf.year | slugify }}"
+                  class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}"
+                >
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+                      <div class="meta">
+                        {{ conf.description }}
+                        <br />
+                        {{conf.date | replace: '-', '–'}}
+                        {% if conf.place %} // {{conf.place}}{% endif %}
+                        {% if conf.rank %} //
+                          Rank
+                          <a
+                            href="http://portal.core.edu.au/conf-ranks/?by=all&source=all&sort=atitle&page=1&search={{ conf.name | url_encode }}"
+                          >{{conf.rank}}</a>
+                        {% endif %}
+                        <br />
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-5">
+                      <span class="timer"></span>
+                      <div class="deadline">
+                        <div>
+                          Deadline:
+                          <span class="deadline-time"></span>
+                          <div class="meta">{{ conf.comment }}</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
                 </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-        </div>
+            {% endfor %}
+          {% endif %}
         {% endfor %}
       </div>
       <footer>

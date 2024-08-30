@@ -133,7 +133,7 @@ $(function() {
   $('.conf-container').append(confs);
 
   // Set checkboxes
-  var conf_type_data = {{ site.data.types | jsonify }};
+  var conf_type_data = {{ site.data.deadlines.types | jsonify }};
   var all_tags = [];
   var toggle_status = {};
   for (var i = 0; i < conf_type_data.length; i++) {

@@ -120,14 +120,7 @@ graduates:
       - title: globe
         url: https://lsiddiqsunny.github.io
     time: Jan. 2022 - Present
-  - name: Luka Cvetko 
-    position: MS Student
-    text: Computer Science and Engineering
-    img: lcvetko.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/luka-cvetko-649655162
-    time: Jan. 2024 - Present
+  
 undergraduates:
   - name: Neol Gutierrez
     position: Undergraduate Student
@@ -161,7 +154,7 @@ undergraduates:
     time: Spring 2024 - Present
   - name: Varun   Taneja
     position: Undergraduate Student
-    text: Computer Science
+    text: Computer Engineering
     org: ND
     img: vtaneja.jpg
     time: Spring 2024 - Present
@@ -187,6 +180,14 @@ undergraduates:
 
 
 alumni:
+  - name: Luka Cvetko 
+    position: MS Student
+    text: Computer Science and Engineering
+    img: lcvetko.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/luka-cvetko-649655162
+    time: Jan. 2024 - May. 2024
   - name: Matthew Spadafore
     position: Undergraduate Student
     text: Computer Science
@@ -249,7 +250,7 @@ alumni:
   - name: Emmanuel de La Paz
     position: Undergraduate Student
     text: Computer Science (ND)
-    img: man_placeholder.jpg
+    img: epaz.jpg
     time: Summer 2023
   - name: Desereé Frink-Larcart 
     position: Undergraduate Student

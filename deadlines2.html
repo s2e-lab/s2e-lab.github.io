@@ -1,0 +1,49 @@
+---
+title: Deadlines Software Engineering, Security, Programming Languages and Special Issues
+permalink: /deadlines2/
+---
+
+
+
+{% for file in site.data.deadlines %}
+	{% if file.first contains '_deadlines' %}
+		{% for conf in  file[1] %}
+		    <div
+	          id="{{ conf.name | append: conf.year | slugify }}"
+	          class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}"
+	        >
+	          <div class="row">
+	            <div class="col-xs-12 col-sm-7">
+	              <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+	              <div class="meta">
+	                {{ conf.description }}
+	                <br />
+	                {{conf.date | replace: '-', '–'}}
+	                {% if conf.place %} // {{conf.place}}{% endif %}
+	                {% if conf.rank %} //
+	                  Rank
+	                  <a
+	                    href="http://portal.core.edu.au/conf-ranks/?by=all&source=all&sort=atitle&page=1&search={{ conf.name | url_encode }}"
+	                  >{{conf.rank}}</a>
+	                {% endif %}
+	                <br />
+	              </div>
+	            </div>
+	            <div class="col-xs-12 col-sm-5">
+	              <span class="timer"></span>
+	              <div class="deadline">
+	                <div>
+	                  Deadline:
+	                  <span class="deadline-time"></span>
+	                  <div class="meta">{{ conf.comment }}</div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	          <hr />
+	        </div>
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+
+
