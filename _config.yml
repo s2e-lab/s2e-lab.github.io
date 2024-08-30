@@ -188,12 +188,13 @@ alumni:
       - title: linkedin
         url: https://www.linkedin.com/in/luka-cvetko-649655162
     time: Jan. 2024 - May. 2024
+    org: ND
   - name: Matthew Spadafore
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mspadafo.jpg
-    time: Spring 2024 - Present  
+    time: Jan. 2024 - May. 2024
   - name: Lindsay Roney
     position: Undergraduate Student
     text: Computer Science
@@ -205,31 +206,35 @@ alumni:
     text: Computer Science
     org: ND
     img: mmaninan.jpg
-    time: Spring 2024  
+    time: Jan. 2024 - May. 2024  
   - name: Claudia Kuczun
     position: Undergraduate Student
-    text: Computer Science ND
+    text: Computer Science
     org: ND
     img: ckuczun.jpg
-    time: Fall 2023 - Fall 2023
+    time: Aug. 2023 - Dec. 2023
   - name: Jiahao Zhang
     position: Undergraduate Student
-    text: Computer Science (SUSTech)
+    text: Computer Science
+    org: SUSTech
     img: jzhang.jpg
-    time: Fall 2023 - Fall 2023
+    time: Aug. 2023 - Dec. 2023
   - name: Anna Muller
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: amuller.jpg
     time: Fall 2023 - Fall 2023
   - name: Dan Krill
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: dkrill.jpg
     time: Fall 2023 - Fall 2023
   - name: Mark Rumsey
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: mrumsey.jpg
     time: Summer 2023 - Fall 2023
   - name: Eva Gorzkiewicz
@@ -239,37 +244,44 @@ alumni:
     time: Summer 2023 - Fall 2023
   - name: George Perry
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science 
+    org: ND
     img: gperry.jpg
     time: Fall 2022 - Fall 2023
   - name: Angel Ortiz
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: aortiz.jpeg
     time: Summer 2023
   - name: Emmanuel de La Paz
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: epaz.jpg
     time: Summer 2023
   - name: Desereé Frink-Larcart 
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: dfrinkla.jpg
     time: Spring 2023 - Spring 2023
   - name: Joshua Agron
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: jagron.jpg
     time: Fall 2021 - Spring 2022
   - name: Mark Cheng
     position: Undergraduate Student
-    text: Computer Engineering (ND)
+    text: Computer Engineering
+    org: ND
     img: mcheng3.jpg
     time: Spring 2022 - Spring 2022
   - name: Megan Campbell
     position: Undergraduate Student
-    text: Computer Science (ND)
+    text: Computer Science
+    org: ND
     img: mcambp24.jpg
     time: Fall 2021 - Fall 2021
 visiting:

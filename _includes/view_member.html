@@ -3,28 +3,67 @@
     <div class="row">
         <h2 class="mb">{{include.member_type}}</h2>
     
-    {% for member in include.member_list %}
-        
-        <div class="col-sm-6">
+
+
+
+    {% if include.is_alumni %}
+        {% for member in include.member_list %}
             <div class="row">
+                <div class="col-sm-8">
+                    <b>{{ member.name }}</b> ({{ member.position }}- {{ member.text }}{% if member.org %} - {{ member.org }}{% endif %})
+                </div>
                 <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="Profile photo of {{member.name}}">                 
+                        {{member.time}}
+                </div>  
+            </div>
+        {% endfor %}
+    {% else %}
+        {% for member in include.member_list %}
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="Profile photo of {{member.name}}">                 
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <h4 class="mt-1">{{ member.name }}</h4>
+                        <h5 class="ctitle mt-1">{{ member.position }}</h5>
+                        <h6 class="mt-1">{{member.time}}</h6>
+                        <p class="text-muted my-0" style="font-size: 12px;">
+                            {{ member.text }}
+                            {% if member.org %}({{ member.org }}){% endif %}
+                        </p>
                     </div>
                 </div>
-                <div class="col-sm-8">
-                    <h4 class="mt-1">{{ member.name }}</h4>
-                    <h5 class="ctitle mt-1">{{ member.position }}</h5>
-                    <h6 class="mt-1">{{member.time}}</h6>
-                    <p class="text-muted my-0" style="font-size: 12px;">
-                        {{ member.text }}
-                        {% if member.org %}({{ member.org }}){% endif %}
-                    </p>
-                </div>
-            </div>
-        </div>
-        
-    {% endfor %}
+            </div>         
+        {% endfor %}
+    {% endif %}
     </div>
 </div>
 {% endif %}
+
+
+
+    <!-- {% if include.is_alumni %}
+        {% for member in include.member_list %}
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="thumbnail">
+                            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="Profile photo of {{member.name}}">                 
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <h4 class="mt-1">{{ member.name }}</h4>
+                        <h5 class="ctitle mt-1">{{ member.position }}</h5>
+                        <h6 class="mt-1">{{member.time}}</h6>
+                        <p class="text-muted my-0" style="font-size: 12px;">
+                            {{ member.text }}
+                            {% if member.org %}({{ member.org }}){% endif %}
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        {% endfor %}
+    {% endif %} -->

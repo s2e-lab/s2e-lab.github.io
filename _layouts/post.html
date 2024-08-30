@@ -12,6 +12,12 @@ layout: default
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+            <!-- <p>
+                <i class="fa fa-tags" aria-hidden="true">
+                {% for c in page.categories %}
+                <csmall>{{c}}</csmall>
+                {%endfor%}
+            </p> -->
               
             {{ content }}
 

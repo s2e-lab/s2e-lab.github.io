@@ -11,7 +11,7 @@ permalink: /members/
 {% include view_member.html member_list=site.graduates member_type="Current Graduate Students" %}
 {% include view_member.html member_list=site.undergraduates member_type="Current Undergraduate Students" %}
 
-{% include view_member.html member_list=site.alumni member_type="Alumni" %}
+{% include view_member.html member_list=site.alumni member_type="Alumni" is_alumni=true%}
 {% comment %}
 {% include view_member.html member_list=site.visiting member_type="Past/Current Visiting Students" %}
 {% endcomment %}
