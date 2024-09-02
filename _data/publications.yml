@@ -1,4 +1,21 @@
 international:
+  - asyde-2024:
+    id: asyde-2024
+    title: "SALLM: Security Assessment of Generated Code"
+    venue: 6th International Workshop on Automated and verifiable Software sYstem Development
+    venue_abbr: ASYDE'24
+    venue_location:  Sacramento, CA, USA
+    year: 2024
+    preprint: asyde24-preprint.pdf
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Mohammed Latif Siddiq
+      - Joanna C. S. Santos  
+      - Sajith Devareddy
+      - Anna Muller
+    
+
   - scam-2024-franc: 
     id: scam-2024-franc
     title: "FRANC: A Lightweight Framework for High-Quality Code Generation"
