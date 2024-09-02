@@ -1,6 +1,4 @@
-
 # Software Engineering
-
 - name: ICSE
   description: International Conference on Software Engineering
   year: 2025
@@ -18,7 +16,8 @@
   description: ACM International Conference on the Foundations of Software Engineering
   year: 2025
   link: https://conf.researchr.org/home/fse-2025
-  deadline: "2024-09-12 23:59"
+  deadline: 
+    - "2024-09-12 23:59"
   comment: Mandatory paper registration on 5 September
   date: July 23–27
   place: Trondheim, Norway
@@ -29,7 +28,8 @@
   description: IEEE/ACM International Conference on Automated Software Engineering
   year: 2024
   link: https://conf.researchr.org/home/ase-2024
-  deadline: "2024-06-07 23:59"
+  deadline: 
+    - "2024-06-07 23:59"
   comment: Abstract deadline on 31 May
   date: October 27–November 1
   place: Sacramento, California, United States
@@ -41,7 +41,8 @@
   description: Empirical Software Engineering and Measurement
   year: 2024
   link: https://conf.researchr.org/track/esem-2024/esem-2024-technical-track
-  deadline: "2024-05-06 23:59"
+  deadline: 
+    - "2024-05-06 23:59"
   comment: Abstract deadline on 26 April
   date: October 20–25
   place: Barcelona, Spain
@@ -52,7 +53,8 @@
   description: Empirical Software Engineering and Measurement
   year: 2023
   link: https://conf.researchr.org/track/esem-2024/esem-2024-emerging-results-vision-and-reflection-papers
-  deadline: "2024-06-07 23:59"
+  deadline: 
+    - "2024-06-07 23:59"
   comment: Abstract deadline on 30 May
   date: October 20–25
   place: Barcelona, Spain
@@ -63,7 +65,8 @@
   description: Evaluation and Assessment in Software Engineering
   year: 2024
   link: https://conf.researchr.org/home/ease-2024
-  deadline: "2024-01-12 23:59"
+  deadline: 
+    - "2024-01-12 23:59"
   comment: Abstract deadline on 11 January
   date: June 18–21
   place: Salerno, Italy
@@ -78,7 +81,8 @@
   description: International Conference on Software Maintenance and Evolution
   year: 2023
   link: https://conf.researchr.org/home/icsme-2023
-  deadline: "2023-04-27 23:59"
+  deadline: 
+    - "2023-04-27 23:59"
   comment: Abstract deadline on 20 April
   date: October 1–6
   place: Bogotá, Colombia
@@ -89,7 +93,8 @@
   description: International Conference on Software Maintenance and Evolution
   year: 2023
   link: https://conf.researchr.org/track/icsme-2023/icsme-2023-industry-track
-  deadline: "2023-07-06 23:59"
+  deadline: 
+    - "2023-07-06 23:59"
   date: October 1–6
   place: Bogotá, Colombia
   rank: A
@@ -99,7 +104,8 @@
   description: International Conference on Software Analysis, Evolution and Reengineering
   year: 2025
   link: https://conf.researchr.org/home/saner-2025
-  deadline: "2024-10-11 23:59"
+  deadline: 
+    - "2024-10-11 23:59"
   comment: Abstract deadline on 4 October
   date: March 4–7
   place: Montréal, Canada
@@ -110,7 +116,8 @@
   description: IEEE International Conference on Software Architecture
   year: 2024
   link: https://conf.researchr.org/home/icsa-2024
-  deadline: "2023-12-01 23:59"
+  deadline: 
+    - "2023-12-01 23:59"
   comment: Abstract deadline on 24 November
   date: June 4–8
   place: Hyderabad, India
@@ -121,7 +128,8 @@
   description: International Conference on Program Comprehension
   year: 2023
   link: https://conf.researchr.org/home/icpc-2023
-  deadline: "2022-12-15 23:59"
+  deadline: 
+    - "2022-12-15 23:59"
   comment: Abstract deadline on 10 December
   date: May 14–20
   place: Melbourne, Australia
@@ -132,7 +140,8 @@
   description: Mining Software Repositories Conference
   year: 2025
   link: https://2025.msrconf.org/
-  deadline: "2024-11-09 23:59"
+  deadline: 
+    - "2024-11-09 23:59"
   comment: Abstract deadline on 6 November
   date: April 28-29
   place: https://2025.msrconf.org/
@@ -157,7 +166,8 @@
   description: ACM/SIGAPP Symposium On Applied Computing
   year: 2025
   link: https://www.sigapp.org/sac/sac2025/
-  deadline: "2024-09-20 23:59"
+  deadline: 
+    - "2024-09-20 23:59"
   date: March 31 – April 4
   place: Sicily, Italy
   rank: Multiconference
@@ -169,7 +179,8 @@
   description: ACM SIGSOFT International Symposium on Software Testing and Analysis
   year: 2025
   link: https://conf.researchr.org/home/issta-2025
-  deadline: "2024-10-31 23:59"
+  deadline: 
+    - "2024-10-31 23:59"
   date: June 25–28
   place: Trondheim, Norway
   rank: A
@@ -179,7 +190,8 @@
   description: IEEE International Conference on Software Testing, Verification and Validation
   year: 2025
   link: https://conf.researchr.org/home/icst-2025
-  deadline: "2024-09-25 23:59"
+  deadline: 
+    - "2024-09-25 23:59"
   comment: Abstract deadline on 18 September
   date: March 31 - April 04
   place: Naples, Italy
@@ -190,7 +202,8 @@
   description: IEEE International Conference on Software Testing, Verification and Validation
   year: 2024
   link: https://conf.researchr.org/track/icst-2024/icst-2024-industry
-  deadline: "2023-10-25 23:59"
+  deadline: 
+    - "2023-10-25 23:59"
   comment: Abstract deadline on 18 October
   date: May 27-31
   place: Toronto, Canada
@@ -201,7 +214,8 @@
   description: International Symposium on Software Reliability Engineering
   year: 2024
   link: https://issre.github.io/2024/
-  deadline: "2024-05-10 23:59"
+  deadline: 
+    - "2024-05-10 23:59"
   comment: Abstract deadline on 3 May
   date: October 28–31
   place: Tsukuba, Japan
@@ -212,7 +226,8 @@
   description: International Conference on Automation of Software Test (co-located with ICSE)
   year: 2024
   link: https://conf.researchr.org/home/ast-2024
-  deadline: "2023-12-10 23:59"
+  deadline: 
+    - "2023-12-10 23:59"
   date: April 15–16
   place: Lisbon, Portugal
   rank: C
@@ -222,7 +237,8 @@
   description: International Workshop on Test Flakiness (co-located with ICSE)
   year: 2024
   link: https://conf.researchr.org/home/icse-2024/ftw-2024#the-1st-international-workshop-on-test-flakiness-ftw-2024
-  deadline: "2023-12-07 23:59"
+  deadline: 
+    - "2023-12-07 23:59"
   date: April 14–20
   place: Lisbon, Portugal
   rank: unranked
@@ -232,7 +248,8 @@
   description: Workshop on Advances in Model Based Testing (co-located with ICST)
   year: 2024
   link: https://conf.researchr.org/home/icst-2024/a-most-2024
-  deadline: "2024-01-29 23:59"
+  deadline: 
+    - "2024-01-29 23:59"
   date: May 27–31
   place: Toronto, Canada
   rank: unranked
@@ -242,7 +259,8 @@
   description: CI/CD Industry Workshop (co-located with ICST)
   year: 2024
   link: https://conf.researchr.org/home/icst-2024/cciw-2024
-  deadline: "2024-01-29 23:59"
+  deadline: 
+    - "2024-01-29 23:59"
   date: May 27–31
   place: Toronto, Canada
   rank: unranked

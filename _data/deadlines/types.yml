@@ -1,6 +1,8 @@
 ---
 - name: Software Engineering
   tag: SE
+- name: Programming Languages
+  tag: PL
 - name: Testing
   tag: TEST
 - name: Security
@@ -15,3 +17,7 @@
   tag: CONF
 - name: Workshop
   tag: SHOP
+- name: Core Rank A*
+  tag: A*
+- name: Journal Special Issue
+  tag: JOURNAL

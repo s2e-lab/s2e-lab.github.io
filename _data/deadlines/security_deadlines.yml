@@ -11,7 +11,8 @@
     - "2024-06-06 23:59"
     - "2024-11-14 23:59"
   place: San Francisco, California, USA
-  tags: [SEC, PRIV, CONF, TOP4]
+  tags: [SEC, PRIV, CONF, TOP4, A*]
+  rank: A*
   
 - name: CCS
   description: ACM Conference on Computer and Communications Security
@@ -393,7 +394,7 @@
   place: Quito, Ecuador
   tags: [CRYPTO, CONF]
 
-- name: FSE
+- name: FSE (IACR)
   description: IACR Transactions on Symmetric Cryptology
   year: 2025
   link: https://tosc.iacr.org/

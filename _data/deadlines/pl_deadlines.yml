@@ -1,278 +1,106 @@
 ---
-
-- title: OOPSLA
+  
+- name: OOPSLA
   year: 2025
   id: oopsla25
   link: https://2025.splashcon.org
-  deadline: '2024-10-15 23:59:59'
+  deadline: 
+    - "2024-10-15 23:59"
   date: TBA
   place: Singapore
   note: Round 2 deadline on 25 March 2025 (AoE)
-- title: PLDI
+  tags: [PL]
+- name: PLDI
   year: 2025
   id: pldi25
   link: https://pldi25.sigplan.org
-  deadline: '2024-11-14 23:59:59'
+  deadline: 
+    - '2024-11-14 23:59:59'
   date: Mon 16 - Fri 20 June 2025
   place: Seoul, South Korea
-- title: ESOP
+  tags: [PL]
+- name: ESOP
   year: 2025
   id: esop25
   link: https://etaps.org/2025/conferences/esop/
-  deadline: '2024-10-10 23:59:59'
+  deadline: 
+    - '2024-10-10 23:59:59'
   date: Sat 3 - Thu 8 May 2025
   place: Hamilton, ON, Canada
   note: Round 1 deadline on 30 May 2024 (AoE)
-- title: POPL
+  tags: [PL]
+- name: POPL
   year: 2025
   id: popl25
   link: https://popl25.sigplan.org
-  deadline: '2024-07-11 23:59:59'
+  deadline: 
+    - '2024-07-11 23:59:59'
   date: Sun 19 - Sat 25 January 2025
   place: Denver, CO, USA
-- title: APLAS
+  tags: [PL]
+- name: APLAS
   year: 2024
   id: aplas24
   link: https://conf.researchr.org/home/aplas-2024
-  deadline: '2024-05-24 23:59:59'
+  deadline: 
+    - '2024-05-24 23:59:59'
   date: Tue 22 - Fri 25 October 2024
   place: Kyoto, Japan
-- title: OOPSLA
-  year: 2024
-  id: oopsla24
-  link: https://2024.splashcon.org/track/splash-2024-oopsla
-  deadline: '2024-04-05 23:59:59'
-  date: Sun 20 - Fri 25 October 2024
-  place: Pasadena, CA, USA
-  note: Round 1 deadline on 20 October 2023 (AoE)
-- title: ECOOP
+  tags: [PL]
+- name: ECOOP
   year: 2024
   id: ecoop24
   link: https://2024.ecoop.org
-  deadline: '2024-04-17 23:59:59'
+  deadline: 
+    - '2024-04-17 23:59:59'
   date: Mon 16 - Fri 20 September 2024
   place: Vienna, Austria
   note: Round 1 deadline on 17 January 2024 (AoE)
-- title: ICFP
+  tags: [PL]
+- name: ICFP
   year: 2024
   id: icfp24
   link: https://icfp24.sigplan.org
-  deadline: '2024-02-28 23:59:59'
+  deadline: 
+    - '2024-02-28 23:59:59'
   date: Mon 2 - Sat 7 September 2024
   place: Milan, Italy
-- title: PLDI
+  tags: [PL]
+- name: PLDI
   year: 2024
   id: pldi24
   link: https://pldi24.sigplan.org
-  deadline: '2023-11-16 23:59:59'
+  deadline: 
+    - '2023-11-16 23:59:59'
   date: Mon 24 - Fri 28 June 2024
   place: Copenhagen, Denmark
-- title: FLOPS
+  tags: [PL]
+- name: FLOPS
   year: 2024
   id: flops24
   link: https://conf.researchr.org/home/flops-2024
-  deadline: '2023-12-13 23:59:59'
+  deadline: 
+    - '2023-12-13 23:59:59'
   date: Wed 15 - Fri 17 May 2024
   place: Kumamoto, Japan
   note: Abstract deadline on 6 December 2023 (AoE)
-- title: ESOP
+  tags: [PL]
+- name: ESOP
   year: 2024
   id: esop24
   link: https://etaps.org/2024/conferences/esop/
-  deadline: '2023-10-12 23:59:59'
+  deadline: 
+    - '2023-10-12 23:59:59'
   date: Sat 6 - Thu 11 April 2024
   place: Luxembourg City, Luxembourg
-- title: POPL
+  tags: [PL]
+- name: POPL
   year: 2024
   id: popl24
   link: https://popl24.sigplan.org
-  deadline: '2023-07-11 23:59:59'
+  deadline: 
+    - '2023-07-11 23:59:59'
   date: Sun 14 - Sat 20 January 2024
   place: London, UK
-- title: APLAS
-  year: 2023
-  id: aplas23
-  link: https://conf.researchr.org/home/aplas-2023
-  deadline: '2023-06-18 23:59:59'
-  date: Sun 26 - Wed 29 November 2023
-  place: Taipei, Taiwan
-- title: OOPSLA
-  year: 2023
-  id: oopsla23
-  link: https://2023.splashcon.org/track/splash-2023-oopsla
-  deadline: '2023-04-14 23:59:59'
-  date: Sun 22 - Fri 27 October 2023
-  place: Cascais, Portugal
-  note: Round 1 deadline on 28 October 2022 (AoE)
-- title: ICFP
-  year: 2023
-  id: icfp23
-  link: https://icfp23.sigplan.org
-  deadline: '2023-03-01 23:59:59'
-  date: Mon 4 - Sat 9 September 2023
-  place: Seattle, WA, USA
-- title: ECOOP
-  year: 2023
-  id: ecoop23
-  link: https://2023.ecoop.org
-  deadline: '2023-03-01 23:59:59'
-  date: Mon 17 - Fri 21 July 2023
-  place: Seattle, WA, USA
-  note: Round 1 deadline on 1 December 2022 (AoE)
-- title: PLDI
-  year: 2023
-  id: pldi23
-  link: https://pldi23.sigplan.org
-  deadline: '2022-11-10 23:59:59'
-  date: Sat 17 - Wed 21 June 2023
-  place: Orlando, FL, USA
-- title: ESOP
-  year: 2023
-  id: esop23
-  link: https://etaps.org/2023/esop
-  deadline: '2022-10-13 23:59:59'
-  date: Sat 22 - Thu 27 April 2023
-  place: Paris, France
-- title: POPL
-  year: 2023
-  id: popl23
-  link: https://popl23.sigplan.org
-  deadline: '2022-07-07 23:59:59'
-  date: Sun 15 - Sat 21 January 2023
-  place: Boston, MA, USA
-- title: APLAS
-  year: 2022
-  id: aplas22
-  link: https://conf.researchr.org/home/aplas-2022
-  deadline: '2022-06-16 23:59:59'
-  date: Mon 5 December 2022
-  place: Auckland, New Zealand
-- title: OOPSLA
-  year: 2022
-  id: oopsla22
-  link: https://2022.splashcon.org/track/splash-2022-oopsla
-  deadline: '2022-04-15 23:59:59'
-  date: Mon 5 - Sat 10 December 2022
-  place: Auckland, New Zealand
-  note: Round 1 deadline on 12 October 2021 (AoE)
-- title: ICFP
-  year: 2022
-  id: icfp22
-  link: https://icfp22.sigplan.org
-  deadline: '2022-03-02 23:59:59'
-  date: Sun 11 - Fri 16 September 2022
-  place: Ljubljana, Slovenia
-- title: PLDI
-  year: 2022
-  id: pldi22
-  link: https://pldi22.sigplan.org
-  deadline: '2021-11-19 23:59:59'
-  date: Mon 13 - Fri 17 June 2022
-  place: San Diego, CA, USA
-- title: ECOOP
-  year: 2022
-  id: ecoop22
-  link: https://2022.ecoop.org
-  deadline: '2022-03-01 23:59:59'
-  date: Mon 6 - Fri 10 June 2022
-  place: Berlin, Germany
-  note: Round 1 deadline on 1 December 2021 (AoE)
-- title: FLOPS
-  year: 2022
-  id: flops22
-  link: https://conf.researchr.org/home/flops-2022
-  deadline: '2021-12-12 23:59:59'
-  date: Tue 10 - Thu 12 May 2022
-  place: Kyoto, Japan
-  note: Abstract deadline on 8 December 2021 (AoE)
-- title: ESOP
-  year: 2022
-  id: esop22
-  link: https://etaps.org/2022/esop
-  deadline: '2021-10-14 23:59:59'
-  date: Sat 2 - Thu 7 April 2022
-  place: Munich, Germany
-- title: POPL
-  year: 2022
-  id: popl22
-  link: https://popl22.sigplan.org
-  deadline: '2021-07-08 23:59:59'
-  date: Sun 16 - Sat 22 January 2022
-  place: Philadelphia, PA, USA
-- title: APLAS
-  year: 2021
-  id: aplas21
-  link: https://conf.researchr.org/home/aplas-2021
-  deadline: '2021-06-16 23:59:59'
-  date: Sun 17 - Mon 18 October 2021
-  place: Chicago, IL, USA
-- title: OOPSLA
-  year: 2021
-  id: oopsla21
-  link: https://2021.splashcon.org/track/splash-2021-oopsla
-  deadline: '2021-04-16 23:59:59'
-  date: Sun 17 - Fri 22 October 2021
-  place: Chicago, IL, USA
-- title: ICFP
-  year: 2021
-  id: icfp21
-  link: https://icfp21.sigplan.org
-  deadline: '2021-03-02 23:59:59'
-  date: Sun 22 - Fri 27 August 2021
-  place: Online
-- title: ECOOP
-  year: 2021
-  id: ecoop21
-  link: https://2021.ecoop.org
-  deadline: '2021-01-11 23:59:59'
-  date: Sun 11 - Sat 17 July 2021
-  place: Online
-- title: PLDI
-  year: 2021
-  id: pldi21
-  link: https://pldi21.sigplan.org
-  deadline: '2020-11-20 23:59:59'
-  date: Sun 20 - Fri 25 June 2021
-  place: Online
-- title: ESOP
-  year: 2021
-  id: esop21
-  link: https://etaps.org/2021/esop
-  deadline: '2020-10-15 23:59:59'
-  date: Sat 27 March - Thu 1 April 2021
-  place: Online
-- title: POPL
-  year: 2021
-  id: popl21
-  link: https://popl21.sigplan.org
-  deadline: '2020-07-09 23:59:59'
-  date: Sun 17 - Fri 22 January 2021
-  place: Online
-- title: APLAS
-  year: 2020
-  id: aplas20
-  link: https://conf.researchr.org/home/aplas-2020
-  deadline: '2020-07-03 23:59:59'
-  date: Mon 30 November - Wed 2 December 2020
-  place: Online
-- title: OOPSLA
-  year: 2020
-  id: oopsla20
-  link: https://2020.splashcon.org/track/splash-2020-oopsla
-  deadline: '2020-05-15 23:59:59'
-  date: Sun 15 - Fri 20 November 2020
-  place: Online
-- title: ICFP
-  year: 2020
-  id: icfp20
-  link: https://icfp20.sigplan.org
-  deadline: '2020-03-03 23:59:59'
-  date: Sun 23 - Fri 28 August 2020
-  place: Online
-- title: ECOOP
-  year: 2020
-  id: ecoop20
-  link: https://2020.ecoop.org
-  deadline: '2020-01-10 23:59:59'
-  date: Sun 15 - Tue 17 November 2020
-  place: Online
+  tags: [PL]
+

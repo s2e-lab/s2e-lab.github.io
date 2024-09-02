@@ -1,6 +1,6 @@
 ---
 title: Deadlines Software Engineering, Security, Programming Languages and Special Issues
-permalink: /deadlines3/
+permalink: /deadlines/
 ---
 <html>
   <head>
@@ -63,7 +63,10 @@ permalink: /deadlines3/
         </div>
       </div>
       <div class="conf-container">
-        {% for conf in site.data.deadlines.security_deadlines %}
+
+        {% for file in site.data.deadlines %}
+        {% if file.first contains '_deadlines' %}
+        {% for conf in  file[1] %}
         {% assign num_deadlines = conf.deadline.size %}
         {% assign range_end = conf.deadline.size | minus: 1 %}
         {% for i in (0..range_end) %}
@@ -78,6 +81,12 @@ permalink: /deadlines3/
                 <div class="meta">
                   {{ conf.description }}<br>
                   {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
+                  {% if conf.rank %} //
+                    Rank
+                    <a
+                      href="http://portal.core.edu.au/conf-ranks/?by=all&source=all&sort=atitle&page=1&search={{ conf.name | url_encode }}"
+                    >{{conf.rank}}</a>
+                  {% endif %}
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6">
@@ -102,6 +111,8 @@ permalink: /deadlines3/
           <hr>
         </div>
         {% endfor %}
+        {% endfor %}
+        {% endif %}
         {% endfor %}
       </div>
       <footer>
