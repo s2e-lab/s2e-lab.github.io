@@ -20,16 +20,26 @@ excerpt_separator: <!--more--> #use this in posts to define how long the excerpt
 
 
 # ORIGINAL TEMPLATE'S COLORS
-# Palette: https://palettes.shecodes.io/palettes/267
-
+# Palette: https://palettes.shecodes.io/palettes/1291
 colors:  
-  primary: "#455d7a" 
-  primary_rgb: "236,236,236" #rgb of the primary. Needed in some places for the transparency effect.
+  primary: "#407088"
+  primary_rgb: "64,112,136" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#233142" 
   link: "#f95959"
   link_hover: "#e3e3e3"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
+
+# Palette: https://palettes.shecodes.io/palettes/267
+
+# colors:  
+#   primary: "#455d7a" 
+#   primary_rgb: "236,236,236" #rgb of the primary. Needed in some places for the transparency effect.
+#   secondary: "#233142" 
+#   link: "#f95959"
+#   link_hover: "#e3e3e3"
+#   footer_heading: "#ffffff"
+#   footer_content: "#bfc9d3"
 
 # Palette: https://palettes.shecodes.io/palettes/1313#palette
 # colors:  
