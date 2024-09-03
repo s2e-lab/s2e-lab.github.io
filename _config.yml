@@ -139,43 +139,49 @@ undergraduates:
     text: Computer Science
     org: ND
     img: acotaj.jpg
-    time: Spring 2024 - Present  
+    time: Fall 2024 - Present  
   - name: Antonio Karam
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
     img: akaram.jpg
-    time: Spring 2024 - Present
+    time: Fall 2024 - Present
   - name: Rena Steele
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: rsteele.jpg
-    time: Spring 2024 - Present
+    time: Fall 2024 - Present
   - name: Varun   Taneja
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
     img: vtaneja.jpg
-    time: Spring 2024 - Present
+    time: Fall 2024 - Present
   - name: Maria C. Leal
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mleal.jpg
-    time: Spring 2024 - Present
+    time: Fall 2024 - Present
   - name: Leyang Li
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: leyangli.jpg
-    time: Spring 2024 - Present
+    time: Fall 2024 - Present
   - name: Grace K. Odmark
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: godmark.jpg
-    time: Spring 2024 - Present
+    time: Fall 2024 - Present
+  - name: Kaia Damian
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: kdamian.jpg
+    time: Fall 2024 - Present
     
 
 

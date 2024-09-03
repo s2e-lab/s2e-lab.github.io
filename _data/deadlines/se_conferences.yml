@@ -47,7 +47,7 @@
   - ICST: 
     title: "IEEE International Conference on Software Testing, Verification and Validation"
     series: "ICST"
-    
+
 - Core Rank B:
   - VISSOFT:
     title: "IEEE Working Conference on Software Visualization"
@@ -64,6 +64,7 @@
   - SEAMS:
     title: "International Symposium on Software Engineering for Adaptive and Self-Managing Systems"
     series: "SEAMS"
+    
 - Core Rank C:
   - SCAM:
     title: "IEEE International Conference on Source Code Analysis and Manipulation"
