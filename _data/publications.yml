@@ -8,6 +8,7 @@ international:
     year: 2024
     preprint: asyde24-preprint.pdf
     doi: 10.1145/3691621.3694934
+    github: s2e-lab/SALLM
     has_infographic: false
     to_appear: true
     authors: 
