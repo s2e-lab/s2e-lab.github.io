@@ -1,0 +1,23 @@
+- name: (Journal) Empirical Software Engineering (EMSE)
+  description: "SI on Security Testing for Complex Software Systems"
+  year: 2025
+  id: emse25
+  link: https://emsejournal.github.io/special_issues/2024_SI_SECUTE.html
+  deadline: 
+    - "2024-10-31 23:59"
+  date: TBA
+  place: NA
+  tags: [SE, JOURNAL]
+
+- name: Journal of Systems and Software (JSS)
+  description: "Systems and Software Product Line Engineering"
+  year: 2025
+  id: jss25
+  link: https://2024.splc.net/calls/call-for-jss-special-issue/
+  deadline: 
+    - "2025-01-15 23:59"
+  date: TBA
+  place: NA
+  tags: [SE, JOURNAL]
+
+
