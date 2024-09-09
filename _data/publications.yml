@@ -7,6 +7,7 @@ international:
     venue_location:  Sacramento, CA, USA
     year: 2024
     preprint: asyde24-preprint.pdf
+    doi: 10.1145/3691621.3694934
     has_infographic: false
     to_appear: true
     authors: 
@@ -14,6 +15,18 @@ international:
       - Joanna C. S. Santos  
       - Sajith Devareddy
       - Anna Muller
+
+    bibtex: |
+      @inproceedings{siddiq2024sallm,
+        author={Siddiq, Mohammed Latif and Santos, Joanna C. S. and Devareddy, Sajith and Muller, Anna},
+        title={SALLM: Security Assessment of Generated Code}, 
+        booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW '24)},
+        numpages = {12},
+        location = {Sacramento, CA, USA},
+        doi = {10.1145/3691621.3694934}
+        series = {ASEW '24}
+      }
+
     
 
   - scam-2024-franc: 
