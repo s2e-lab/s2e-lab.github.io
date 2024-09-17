@@ -26,6 +26,12 @@
     - LLM
     - redos
 
-# - name: "SALLM"
-#   url: "s2e-lab/SALLM"
-#   description: "A Python-based tool for analyzing data and generating reports."
+- name: "SALLM"
+  url: "s2e-lab/SALLM"
+  description: "A dataset  of prompts and automated framework to evaluate ML-based code generation models with respect to their ability to generate functional and secure code."
+  tags:
+    - security
+    - dataset
+    - prompts
+    - LLM 
+
