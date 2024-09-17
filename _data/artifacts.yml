@@ -1,0 +1,31 @@
+- name: "Seneca"
+  url: "s2e-lab/seneca"
+  description: "A taint-based call graph construction algorithm for Java object deserialization."
+  tags: 
+    - java
+    - call graph
+    - static analysis
+    - tool
+
+- name: "SecurityEval"
+  url: "s2e-lab/SecurityEval"
+  description: "A dataset of prompts to evaluate ML-based code generation models with respect to their ability to generate secure code."
+  tags:
+    - security
+    - dataset
+    - prompts
+    - LLM
+
+- name: "RegexEval"
+  url: "s2e-lab/RegexEval"
+  description: "A dataset of prompts to evaluate ML-based code generation models with respect to their ability to generate regular expressions."
+  tags:
+    - regex
+    - dataset
+    - prompts
+    - LLM
+    - redos
+
+# - name: "SALLM"
+#   url: "s2e-lab/SALLM"
+#   description: "A Python-based tool for analyzing data and generating reports."
