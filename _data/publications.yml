@@ -38,6 +38,7 @@ international:
     venue_location:  Flagstaff, AZ, USA
     year: 2024
     preprint: scam24-franc-preprint.pdf
+    doi: 10.1109/SCAM63643.2024.00020
     has_infographic: false
     to_appear: true
     authors: 
@@ -60,6 +61,7 @@ international:
     venue_location:  Flagstaff, AZ, USA
     year: 2024
     preprint: scam24-benchmarks-preprint.pdf
+    doi: 10.1109/SCAM63643.2024.00028
     has_infographic: false
     to_appear: true
     authors: 
