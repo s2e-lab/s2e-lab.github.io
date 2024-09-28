@@ -20,4 +20,15 @@
   place: NA
   tags: [SE, JOURNAL]
 
+- name: Journal of Systems and Software (JSS)
+  description: "Reliable and Secure Large Language Models for Software Engineering"
+  year: 2025
+  id: jss25
+  link: https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/call-for-papers#reliable-and-secure-large-language-models-for-software-engineering
+  deadline: 
+    - "2025-04-1 23:59"
+  date: TBA
+  place: NA
+  tags: [SE, JOURNAL]
+
 
