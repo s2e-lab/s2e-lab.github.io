@@ -45,6 +45,17 @@
   rank: A*
   tags: [SE]
 
+- name: ICSE (NIER)
+  description: ICSE – New Ideas and Emerging Results
+  year: 2025
+  link: https://conf.researchr.org/track/icse-2025/icse-2025-nier
+  deadline: "2024-10-10 23:59"
+  comment: Short papers only (4 pages)
+  date: April 26 - May 4
+  place: Ottawa, Canada
+  rank: A*
+  tags: [SE]
+
 - name: FSE
   description: ACM International Conference on the Foundations of Software Engineering
   year: 2025
@@ -158,6 +169,17 @@
   rank: A
   tags: [SE]
 
+- name: ICSA
+  description: IEEE International Conference on Software Architecture
+  year: 2025
+  link: https://conf.researchr.org/home/icsa-2025
+  deadline: "2024-11-15 23:59"
+  comment: Abstract deadline on 8 November
+  date: June 4–8
+  place: Dense, Denmark
+  rank: A
+  tags: [SE]
+
 - name: ICPC
   description: International Conference on Program Comprehension
   year: 2023
@@ -166,6 +188,17 @@
   comment: Abstract deadline on 10 December
   date: May 14–20
   place: Melbourne, Australia
+  rank: A
+  tags: [SE]
+
+- name: ICPC
+  description: International Conference on Program Comprehension
+  year: 2025
+  link: https://conf.researchr.org/home/icpc-2025
+  deadline: "2024-11-09 23:59"
+  comment: Abstract deadline on 6 November
+  date: April 27-28
+  place: Ottawa, Canada
   rank: A
   tags: [SE]
 

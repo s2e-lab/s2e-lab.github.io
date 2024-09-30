@@ -50,6 +50,7 @@ international:
         author={Siddiq, Mohammed Latif and Casey, Beatrice and Santos, Joanna C. S.},
         booktitle={24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)}, 
         title={FRANC: A Lightweight Framework for High-Quality Code Generation}, 
+        doi = {10.1109/SCAM63643.2024.00020}
         year={2024},
       } 
 
@@ -73,7 +74,8 @@ international:
       @inproceedings{siddiq2024benchmarks,
         author={Siddiq, Mohammed Latif and Dristi, Simantika Bhattacharjee and Saha, Joy  and Santos, Joanna C. S.},
         booktitle={24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)}, 
-        title={The Fault in our Stars: Quality Assessment of Code Generation Benchmarksn}, 
+        title={The Fault in our Stars: Quality Assessment of Code Generation Benchmarks}, 
+        doi = {10.1109/SCAM63643.2024.00028}
         year={2024},
       }  
     
@@ -102,6 +104,7 @@ international:
         pages = {313–322},
         numpages = {10},
         keywords = {junit, large language models, test generation, test smells, unit testing},
+        doi = {10.1145/3661167.3661216}
         location = {Salerno, Italy},
         series = {EASE '24}
       }
@@ -161,7 +164,8 @@ international:
         author={Siddiq, Mohammed Latif and Zhang, Jiahao and Roney, Lindsay and Santos, Joanna C. S.},
         booktitle={Proceedings of the 46th International Conference on Software Engineering, NIER Track (ICSE-NIER '24)}, 
         title={Re(gEx|DoS)Eval: Evaluating Generated Regular Expressions and their Proneness to DoS Attacks}, 
-        year={2024}
+        year={2024},
+        doi = {10.1145/3639476.3639757}
       }
   - msr-2024-mining:
     id: msr-2024-mining
@@ -182,7 +186,8 @@ international:
         author={Siddiq, Mohammed Latif and Roney, Lindsay and Zhang, Jiahao and Santos, Joanna C. S.},
         booktitle={Proceedings of the 21st International Conference on Mining Software Repositories, Mining Challenge Track (MSR 2024)}, 
         title={Quality Assessment of ChatGPT Generated Code and their Use by Developers}, 
-        year={2024}
+        year={2024},
+        doi = {10.1145/3643991.3645071}
       }
   - tse-2023: 
     id: tse-2023
