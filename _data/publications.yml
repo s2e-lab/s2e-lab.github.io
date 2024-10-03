@@ -1,6 +1,6 @@
 international:
   - sigcsets-2025:
-    id: sigcsets-2024
+    id: sigcsets-2025
     title: "Large Language Models in Computer Science Education: A Systematic Literature Review"
     venue: 56th ACM Technical Symposium on Computer Science Education
     venue_abbr: SIGCSE TS'25
