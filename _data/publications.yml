@@ -1,4 +1,29 @@
 international:
+  - sigcsets-2025:
+    id: sigcsets-2024
+    title: "Large Language Models in Computer Science Education: A Systematic Literature Review"
+    venue: 56th ACM Technical Symposium on Computer Science Education
+    venue_abbr: SIGCSE TS'25
+    venue_location:  Pittsburgh, Pennsylvania, United States
+    year: 2025
+    preprint: sigcse_ts25-preprint.pdf
+    github: s2e-lab/llm-education-survey
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Nishat Raihan
+      - Mohammed Latif Siddiq
+      - Joanna C. S. Santos  
+      - Marcos Zampieri
+    bibtex: |
+      @inproceedings{nishat2025llmeducation,
+        author={Raihan, Nishat and Siddiq, Mohammed Latif and Santos, Joanna C. S. and Zampieri, Marcos},
+        title={Large Language Models in Computer Science Education: A Systematic Literature Review}, 
+        booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education (SIGCSE TS '24)},
+        numpages = {7},
+        location = {Pittsburgh, Pennsylvania, United States},
+        series = {SIGCSE TS '25}
+      }
   - asyde-2024:
     id: asyde-2024
     title: "SALLM: Security Assessment of Generated Code"
