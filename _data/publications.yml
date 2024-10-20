@@ -17,12 +17,13 @@ international:
       - Marcos Zampieri
     bibtex: |
       @inproceedings{nishat2025llmeducation,
-        author={Raihan, Nishat and Siddiq, Mohammed Latif and Santos, Joanna C. S. and Zampieri, Marcos},
-        title={Large Language Models in Computer Science Education: A Systematic Literature Review}, 
-        booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education (SIGCSE TS '24)},
-        numpages = {7},
-        location = {Pittsburgh, Pennsylvania, United States},
-        series = {SIGCSE TS '25}
+          author={Raihan, Nishat and Siddiq, Mohammed Latif and Santos, Joanna C. S. and Zampieri, Marcos},
+          title={Large Language Models in Computer Science Education: A Systematic Literature Review}, 
+          booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education (SIGCSE TS '25)},
+          numpages = {7},
+          location = {Pittsburgh, Pennsylvania, United States},
+          series = {SIGCSE TS '25},
+          year={2025}
       }
   - asyde-2024:
     id: asyde-2024
@@ -49,8 +50,9 @@ international:
         booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW '24)},
         numpages = {12},
         location = {Sacramento, CA, USA},
-        doi = {10.1145/3691621.3694934}
-        series = {ASEW '24}
+        doi = {10.1145/3691621.3694934},
+        series = {ASEW '24},
+        year = {2024}
       }
 
     
@@ -75,8 +77,8 @@ international:
         author={Siddiq, Mohammed Latif and Casey, Beatrice and Santos, Joanna C. S.},
         booktitle={24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)}, 
         title={FRANC: A Lightweight Framework for High-Quality Code Generation}, 
-        doi = {10.1109/SCAM63643.2024.00020}
-        year={2024},
+        doi = {10.1109/SCAM63643.2024.00020},
+        year={2024}
       } 
 
   - scam-2024-benchmarks: 
@@ -100,8 +102,8 @@ international:
         author={Siddiq, Mohammed Latif and Dristi, Simantika Bhattacharjee and Saha, Joy  and Santos, Joanna C. S.},
         booktitle={24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM)}, 
         title={The Fault in our Stars: Quality Assessment of Code Generation Benchmarks}, 
-        doi = {10.1109/SCAM63643.2024.00028}
-        year={2024},
+        doi = {10.1109/SCAM63643.2024.00028},
+        year={2024}
       }  
     
   - ease-2024: 
