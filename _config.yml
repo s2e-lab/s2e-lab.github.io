@@ -216,6 +216,12 @@ undergraduates:
     org: ND
     img: mmaninan.jpg
     time: Spring 2024; Spring 2025 - Present
+  - name: Tom O'Connor
+    position: Graduate Student
+    text: Computer Science and Engineering
+    org: ND
+    img: tconnor.jpg
+    time: Spring 2025 - Present
 alumni:
   - name: Leyang Li
     position: Undergraduate Student
