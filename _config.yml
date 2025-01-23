@@ -156,35 +156,11 @@ undergraduates:
     org: ND
     img: akaram.jpg
     time: Fall 2024 - Present
-  - name: Rena Steele
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: rsteele.jpg
-    time: Fall 2024 - Present
-  - name: Varun   Taneja
-    position: Undergraduate Student
-    text: Computer Engineering
-    org: ND
-    img: vtaneja.jpg
-    time: Fall 2024 - Present
   - name: Maria C. Leal
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mleal.jpg
-    time: Fall 2024 - Present
-  - name: Leyang Li
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: leyangli.jpg
-    time: Fall 2024 - Present
-  - name: Grace K. Odmark
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: godmark.jpg
     time: Fall 2024 - Present
   - name: Kaia Damian
     position: Undergraduate Student
@@ -192,10 +168,79 @@ undergraduates:
     org: ND
     img: kdamian.jpg
     time: Fall 2024 - Present
-    
-
-
+  - name: Andrew Gaylord
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: agaylord.jpg
+    time: Spring 2025 - Present
+  - name: Aaron Afeminke
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: aafeminke.jpg
+    time: Spring 2025 - Present
+  - name: Abby Kleist
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: akleist.jpg
+    time: Spring 2025 - Present  
+  - name: Arvin Islam-Gomes
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: aislam.jpg
+    time: Spring 2025 - Present
+  - name: Celeste Mannel
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: cmannel.jpg
+    time: Spring 2025 - Present
+  - name: Emmanuel de La Paz
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: epaz.jpg
+    time: Summer 2023; Spring 2025 - Present
+  - name: Jack Decker
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: jdecker.jpg
+    time: Spring 2025 - Present
+  - name: Miguel Jose Maninang
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: mmaninan.jpg
+    time: Spring 2024; Spring 2025 - Present
 alumni:
+  - name: Leyang Li
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: leyangli.jpg
+    time: Aug. 2024 - Dec. 2024
+  - name: Grace K. Odmark
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: godmark.jpg
+    time: Aug. 2024 - Dec. 2024
+  - name: Rena Steele
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: rsteele.jpg
+    time: Aug. 2024 - Dec. 2024
+  - name: Varun   Taneja
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: vtaneja.jpg
+    time: Aug. 2024 - Dec. 2024
   - name: Luka Cvetko 
     position: MS Student
     text: Computer Science and Engineering
@@ -217,12 +262,6 @@ alumni:
     org: ND
     img: lroney.jpg
     time: Fall 2023 - Spring 2024  
-  - name: Miguel Jose Maninang
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: mmaninan.jpg
-    time: Jan. 2024 - May. 2024  
   - name: Claudia Kuczun
     position: Undergraduate Student
     text: Computer Science
@@ -269,12 +308,6 @@ alumni:
     text: Computer Science
     org: ND
     img: aortiz.jpeg
-    time: Summer 2023
-  - name: Emmanuel de La Paz
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: epaz.jpg
     time: Summer 2023
   - name: Desereé Frink-Larcart 
     position: Undergraduate Student
