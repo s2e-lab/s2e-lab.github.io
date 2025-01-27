@@ -1,4 +1,25 @@
 international:
+  - naacl-2025:
+    id: naacl-2025
+    title: "MojoBench: Language Modeling and Benchmarks for Mojo"
+    venue: 56th ACM Technical Symposium on Computer Science Education
+    venue_abbr: SIGCSE TS'25
+    venue_location:  Pittsburgh, Pennsylvania, United States
+    year: 2025
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Nishat Raihan
+      - Joanna C. S. Santos  
+      - Marcos Zampieri
+    bibtex: |
+      @inproceedings{raihan2025mojobench,
+        title={MojoBench: Language Modeling and Benchmarks for Mojo},
+        author={Cohen, Nachshon and Fairstein, Yaron and Kushilevitz, Guy},
+        booktitle={Findings of the Association for Computational Linguistics: NAACL 2025},
+        year={2025}
+      }
+
   - sigcsets-2025:
     id: sigcsets-2025
     title: "Large Language Models in Computer Science Education: A Systematic Literature Review"
