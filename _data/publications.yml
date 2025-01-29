@@ -2,9 +2,9 @@ international:
   - naacl-2025:
     id: naacl-2025
     title: "MojoBench: Language Modeling and Benchmarks for Mojo"
-    venue: 56th ACM Technical Symposium on Computer Science Education
-    venue_abbr: SIGCSE TS'25
-    venue_location:  Pittsburgh, Pennsylvania, United States
+    venue: "Findings of the Association for Computational Linguistics: NAACL 2025"
+    venue_abbr: NAACL'25 Findings
+    venue_location:  Albuquerque, New Mexico, United States
     year: 2025
     has_infographic: false
     to_appear: true
@@ -15,7 +15,7 @@ international:
     bibtex: |
       @inproceedings{raihan2025mojobench,
         title={MojoBench: Language Modeling and Benchmarks for Mojo},
-        author={Cohen, Nachshon and Fairstein, Yaron and Kushilevitz, Guy},
+        author={Raihan, Nishat and Santos, Joanna C. S. and Zampieri, Marcos},
         booktitle={Findings of the Association for Computational Linguistics: NAACL 2025},
         year={2025}
       }
