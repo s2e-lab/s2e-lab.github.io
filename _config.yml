@@ -136,7 +136,7 @@ undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
-    img: ngutier4.jpg
+    img: ngutier4.png
     time: Spring 2024 - Present  
   - name: Sajith Devareddy
     position: Undergraduate Student
@@ -144,7 +144,7 @@ undergraduates:
     org: ND
     img: sdevared.jpg
     time: Spring 2024 - Present  
-  - name: Andew Cotaj
+  - name: Andrew Cotaj
     position: Undergraduate Student
     text: Computer Science
     org: ND
