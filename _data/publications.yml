@@ -1,4 +1,45 @@
 international:
+  - quasar-2025:
+    id: quasar-2025
+    title: "Quantum-Based SMT Solving for String Theory"
+    venue: "2nd Workshop on Quantum Algorithms, Software and Applied Research"
+    venue_abbr: QUASAR
+    year: 2025
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Beatrice Casey
+      - Joanna C. S. Santos  
+      - Andrew Hennessee
+    bibtex: |
+      @inproceedings{casey2025quantum,
+        title={Quantum-Based SMT Solving for String Theory},
+        author={Casey, Beatrice and Santos, Joanna C. S. and Hennessee, Andrew},
+        booktitle={Proceedings of the 2025 Workshop on Quantum Algorithms, Software and Applied Research},
+        year={2025}
+      }
+  - csur-2025:
+    id: csur-2025
+    title: "A Survey of Source Code Representations for Machine Learning-Based Cybersecurity Tasks"
+    venue: "ACM Computing Surveys"
+    venue_abbr: ACM CSUR
+    year: 2025
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Beatrice Casey
+      - Joanna C. S. Santos  
+      - George Perry
+    doi: 10.1145/3721977
+    bibtex: |
+      @article{casey2025survey,
+        title={A Survey of Source Code Representations for Machine Learning-Based Cybersecurity Tasks},
+        author={Casey, Beatrice and Santos, Joanna C. S. and Perry, George},
+        journal={ACM Computing Surveys (CSUR)},
+        year={2025},
+        doi={10.1145/3721977},
+        publisher={ACM New York, NY, USA}
+      }
   - naacl-2025:
     id: naacl-2025
     title: "MojoBench: Language Modeling and Benchmarks for Mojo"
