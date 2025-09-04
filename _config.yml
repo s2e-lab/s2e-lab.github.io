@@ -130,38 +130,50 @@ graduates:
       - title: globe
         url: https://lsiddiqsunny.github.io
     time: Jan. 2022 - Present
+  - name: Tom O'Connor
+    position: Graduate Student
+    text: Computer Science and Engineering
+    org: ND
+    img: tconnor.jpg
+    time: Spring 2025 - Present
   
 undergraduates:
-  - name: Neol Gutierrez
+  - name: Matthew Zampino
     position: Undergraduate Student
     text: Computer Science
     org: ND
-    img: ngutier4.png
-    time: Spring 2024 - Present  
-  - name: Sajith Devareddy
+    img: mzampino.jpg
+    time: Summer 2025 - Present  
+  - name: Christian   Garcia
     position: Undergraduate Student
     text: Computer Science
     org: ND
-    img: sdevared.jpg
-    time: Spring 2024 - Present  
+    img: man_placeholder.jpg
+    time: Summer 2025 - Present  
+  - name: Anna Arnett
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: aarnett2.jpg
+    time: Fall 2025 - Present  
+  - name: Natalie Sekerak
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: nsekerak.jpg
+    time: Fall 2025 - Present  
+  - name: Anthony   Tsiantis
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: atsianti.jpg
+    time: Fall 2025 - Present  
   - name: Andrew Cotaj
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: acotaj.jpg
     time: Fall 2024 - Present  
-  - name: Antonio Karam
-    position: Undergraduate Student
-    text: Computer Engineering
-    org: ND
-    img: akaram.jpg
-    time: Fall 2024 - Present
-  - name: Maria C. Leal
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: mleal.jpg
-    time: Fall 2024 - Present
   - name: Kaia Damian
     position: Undergraduate Student
     text: Computer Science
@@ -174,18 +186,6 @@ undergraduates:
     org: ND
     img: agaylord.jpg
     time: Spring 2025 - Present
-  - name: Aaron Afeminke
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: aafeminke.jpg
-    time: Spring 2025 - Present
-  - name: Abby Kleist
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: akleist.jpg
-    time: Spring 2025 - Present  
   - name: Arvin Islam-Gomes
     position: Undergraduate Student
     text: Computer Engineering
@@ -204,25 +204,56 @@ undergraduates:
     org: ND
     img: epaz.jpg
     time: Summer 2023; Spring 2025 - Present
-  - name: Jack Decker
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: jdecker.jpg
-    time: Spring 2025 - Present
   - name: Miguel Jose Maninang
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mmaninan.jpg
     time: Spring 2024; Spring 2025 - Present
-  - name: Tom O'Connor
-    position: Graduate Student
-    text: Computer Science and Engineering
-    org: ND
-    img: tconnor.jpg
-    time: Spring 2025 - Present
+  
 alumni:
+  - name: Neol Gutierrez
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: ngutier4.png
+    time: Spring 2024   
+  - name: Sajith Devareddy
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: sdevared.jpg
+    time: Spring 2024   
+  - name: Antonio Karam
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: akaram.jpg
+    time: Fall 2024 
+  - name: Maria C. Leal
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: mleal.jpg
+    time: Fall 2024 
+  - name: Aaron Afeminke
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: aafeminke.jpg
+    time: Spring 2025 
+  - name: Abby Kleist
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: akleist.jpg
+    time: Spring 2025   
+  - name: Jack Decker
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: jdecker.jpg
+    time: Spring 2025 
   - name: Leyang Li
     position: Undergraduate Student
     text: Computer Science

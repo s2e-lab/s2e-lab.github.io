@@ -1,4 +1,30 @@
 international:
+  - jiis-2025:
+    id: jiis-2025
+    title: "On the performance of large language models on introductory programming assignments"
+    venue: "Journal of Intelligent Information Systems"
+    venue_abbr: JIIS
+    year: 2025
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Nishat Raihan
+      - Dhiman Goswami
+      - Sadiya Sayara Chowdhury Puspo
+      - Mohammed Latif Siddiq
+      - Christian Newman
+      - Tharindu Ranasinghe
+      - Joanna C. S. Santos
+      - Marcos Zampieri
+    bibtex: |
+      @article{raihan2024performance,
+        title={On the performance of large language models on introductory programming assignments},
+        author={Raihan, Nishat and Goswami, Dhiman and Puspo, Sadiya Sayara Chowdhury and Siddiq, Mohammed Latif and Newman, Christian and Ranasinghe, Tharindu and Santos, Joanna CS and Zampieri, Marcos},
+        journal={Journal of Intelligent Information Systems},
+        year={2025},
+        publisher={Springer}
+      }
+    preprint: jiis25-preprint.pdf
   - quasar-2025:
     id: quasar-2025
     title: "Quantum-Based SMT Solving for String Theory"
