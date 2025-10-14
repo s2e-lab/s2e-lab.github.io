@@ -1,4 +1,27 @@
 international:
+  - tifs-2025:
+    id: tifs-2025
+    title: "Attacking interpretable NLP systems"
+    venue: "IEEE Transactions on Information Forensics and Security"
+    venue_abbr: TIFS
+    year: 2025
+    has_infographic: false
+    to_appear: true
+    authors: 
+      - Eldor Abdukhamidov
+      - Tamer Abuhmed
+      - Joanna C. S. Santos
+      - Mohammed Abuhamad      
+    bibtex: |
+      @article{abdukhamidov2025attacking,
+        title={Attacking interpretable NLP systems}, 
+        author={Eldor Abdukhamidov and Tamer Abuhmed and Joanna C. S. Santos and Mohammed Abuhamad},
+        year={2025},
+        journal={IEEE Transactions on Information Forensics and Security}, 
+        doi={10.1109/TIFS.2025.3620638}
+      }
+    preprint: tifs25-preprint.pdf
+    doi: 10.1109/TIFS.2025.3622073
   - jiis-2025:
     id: jiis-2025
     title: "On the performance of large language models on introductory programming assignments"
