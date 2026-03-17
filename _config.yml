@@ -130,12 +130,12 @@ graduates:
       - title: globe
         url: https://lsiddiqsunny.github.io
     time: Jan. 2022 - Present
-  - name: Tom O'Connor
+  - name: Xinye Zhao
     position: Graduate Student
     text: Computer Science and Engineering
     org: ND
-    img: tconnor.jpg
-    time: Spring 2025 - Present
+    img: xzhao24.jpg
+    time: Spring 2026 - Present
   
 undergraduates:
   - name: Matthew Zampino
@@ -149,13 +149,7 @@ undergraduates:
     text: Computer Science
     org: ND
     img: man_placeholder.jpg
-    time: Summer 2025 - Present  
-  - name: Anna Arnett
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: aarnett2.jpg
-    time: Fall 2025 - Present  
+    time: Summer 2025 - Present      
   - name: Natalie Sekerak
     position: Undergraduate Student
     text: Computer Engineering
@@ -192,26 +186,44 @@ undergraduates:
     org: ND
     img: aislam.jpg
     time: Spring 2025 - Present
-  - name: Celeste Mannel
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: cmannel.jpg
-    time: Spring 2025 - Present
-  - name: Emmanuel de La Paz
-    position: Undergraduate Student
-    text: Computer Science
-    org: ND
-    img: epaz.jpg
-    time: Summer 2023; Spring 2025 - Present
   - name: Miguel Jose Maninang
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mmaninan.jpg
     time: Spring 2024; Spring 2025 - Present
-  
+  - name: Evan Waelde 
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: ewaelde.jpg
+    time: Spring 2026 - Present
+
 alumni:
+  - name: Tom O'Connor
+    position: Graduate Student
+    text: Computer Science and Engineering
+    org: ND
+    img: tconnor.jpg
+    time: Spring 2025 - Fall 2025
+  - name: Celeste Mannel
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: cmannel.jpg
+    time: Spring 2025 - Fall 2025
+  - name: Emmanuel de La Paz
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: epaz.jpg
+    time: Summer 2023; Spring 2025 - Fall 2025
+  - name: Anna Arnett
+    position: Undergraduate Student
+    text: Computer Science
+    org: ND
+    img: aarnett2.jpg
+    time: Fall 2025 - Fall 2025
   - name: Neol Gutierrez
     position: Undergraduate Student
     text: Computer Science
