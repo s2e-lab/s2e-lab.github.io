@@ -1,4 +1,46 @@
 international:
+  - icsme-2026:
+    id: icsme-2026
+    title: "An Empirical Study of Security Calibration in Large Language Models for Code"
+    venue: "42nd IEEE International Conference on Software Maintenance and Evolution"
+    venue_abbr: ICSME
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Mohammed Latif Siddiq
+      - Md. Nafiu Rahman
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{siddiq2026securitycalibration,
+        author={Mohammed Latif Siddiq and Md. Nafiu Rahman and Joanna C. S. Santos},
+        booktitle={42nd IEEE International Conference on Software Maintenance and Evolution (ICSME 2026)},
+        title={An Empirical Study of Security Calibration in Large Language Models for Code},
+        year={2026},
+        url={https://conf.researchr.org/details/icsme-2026/icsme-2026-papers/29/An-Empirical-Study-of-Security-Calibration-in-Large-Language-Models-for-Code}
+      }
+
+  - jaws-2026:
+    id: jaws-2026
+    title: "Testing the Untrusted: An Empirical Study of Custom Model Codes in Model-Sharing Platforms"
+    venue: "ICSE 2026 Journal Ahead Workshop"
+    venue_abbr: JAWs
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Mohammed Latif Siddiq
+      - Beatrice Casey
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{siddiq2026testing,
+        title={Testing the Untrusted: An Empirical Study of Custom Model Codes in Model-Sharing Platforms},
+        author={Mohammed Latif Siddiq and Beatrice Casey and Joanna C. S. Santos},
+        booktitle={Proceedings of the ICSE 2026 Journal Ahead Workshop (JAWs 2026)},
+        year={2026},
+        organization={IEEE/ACM},
+        url={https://conf.researchr.org/home/icse-2026/jaws-2026}
+      }
   - tifs-2025:
     id: tifs-2025
     title: "Attacking interpretable NLP systems"
