@@ -100,7 +100,17 @@ professors:
       - title: linkedin #use for email address
         url: https://www.linkedin.com/in/joannacss/
     time: Fall 2021 - Present
-        
+      
+postdocs:
+  - name: Nishat Raihan
+    position: Postdoctoral Fellow 
+    text: Computer Science and Engineering
+    img: mraihan.png
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/nishat-raihan-phd-b7026817b
+    time: Aug. 2026 - Present
+
 graduates:
   - name: Beatrice Casey
     position: PhD Student
