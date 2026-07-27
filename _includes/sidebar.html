@@ -29,11 +29,11 @@
 
         {% for post in site.posts limit:4 %}
             <div class="media">
-              <div class="pull-left">
+              <!-- <div class="pull-left">
                 <a href="{{ post.url  | prepend: site.baseurl }}">
                     <img class="media-object"  src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ post.thumb }}" alt="Popular Post">
                 </a>
-              </div>
+              </div> -->
               <div class="media-body">
                 <!-- <h4 class="media-heading">{{post.title}}</h4> -->
                 <small><p class="media-heading" style="font-size: 12px; line-height: 1.15em;"><a href="{{ post.url }}">{{ post.title }}</a></p>
