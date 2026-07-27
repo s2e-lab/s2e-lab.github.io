@@ -1,0 +1,14 @@
+<figure class="photo-card">
+  <a href="{{ "/assets/photos/" | append: include.file | prepend: site.baseurl }}"
+     data-rel="prettyPhoto[lab-photos]"
+     aria-label="View larger: {{ include.alt }}">
+    <img
+      src="{{ "/assets/photos/" | append: include.file | prepend: site.baseurl }}"
+      width="{{ include.width }}"
+      height="{{ include.height }}"
+      loading="lazy"
+      decoding="async"
+      alt="{{ include.alt }}">
+    <span class="photo-card__zoom" aria-hidden="true"><i class="fa fa-search-plus"></i></span>
+  </a>
+</figure>
