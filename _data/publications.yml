@@ -1,4 +1,82 @@
 international:
+  - qce-2027:
+    id: qce-2027
+    title: "Towards Quantum-Based Detection of Data Tampering Attacks"
+    venue: "IEEE International Conference on Quantum Computing and Engineering"
+    venue_abbr: QCE'27 Poster
+    year: 2027
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Beatrice Casey
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{casey2027quantum,
+        title={Towards Quantum-Based Detection of Data Tampering Attacks},
+        author={Casey, Beatrice and Santos, Joanna C. S.},
+        booktitle={IEEE International Conference on Quantum Computing and Engineering},
+        year={2027},
+        note={Poster, to appear}
+      }
+  - cyber-ai-supply-chain-2026:
+    id: cyber-ai-supply-chain-2026
+    title: "Cyber-AI Supply Chain Vulnerabilities"
+    venue: "AI for Cybersecurity: Research and Practice"
+    venue_abbr: Book Chapter
+    year: 2026
+    has_infographic: false
+    authors:
+      - Joanna C. S. Santos
+    bibtex: |
+      @incollection{santos2026cyberai,
+        title={Cyber-AI Supply Chain Vulnerabilities},
+        author={Santos, Joanna C. S.},
+        booktitle={AI for Cybersecurity: Research and Practice},
+        publisher={John Wiley \& Sons, Inc.},
+        year={2026}
+      }
+  - multi-sallm-2026:
+    id: multi-sallm-2026
+    title: "Multi-Sallm: A Multilingual Security Assessment of Generated Code"
+    venue: "Automated Software Engineering"
+    venue_abbr: ASE Journal
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Mohammed Latif Siddiq
+      - Noshin Ulfat
+      - Nishat Raihan
+      - Joanna C. S. Santos
+      - Marcos Zampieri
+    doi: 10.21203/rs.3.rs-7745381/v1
+    bibtex: |
+      @article{siddiq2026multisallm,
+        title={Multi-Sallm: A Multilingual Security Assessment of Generated Code},
+        author={Siddiq, Mohammed Latif and Ulfat, Noshin and Raihan, Nishat and Santos, Joanna C. S. and Zampieri, Marcos},
+        journal={Automated Software Engineering},
+        year={2026},
+        note={To appear}
+      }
+  - sas-2026:
+    id: sas-2026
+    title: "TriVul: Improving Precision of Static Vulnerability Detection through Multi-Agent Reasoning"
+    venue: "33rd Static Analysis Symposium"
+    venue_abbr: SAS'26
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    preprint: sas26-preprint.pdf
+    authors:
+      - X. Zhao
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{zhao2026trivul,
+        title={TriVul: Improving Precision of Static Vulnerability Detection through Multi-Agent Reasoning},
+        author={Zhao, X. and Santos, Joanna C. S.},
+        booktitle={Proceedings of the 33rd Static Analysis Symposium},
+        year={2026}
+      }
   - icsme-2026:
     id: icsme-2026
     title: "An Empirical Study of Security Calibration in Large Language Models for Code"
@@ -41,6 +119,100 @@ international:
         organization={IEEE/ACM},
         url={https://conf.researchr.org/home/icse-2026/jaws-2026}
       }
+  - fse-2026:
+    id: fse-2026
+    title: "Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis"
+    venue: "ACM International Conference on the Foundations of Software Engineering"
+    venue_abbr: FSE'26
+    year: 2026
+    has_infographic: false
+    to_appear: false
+    doi: 10.1145/3808126
+    authors:
+      - Felipe Paixão
+      - Eduardo Santana de Almeida
+      - Joanna C. S. Santos
+      - Paulo Anselmo da Mota Silveira Neto
+      - Daniel Sadoc Menasche
+      - Gustavo Bittencourt Figueiredo
+    bibtex: |
+      @inproceedings{paixao2026configuration,
+        title={Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis},
+        author={Paixão, Felipe and Almeida, Eduardo Santana de and Santos, Joanna C. S. and Silveira Neto, Paulo Anselmo da Mota and Menasche, Daniel Sadoc and Figueiredo, Gustavo Bittencourt},
+        booktitle={Proceedings of the ACM International Conference on the Foundations of Software Engineering},
+        year={2026}
+      }
+  - eacl-2026:
+    id: eacl-2026
+    title: "CodeGuard: Improving LLM Guardrails in CS Education"
+    venue: "Findings of the Association for Computational Linguistics: EACL 2026"
+    venue_abbr: EACL'26 Findings
+    year: 2026
+    has_infographic: false
+    authors:
+      - Nishat Raihan
+      - Noah Erdachew
+      - Jayoti Devi
+      - Joanna C. S. Santos
+      - Marcos Zampieri
+    doi: 10.18653/v1/2026.findings-eacl.48
+    bibtex: |
+      @inproceedings{raihan2026codeguard,
+        title={CodeGuard: Improving LLM Guardrails in CS Education},
+        author={Raihan, Nishat and Erdachew, Noah and Devi, Jayoti and Santos, Joanna C. S. and Zampieri, Marcos},
+        booktitle={Findings of the Association for Computational Linguistics: EACL 2026},
+        pages={937--949},
+        year={2026},
+        doi={10.18653/v1/2026.findings-eacl.48}
+      }
+  - saner-2026:
+    id: saner-2026
+    title: "InstruMate: A Systematic Framework for Assessing Android App Repackaging Resilience"
+    venue: "33rd IEEE International Conference on Software Analysis, Evolution and Reengineering"
+    venue_abbr: SANER'26
+    venue_location: Limassol, Cyprus
+    year: 2026
+    has_infographic: false
+    doi: 10.1109/SANER67736.2026.00056
+    authors:
+      - Leandro de Souza Oliveira
+      - Rodrigo Bonifácio
+      - Joanna C. S. Santos
+      - Rui Rua
+    bibtex: |
+      @inproceedings{oliveira2026instrumate,
+        title={InstruMate: A Systematic Framework for Assessing Android App Repackaging Resilience},
+        author={Oliveira, Leandro de Souza and Bonifácio, Rodrigo and Santos, Joanna C. S. and Rua, Rui},
+        booktitle={Proceedings of the 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering},
+        year={2026}
+      }
+  - msr-2026:
+    id: msr-2026
+    title: "Characterizing and Modeling the GitHub Security Advisories Review Pipeline"
+    venue: "23rd International Conference on Mining Software Repositories"
+    venue_abbr: MSR'26
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Claudio Segal
+      - Paulo Segal
+      - Carlos Eduardo de Schuller Banjar
+      - Felipe Paixão
+      - Hudson Silva Borges
+      - Paulo Silveira Neto
+      - Eduardo Santana de Almeida
+      - Joanna C. S. Santos
+      - Anton Kocheturov
+      - Gaurav Kumar Srivastava
+      - Daniel Sadoc Menasché
+    bibtex: |
+      @inproceedings{segal2026github,
+        title={Characterizing and Modeling the GitHub Security Advisories Review Pipeline},
+        author={Segal, Claudio and Segal, Paulo and Banjar, Carlos Eduardo de Schuller and Paixão, Felipe and Borges, Hudson Silva and Silveira Neto, Paulo and Almeida, Eduardo Santana de and Santos, Joanna C. S. and Kocheturov, Anton and Srivastava, Gaurav Kumar and Menasché, Daniel Sadoc},
+        booktitle={Proceedings of the 23rd International Conference on Mining Software Repositories},
+        year={2026}
+      }
   - tifs-2025:
     id: tifs-2025
     title: "Attacking interpretable NLP systems"
@@ -64,6 +236,40 @@ international:
       }
     preprint: tifs25-preprint.pdf
     doi: 10.1109/TIFS.2025.3622073
+  - msec-2025:
+    id: msec-2025
+    title: "Challenges to Using Large Language Models in Code Generation and Repair"
+    venue: "IEEE Security & Privacy"
+    venue_abbr: IEEE S&P
+    venue_location: "Volume 23, Issue 2, pages 81–88"
+    year: 2025
+    has_infographic: false
+    preprint: sp25-preprint.pdf
+    authors:
+      - Luigi Pasquale
+      - Antonino Sabetta
+      - Marcelo d’Amorim
+      - Péter Hegedűs
+      - Mehdi Mirakhorli
+      - Hamed Okhravi
+      - Mathias Payer
+      - Awais Rashid
+      - Joanna C. S. Santos
+      - Jonathan M. Spring
+      - Lin Tan
+      - Katja Tuma
+    doi: 10.1109/MSEC.2025.3530488
+    bibtex: |
+      @article{pasquale2025challenges,
+        title={Challenges to Using Large Language Models in Code Generation and Repair},
+        author={Pasquale, Luigi and Sabetta, Antonino and d'Amorim, Marcelo and Hegedűs, Péter and Mirakhorli, Mehdi and Okhravi, Hamed and Payer, Mathias and Rashid, Awais and Santos, Joanna C. S. and Spring, Jonathan M. and Tan, Lin and Tuma, Katja},
+        journal={IEEE Security \& Privacy},
+        volume={23},
+        number={2},
+        pages={81--88},
+        year={2025},
+        doi={10.1109/MSEC.2025.3530488}
+      }
   - jiis-2025:
     id: jiis-2025
     title: "On the performance of large language models on introductory programming assignments"
