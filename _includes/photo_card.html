@@ -11,4 +11,7 @@
       alt="{{ include.alt }}">
     <span class="photo-card__zoom" aria-hidden="true"><i class="fa fa-search-plus"></i></span>
   </a>
+  {% if include.caption %}
+    <figcaption class="photo-card__caption">{{ include.caption }}</figcaption>
+  {% endif %}
 </figure>

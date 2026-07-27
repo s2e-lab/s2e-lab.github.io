@@ -616,12 +616,6 @@ a.anchor{
 	margin: 6px 0 0;
 }
 
-.photo-event__caption {
-	color: #65717d;
-	font-size: 16px;
-	margin: 10px 0 0;
-}
-
 .photo-grid {
 	display: grid;
 	gap: 18px;
@@ -641,14 +635,13 @@ a.anchor{
 }
 
 .photo-card a {
+	aspect-ratio: 4 / 3;
 	display: block;
-	height: 100%;
 	overflow: hidden;
 	position: relative;
 }
 
 .photo-card img {
-	aspect-ratio: 4 / 3;
 	display: block;
 	height: 100%;
 	object-fit: cover;
@@ -656,8 +649,16 @@ a.anchor{
 	width: 100%;
 }
 
-.photo-grid .photo-card:only-child img {
+.photo-grid .photo-card:only-child a {
 	aspect-ratio: 16 / 9;
+}
+
+.photo-card__caption {
+	color: #52606c;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0;
+	padding: 18px 22px 20px;
 }
 
 .photo-card__zoom {
@@ -715,7 +716,7 @@ a.anchor{
 		grid-column: auto;
 	}
 
-	.photo-grid .photo-card:only-child img {
+	.photo-grid .photo-card:only-child a {
 		aspect-ratio: 4 / 3;
 	}
 }
