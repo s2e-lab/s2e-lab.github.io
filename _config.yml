@@ -146,7 +146,12 @@ graduates:
     org: ND
     img: xzhao24.jpg
     time: Spring 2026 - Present
-  
+  - name: Prince Noah Johson
+    position: Graduate Student
+    text: Computer Science and Engineering
+    org: ND
+    img: pjohns24.jpg
+    time: Spring 2026 - Present
 undergraduates:
   - name: Matthew Zampino
     position: Undergraduate Student
