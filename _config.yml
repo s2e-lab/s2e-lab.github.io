@@ -113,7 +113,7 @@ postdocs:
 
 graduates:
   - name: Beatrice Casey
-    position: PhD Student
+    position: Ph.D. Student
     text: Computer Science and Engineering
     img: bcasey6.jpg
     social:
@@ -121,7 +121,7 @@ graduates:
         url: https://www.linkedin.com/in/beatrice-casey-4ab6aa1b2
     time: Aug. 2022 - Present
   - name: Vinicius Carvalho Lopes
-    position: PhD Student
+    position: Ph.D. Student
     text: Computer Science and Engineering
     img: vlopes.jpg
     social:
@@ -129,7 +129,7 @@ graduates:
         url: https://www.linkedin.com/in/vinilopes03/
     time: Jan. 2022 - Present
   - name: Mohammed Latif Siddiq 
-    position: PhD Student
+    position: Ph.D. Student
     text: Computer Science and Engineering
     img: msiddiq3.jpg
     social:
@@ -141,13 +141,13 @@ graduates:
         url: https://lsiddiqsunny.github.io
     time: Jan. 2022 - Present
   - name: Xinye Zhao
-    position: Graduate Student
+    position: Ph.D. Student
     text: Computer Science and Engineering
     org: ND
     img: xzhao24.jpg
     time: Spring 2026 - Present
   - name: Prince Noah Johson
-    position: Graduate Student
+    position: Ph.D. Student
     text: Computer Science and Engineering
     org: ND
     img: pjohns24.jpg
@@ -216,7 +216,7 @@ undergraduates:
 
 alumni:
   - name: Tom O'Connor
-    position: Graduate Student
+    position: M.Sc. Student
     text: Computer Science and Engineering
     org: ND
     img: tconnor.jpg
@@ -306,7 +306,7 @@ alumni:
     img: vtaneja.jpg
     time: Aug. 2024 - Dec. 2024
   - name: Luka Cvetko 
-    position: MS Student
+    position: M.Sc.Student
     text: Computer Science and Engineering
     img: lcvetko.jpg
     social:
