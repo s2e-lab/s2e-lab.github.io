@@ -19,14 +19,14 @@
         {% endfor %}
     {% else %}
         {% for member in include.member_list %}
-            <div class="col-sm-6">
+            <!-- <div class="col-sm-6"> -->
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-md-2">
                         <div class="thumbnail">
                             <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="Profile photo of {{member.name}}">                 
                         </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-md-10">
                         <h4 class="mt-1">{{ member.name }}</h4>
                         <h5 class="ctitle mt-1">{{ member.position }}</h5>
                         <h6 class="mt-1">{{member.time}}</h6>
@@ -36,7 +36,7 @@
                         </p>
                     </div>
                 </div>
-            </div>         
+            <!-- </div>          -->
         {% endfor %}
     {% endif %}
     </div>
