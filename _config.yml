@@ -17,7 +17,8 @@ kramdown:
 permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
-
+include:
+  - teaching/sse-book/build/_assets
 
 # ORIGINAL TEMPLATE'S COLORS
 # Palette: https://palettes.shecodes.io/palettes/1291
