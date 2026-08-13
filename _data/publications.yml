@@ -27,13 +27,15 @@ international:
     has_infographic: false
     authors:
       - Joanna C. S. Santos
+    doi: 10.1002/9781394293773.ch16
     bibtex: |
       @incollection{santos2026cyberai,
         title={Cyber-AI Supply Chain Vulnerabilities},
         author={Santos, Joanna C. S.},
         booktitle={AI for Cybersecurity: Research and Practice},
         publisher={John Wiley \& Sons, Inc.},
-        year={2026}
+        year={2026},
+        doi={10.1002/9781394293773.ch16}
       }
   - multi-sallm-2026:
     id: multi-sallm-2026
@@ -49,7 +51,7 @@ international:
       - Nishat Raihan
       - Joanna C. S. Santos
       - Marcos Zampieri
-    doi: 10.21203/rs.3.rs-7745381/v1
+    doi: 10.1007/s10515-026-00646-5
     bibtex: |
       @article{siddiq2026multisallm,
         title={Multi-Sallm: A Multilingual Security Assessment of Generated Code},
