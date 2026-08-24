@@ -7,15 +7,15 @@ permalink: /members/
 {% include wrap.html %}
 
 
-{% include view_member.html member_list=site.professors member_type="Faculty" %}
-{% include view_member.html member_list=site.postdocs member_type="Postdocs" %}
-{% include view_member.html member_list=site.graduates member_type="Current Graduate Students" %}
-{% include view_member.html member_list=site.undergraduates member_type="Current Undergraduate Students" %}
+{% include view_member.html member_list=site.data.members.professors member_type="Faculty" %}
+{% include view_member.html member_list=site.data.members.postdocs member_type="Postdocs" %}
+{% include view_member.html member_list=site.data.members.graduates member_type="Current Graduate Students" %}
+{% include view_member.html member_list=site.data.members.undergraduates member_type="Current Undergraduate Students" %}
 
-{% include view_member.html member_list=site.alumni member_type="Alumni" is_alumni=true%}
+{% include view_member.html member_list=site.data.members.alumni member_type="Alumni" is_alumni=true%}
 {% comment %}
-{% include view_member.html member_list=site.visiting member_type="Past/Current Visiting Students" %}
+{% include view_member.html member_list=site.data.members.visiting member_type="Past/Current Visiting Students" %}
 {% endcomment %}
-{% include view_mascot.html member_list=site.mascots member_type="Lab's Mascots" %}
+{% include view_mascot.html member_list=site.data.members.mascots member_type="Lab's Mascots" %}
 
 
