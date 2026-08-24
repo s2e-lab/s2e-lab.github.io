@@ -79,7 +79,30 @@ undergraduates:
     org: ND
     img: ewaelde.jpg
     time: Spring 2026 - Present
-
+  - name: Katherine Comito 
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    img: kcomito.jpg
+    time: Fall 2026 - Present
+  - name: Stefan Oleksiienko
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    img: soleksii.jpg
+    time: Fall 2026 - Present
+  - name: João Vitor Nunes Lima Ziliotto
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    img: jziliott.jpg
+    time: Fall 2026 - Present
+  - name: Humyra Ferdus
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    img: hferdus.jpg
+    time: Fall 2026 - Present
 alumni:
   - name: Natalie Sekerak
     position: Undergraduate Student
