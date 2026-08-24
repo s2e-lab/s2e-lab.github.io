@@ -72,7 +72,15 @@ undergraduates:
     text: Computer Science
     org: ND
     img: man_placeholder.jpg
-    time: Summer 2025 - Present      
+    time: Summer 2025 - Present        
+  - name: Evan Waelde 
+    position: Undergraduate Student
+    text: Computer Engineering
+    org: ND
+    img: ewaelde.jpg
+    time: Spring 2026 - Present
+
+alumni:
   - name: Natalie Sekerak
     position: Undergraduate Student
     text: Computer Engineering
@@ -115,14 +123,6 @@ undergraduates:
     org: ND
     img: mmaninan.jpg
     time: Spring 2024; Spring 2025 - Present
-  - name: Evan Waelde 
-    position: Undergraduate Student
-    text: Computer Engineering
-    org: ND
-    img: ewaelde.jpg
-    time: Spring 2026 - Present
-
-alumni:
   - name: Tom O'Connor
     position: M.Sc. Student
     text: Computer Science and Engineering
