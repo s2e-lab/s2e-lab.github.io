@@ -4,57 +4,45 @@ title: Home
 permalink: /
 ---
 
-<div id="service">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-code" aria-hidden="true"></i>
-                <span class="sr-only">An image of code</span>
-                <h4>Mission</h4>
-                <p>The <b>S<sup>2</sup>E</b> lab is dedicated to studying the broad area of software engineering, primarily focusing on software security and program analysis. Our mission is to develop novel techniques to enable secure software systems development. We strive to make a positive impact on society by sharing knowledge, tools, and best practices related to engineering secure software systems.</p>
-                <!--p><br/><a href="#" class="btn btn-theme">More Info</a></p-->
-                <!-- Our mission is to advance the field of software engineering by providing innovative and practical solutions to software security challenges. Through rigorous research and collaboration, we aim to develop novel techniques to enable secure software systems development. We strive to make a positive impact on society by creating knowledge, tools, and best practices that are widely adopted and accessible to all. -->
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-group" aria-hidden="true"></i>
-                <span class="sr-only">An image of a group of people</span>
-                <h4>Join Us</h4>
-                <p>If you are interested in Software Engineering and/or Software Security research, please refer to <a href="https://joannacss.github.io/working">this page</a> to more information about joining our lab.</p>
-                <!--p><br/><a href="#" class="btn btn-theme">More Info</a></p-->
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-microphone" aria-hidden="true"></i>
-                <span class="sr-only">An image of a microphone</span>
-                <h4>Latest News</h4>
-                {%if site.posts %}
-                    <ul class="text-left">
-                    {% for post in site.posts limit:5 %}
-                        <li>
-                            <a href="{{ post.url | prepend: site.baseurl }}">
-                                {{ post.short_title }}.
-                            </a>
-                        </li>
-                    {% endfor %}                
-                    </ul>
-                {% endif %}
-                <!--p><br/><a href="#" class="btn btn-theme">More Info</a></p-->
-            </div>
-        </div>
-    </div><!--/container -->
-</div><!--/service -->
+<main class="command-home">
+  <section class="dashboard-grid" aria-label="Lab dashboard">
+    <article class="terminal-panel activity-panel">
+      <header class="terminal-panel__header"><h2>LATEST_ACTIVITY.LOG</h2><span class="status-dot" aria-hidden="true"></span></header>
+      <div class="activity-list">
+        {% for post in site.posts limit:5 %}
+        <a class="activity-row" href="{{ post.url | prepend: site.baseurl }}">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><span class="activity-time">{{ post.date | date: "%H:%M" }}</span>
+          <span class="activity-title">{{ post.short_title | default: post.title | strip_html | truncate: 82 }}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <a class="terminal-panel__command" href="{{ "/blog/" | prepend: site.baseurl }}">&gt; tail -f latest_activity.log</a>
+    </article>
 
+    <article class="terminal-panel research-panel" id="research">
+      <header class="terminal-panel__header"><h2>ACTIVE_RESEARCH/</h2><span class="status-dot" aria-hidden="true"></span></header>
+      <div class="research-tree">
+        <a href="{{ "/publications/" | prepend: site.baseurl }}" class="research-row"><span class="tree-branch">├─</span><span class="folder-icon"></span><strong>secure_ai_generated_code</strong><span class="research-description">Safety, evaluation, and control for AI-generated code</span><span class="status-dot"></span></a>
+        <a href="{{ "/publications/" | prepend: site.baseurl }}" class="research-row"><span class="tree-branch">├─</span><span class="folder-icon"></span><strong>vulnerability_detection</strong><span class="research-description">Scalable analysis for finding and fixing vulnerabilities</span><span class="status-dot"></span></a>
+        <a href="{{ "/publications/" | prepend: site.baseurl }}" class="research-row"><span class="tree-branch">├─</span><span class="folder-icon"></span><strong>program_analysis</strong><span class="research-description">Static and dynamic analysis of software systems</span><span class="status-dot"></span></a>
+        <a href="{{ "/artifacts/" | prepend: site.baseurl }}" class="research-row"><span class="tree-branch">└─</span><span class="folder-icon"></span><strong>software_supply_chain</strong><span class="research-description">Assurance for packages and dependencies</span><span class="status-dot"></span></a>
+      </div>
+    </article>
+  </section>
 
+  <section class="people-console" aria-labelledby="people-title">
+    <div class="people-console__intro"><p class="terminal-index">[ 02 ]</p><h2 id="people-title">MEET THE LAB</h2><span class="gold-rule"></span><p>Researchers building safer software systems.</p><a href="{{ "/members/" | prepend: site.baseurl }}">[ VIEW ALL PEOPLE ]</a></div>
+    <div class="people-console__rail">
+      {% for member in site.data.members.professors limit:1 %}<a class="console-person" href="{{ "/members/" | prepend: site.baseurl }}"><img src="{{ "/assets/img/members/" | append: member.img | prepend: site.baseurl }}" alt="{{ member.name }}"><span>{{ member.name }}</span></a>{% endfor %}
+      {% for member in site.data.members.postdocs limit:1 %}<a class="console-person" href="{{ "/members/" | prepend: site.baseurl }}"><img src="{{ "/assets/img/members/" | append: member.img | prepend: site.baseurl }}" alt="{{ member.name }}"><span>{{ member.name }}</span></a>{% endfor %}
+      {% for member in site.data.members.graduates limit:5 %}<a class="console-person" href="{{ "/members/" | prepend: site.baseurl }}"><img src="{{ "/assets/img/members/" | append: member.img | prepend: site.baseurl }}" alt="{{ member.name }}"><span>{{ member.name }}</span></a>{% endfor %}
+      <a class="people-console__more" href="{{ "/members/" | prepend: site.baseurl }}"><span>•••</span>and<br>more</a>
+    </div>
+  </section>
 
-<div id="twrap">
-    <div id="twrapback"></div>
-    <div class="container centered">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2><i class="fa fa-group"></i> Meet the Team</h2>
-                <img src="{{ "/assets/img/members/group.png" | prepend: site.baseurl }}" alt="">
-            </div>
-        </div><!-- --/row ---->
-    </div><!-- --/container ---->
-</div><!-- /twrap -->
-
-
+  <section class="mission-console">
+    <div><p class="terminal-index">[ 03 ]</p><p class="terminal-kicker">MISSION.TXT</p></div>
+    <p class="mission-console__lead">We develop novel techniques, tools, and evidence to make software systems more secure.</p>
+    <div><p>Our work spans software security, program analysis, and the responsible use of AI in software engineering. We share knowledge, open-source tools, datasets, and best practices that help researchers and practitioners engineer safer systems.</p><a class="command-button command-button--gold" href="https://joannacss.github.io/working">[ JOIN THE LAB ]</a></div>
+  </section>
+</main>
