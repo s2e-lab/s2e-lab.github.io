@@ -1,41 +1,7 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline">
-                          <i class="fa fa-{{ network.title }}" aria-hidden="true"></i>
-                          <span class="sr-only">{{network.title}}</span>
-                        </a>
-                    {% endfor %}
-                </p>
-            </div>
-            <!-- 
-            <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline">
-                          <i class="fa fa-{{ network.title }}" aria-hidden="true"></i>
-                          <span class="sr-only">{{network.title}}</span>
-                        </a>
-                    {% endfor %}
-                </p>
-            </div> -->
-            <div class="col-lg-6">
-                <h4>Where We Are</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
-        </div><!--/row -->
-    </div><!--/container -->
-</div><!--/footerwrap -->
+<footer class="command-footer">
+  <div class="command-footer__inner">
+    <div><span class="terminal-kicker">s2e@notre-dame:~$</span><h2>Let’s engineer safer software.</h2></div>
+    <div class="command-footer__links"><a href="mailto:{{ site.email }}">{{ site.email }}</a>{% for network in site.social %}<a href="{{ network.url }}">{{ network.title }}</a>{% endfor %}</div>
+  </div>
+  <div class="command-footer__meta"><span>S<sup>2</sup>E RESEARCH LAB — UNIVERSITY OF NOTRE DAME</span><span>SECURITY · SOFTWARE ENGINEERING · PROGRAM ANALYSIS</span></div>
+</footer>
