@@ -7,16 +7,14 @@
       <a class="terminal-nav__brand" href="{{ "/" | prepend: site.baseurl }}"><span>s2e@notre-dame</span><span class="terminal-nav__path">:~/research</span></a>
     </div>
     <div id="primary-navigation" class="navbar-collapse collapse terminal-nav__collapse">
-      <span class="terminal-nav__prompt" aria-hidden="true">&gt; ./inspect-lab</span>
       <ul class="nav navbar-nav terminal-nav__links">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{ "/" | prepend: site.baseurl }}">[ HOME ]</a></li>
         <li {% if page.title == "Publications" %}class="active"{% endif %}><a href="{{ "/publications/" | prepend: site.baseurl }}">[ PUBLICATIONS ]</a></li>
         <li {% if page.title == "Members" %}class="active"{% endif %}><a href="{{ "/members/" | prepend: site.baseurl }}">[ PEOPLE ]</a></li>
         <li {% if page.title == "Software and Data" %}class="active"{% endif %}><a href="{{ "/artifacts/" | prepend: site.baseurl }}">[ SOFTWARE &amp; DATA ]</a></li>
         <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{ "/blog/" | prepend: site.baseurl }}">[ NEWS ]</a></li>
-        <li><a href="https://joannacss.github.io/working">[ JOIN ]</a></li>
+        <li {% if page.title == "Join the Lab" %}class="active"{% endif %}><a href="{{ "/join/" | prepend: site.baseurl }}">[ JOIN ]</a></li>
       </ul>
-      <span class="terminal-nav__status"><span class="status-dot" aria-hidden="true"></span>SYSTEM: ACTIVE</span>
     </div>
   </div>
 </nav>
