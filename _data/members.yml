@@ -66,12 +66,14 @@ undergraduates:
     text: Computer Science
     org: ND
     img: mzampino.jpg
+    orcid: 0009-0006-7717-7906
     time: Summer 2025 - Present  
   - name: Christian   Garcia
     position: Undergraduate Student
     text: Computer Science
     org: ND
-    img: man_placeholder.jpg
+    img: cgarci32.png
+    orcid: 0009-0001-1721-2179
     time: Summer 2025 - Present        
   - name: Evan Waelde 
     position: Undergraduate Student
@@ -109,36 +111,42 @@ alumni:
     text: Computer Engineering
     org: ND
     img: nsekerak.jpg
+    orcid: 0009-0005-6626-1961
     time: Fall 2025 - Present  
   - name: Anthony   Tsiantis
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
     img: atsianti.jpg
+    orcid: 0009-0006-3094-0521
     time: Fall 2025 - Present  
   - name: Andrew Cotaj
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: acotaj.jpg
+    orcid: 0009-0001-6571-2215
     time: Fall 2024 - Present  
   - name: Kaia Damian
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: kdamian.jpg
+    orcid: 0009-0007-9843-6169
     time: Fall 2024 - Present
   - name: Andrew Gaylord
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: agaylord.jpg
+    orcid: 0009-0008-3708-8225
     time: Spring 2025 - Present
   - name: Arvin Islam-Gomes
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
     img: aislam.jpg
+    orcid: 0009-0005-4713-3040
     time: Spring 2025 - Present
   - name: Miguel Jose Maninang
     position: Undergraduate Student
@@ -157,6 +165,7 @@ alumni:
     text: Computer Science
     org: ND
     img: cmannel.jpg
+    orcid: 0009-0001-0324-9376
     time: Spring 2025 - Fall 2025
   - name: Emmanuel de La Paz
     position: Undergraduate Student
@@ -187,12 +196,14 @@ alumni:
     text: Computer Engineering
     org: ND
     img: akaram.jpg
+    orcid: 0009-0007-3755-1403
     time: Fall 2024 
   - name: Maria C. Leal
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mleal.jpg
+    orcid: 0009-0000-6613-6267
     time: Fall 2024 
   - name: Aaron Afeminke
     position: Undergraduate Student
