@@ -632,7 +632,18 @@ body a:hover, body a:focus { color: var(--console-gold); }
 .command-button { min-height: 52px; padding: 16px 25px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid currentColor; background: rgba(8,13,18,.72); font: 600 12px var(--console-mono); letter-spacing: .08em; }
 .command-button--gold { color: var(--console-gold); }
 .command-button--blue { color: var(--console-blue); }
-.command-button:hover { background: currentColor; color: #071016; }
+.command-button--gold:hover,
+.command-button--gold:focus {
+	background: var(--console-gold);
+	border-color: var(--console-gold);
+	color: #080d12;
+}
+.command-button--blue:hover,
+.command-button--blue:focus {
+	background: var(--console-blue);
+	border-color: var(--console-blue);
+	color: #080d12;
+}
 .command-hero__visual { position: relative; min-width: 0; background: #101a20; }
 .command-hero__visual::after { content:""; position:absolute; inset:0; background: linear-gradient(90deg, #080e13 0, transparent 25%), linear-gradient(0deg, rgba(5,10,14,.3), transparent 45%); }
 .command-hero__visual img { width: 100%; height: 100%; object-fit: cover; object-position: center; filter: saturate(.7) contrast(1.08) brightness(.68); }
