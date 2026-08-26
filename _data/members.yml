@@ -65,6 +65,11 @@ graduates:
     org: ND
     img: xzhao24.png
     orcid: 0000-0001-5507-4814
+        social:
+      - title: globe
+        url: https://xinye-zhao.github.io/
+      - title: linkedin
+        url: https://www.linkedin.com/in/xinye-zhao/
     time: Spring 2026 - Present
   - name: Prince Noah Johnson
     position: Ph.D. Student
