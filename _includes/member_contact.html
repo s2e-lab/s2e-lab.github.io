@@ -1,0 +1,24 @@
+{% assign member = include.member %}
+{% if member.social or member.orcid %}
+<nav class="member-contact" aria-label="Contact links for {{ member.name }}">
+    {% for contact in member.social %}
+        {% capture contact_label %}{% case contact.title %}{% when "globe" %}Personal website{% when "linkedin" %}LinkedIn{% when "twitter" %}Twitter{% when "github" %}GitHub{% when "envelope" %}Email{% else %}{{ contact.title | capitalize }}{% endcase %}{% endcapture %}
+        <a class="member-contact__link member-contact__link--{{ contact.title }}"
+           href="{{ contact.url }}"
+           aria-label="{{ contact_label | strip }} for {{ member.name }}"
+           title="{{ contact_label | strip }}"
+           {% unless contact.title == "envelope" %}target="_blank" rel="noopener noreferrer"{% endunless %}>
+            <i class="fa fa-{{ contact.title }}" aria-hidden="true"></i>
+        </a>
+    {% endfor %}
+    {% if member.orcid %}
+        <a class="member-contact__link member-contact__link--orcid"
+           href="https://orcid.org/{{ member.orcid }}"
+           aria-label="ORCID profile for {{ member.name }}"
+           title="ORCID"
+           target="_blank" rel="noopener noreferrer">
+            <i class="ai ai-orcid" aria-hidden="true"></i>            
+        </a>
+    {% endif %}
+</nav>
+{% endif %}

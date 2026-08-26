@@ -1,10 +1,13 @@
 # Members information. Shown on About page.
 professors:
   - name: Joanna C. S. Santos
-    position: Assistant Professor
+    position: Assistant Professor (ND)
     text: Computer Science and Engineering
     img: jdasilv2.jpg
+    orcid: 0000-0001-8743-2516
     social:
+      - title: globe
+        url: https://joannacss.github.io        
       - title: linkedin #use for email address
         url: https://www.linkedin.com/in/joannacss/
     time: Fall 2021 - Present
@@ -12,8 +15,9 @@ professors:
 postdocs:
   - name: Nishat Raihan
     position: Postdoctoral Fellow 
-    text: Computer Science and Engineering
+    text: Computer Science and Engineering (ND)
     img: mraihan.png
+    orcid: 0000-0001-6242-398X
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/nishat-raihan-phd-b7026817b
@@ -24,7 +28,10 @@ graduates:
     position: Ph.D. Student
     text: Computer Science and Engineering
     img: bcasey6.jpg
+    orcid: 0009-0001-0097-2120
     social:
+      - title: globe
+        url: https://beatrice-casey.github.io
       - title: linkedin
         url: https://www.linkedin.com/in/beatrice-casey-4ab6aa1b2
     time: Aug. 2022 - Present
@@ -32,6 +39,7 @@ graduates:
     position: Ph.D. Student
     text: Computer Science and Engineering
     img: vlopes.jpg
+    orcid: 0000-0002-7980-8488
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/vinilopes03/
@@ -40,6 +48,7 @@ graduates:
     position: Ph.D. Student
     text: Computer Science and Engineering
     img: msiddiq3.jpg
+    orcid: 0000-0002-7984-3611
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/lsiddiqsunny/
@@ -53,12 +62,14 @@ graduates:
     text: Computer Science and Engineering
     org: ND
     img: xzhao24.png
+    orcid: 0000-0001-5507-4814
     time: Spring 2026 - Present
-  - name: Prince Noah Johson
+  - name: Prince Noah Johnson
     position: Ph.D. Student
     text: Computer Science and Engineering
     org: ND
     img: pjohns24.png
+    orcid: 0009-0008-1985-0001
     time: Spring 2026 - Present
 undergraduates:
   - name: Matthew Zampino
@@ -329,16 +340,24 @@ alumni:
     time: Fall 2021 - Spring 2022
   - name: Mark Cheng
     position: Undergraduate Student
+    new_position: Consultant at Deloitte
     text: Computer Engineering
     org: ND
     img: mcheng3.jpg
     time: Spring 2022 - Spring 2022
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/mark-b-cheng/
   - name: Megan Campbell
     position: Undergraduate Student
+    new_position: Embedded Software Engineer at Caterpillar
     text: Computer Science
     org: ND
     img: mcambp24.jpg
     time: Fall 2021 - Fall 2021
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/megan-campbell-nd2023/
 visiting:
   - name: Ridwanul Hasan Tanvir
     position: Undergraduate Student

@@ -13,6 +13,47 @@
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
+/* Member contact links ----------------------------------------------------- */
+.member-contact {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-top: 10px;
+}
+
+.member-contact__link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	color: #eef2f3;
+	background: #071018;
+	border: 1px solid #407088;
+	border-radius: 4px;
+	transition: color .15s ease, background-color .15s ease, border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+
+.member-contact__link i {
+	width: 17px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.member-contact__link:hover,
+.member-contact__link:focus {
+	color: #fff;
+	background: #172331;
+	border-color: #5ea0bd;
+	text-decoration: none;
+	transform: translateY(-1px);
+	box-shadow: 0 3px 8px rgba(23, 35, 49, .2);
+}
+
+@media (max-width: 480px) {
+	.member-contact__link { width: 34px; height: 34px; }
+}
+
 
 .repository-hashtags {
   margin-top: 10px;
