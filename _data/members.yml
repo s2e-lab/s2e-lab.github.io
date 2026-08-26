@@ -14,11 +14,13 @@ professors:
       
 postdocs:
   - name: Nishat Raihan
-    position: Postdoctoral Fellow 
+    position: Provost's Postdoctoral Fellow
     text: Computer Science and Engineering (ND)
     img: mraihan.png
     orcid: 0000-0001-6242-398X
     social:
+      - title: globe
+        url: https://md-nishat.com/
       - title: linkedin
         url: https://www.linkedin.com/in/nishat-raihan-phd-b7026817b
     time: Aug. 2026 - Present
