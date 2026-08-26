@@ -31,7 +31,7 @@ permalink: /
   </section>
 
   <section class="people-console" aria-labelledby="people-title">
-    <div class="people-console__intro"><p class="terminal-index">[ 02 ]</p><h2 id="people-title">MEET THE LAB</h2><span class="gold-rule"></span><p>Researchers building safer software systems.</p><a href="{{ "/members/" | prepend: site.baseurl }}">[ VIEW ALL PEOPLE ]</a></div>
+    <div class="people-console__intro"><p class="terminal-index">[ 02 ]</p><h2 id="people-title">MEET THE TEAM</h2><span class="gold-rule"></span><p>Researchers helping the world build secure software systems.</p><a href="{{ "/members/" | prepend: site.baseurl }}">[ VIEW ALL PEOPLE ]</a></div>
     <div class="people-console__rail">
       {% for member in site.data.members.professors limit:1 %}<a class="console-person" href="{{ "/members/" | prepend: site.baseurl }}"><img src="{{ "/assets/img/members/" | append: member.img | prepend: site.baseurl }}" alt="{{ member.name }}"><span>{{ member.name }}</span></a>{% endfor %}
       {% for member in site.data.members.postdocs limit:1 %}<a class="console-person" href="{{ "/members/" | prepend: site.baseurl }}"><img src="{{ "/assets/img/members/" | append: member.img | prepend: site.baseurl }}" alt="{{ member.name }}"><span>{{ member.name }}</span></a>{% endfor %}
