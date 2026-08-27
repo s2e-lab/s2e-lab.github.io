@@ -1056,7 +1056,7 @@ body a:hover, body a:focus { color: var(--console-gold); }
   position: relative;
   width: 100%;
   max-width: 280px;
-  margin: 0 auto;
+  margin: 0 0 0 auto;
   overflow: hidden;
 }
 
@@ -1409,7 +1409,7 @@ body a:hover, body a:focus { color: var(--console-gold); }
 }
 
 @media (max-width: 767px) {
-  .join-poster { max-width: 250px; }
+  .join-poster { max-width: 250px; margin: 0 auto; }
   .join-poster img { height: 280px; max-height: 280px; }
   .join-cards { display: block; }
   .join-cards > div { display: block; }
