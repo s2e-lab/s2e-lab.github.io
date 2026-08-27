@@ -3,7 +3,7 @@ professors:
   - name: Joanna C. S. Santos
     position: Assistant Professor
     text: Computer Science and Engineering (ND)
-    institution: ND
+    org: ND
     img: jdasilv2.jpg
     orcid: 0000-0001-8743-2516
     social:
@@ -21,7 +21,7 @@ postdocs:
   - name: Nishat Raihan
     position: Provost's Postdoctoral Fellow
     text: Computer Science and Engineering (ND)
-    institution: ND
+    org: ND
     img: mraihan.png
     orcid: 0000-0001-6242-398X
     social:
@@ -147,6 +147,13 @@ undergraduates:
     org: ND
     institution: ND
     img: ajoseph7.jpg    
+    time: Fall 2026 - Present
+  - name: Freeman Joseph
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    institution: ND
+    img: man_placeholder.jpg
     time: Fall 2026 - Present
 alumni_graduates:
   - name: Tom O'Connor
