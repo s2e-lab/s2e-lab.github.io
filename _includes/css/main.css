@@ -612,6 +612,10 @@ a.anchor{
 	--console-mono: 'IBM Plex Mono', monospace;
 }
 
+.text-gold {
+	color: var(--console-gold) !important;
+}
+
 html { scroll-behavior: smooth; }
 
 body {
@@ -1011,15 +1015,31 @@ body a:hover, body a:focus { color: var(--console-gold); }
 .join-poster figcaption span { display: block; }
 
 .join-values {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
   margin: 34px 0 0;
   padding-top: 28px;
   border-top: 1px solid rgba(170, 190, 202, .25);
 }
 
-.join-values span {
+.join-values__heading {
+  margin-bottom: 18px;
+}
+
+.join-values__heading .join-kicker {
+  margin: 0 0 8px;
+}
+
+.join-values__heading > p:last-child {
+  max-width: 620px;
+  margin: 0;
+}
+
+.join-values__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.join-values__tags span {
   display: inline-block;
   padding: 8px 12px;
   color: #bfcbd2;
@@ -1041,6 +1061,6 @@ body a:hover, body a:focus { color: var(--console-gold); }
 @media (max-width: 767px) {
   .join-poster { max-width: 250px; }
   .join-poster img { height: 280px; max-height: 280px; }
-  .join-values { gap: 8px; }
+  .join-values__tags { gap: 8px; }
   .join-cta { margin-top: 52px; padding-top: 48px; }
 }

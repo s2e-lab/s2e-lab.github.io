@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Ways to join the S²E Lab</title>
+  <desc id="desc">A flowchart summarizing the application paths for Ph.D. students, current Notre Dame master's students, and undergraduate students.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#172331" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .mono { font-family: "Courier New", monospace; }
+      .title { font-size: 58px; font-weight: 800; letter-spacing: -1px; }
+      .subtitle { font-size: 22px; }
+      .question { font-size: 24px; font-weight: 700; letter-spacing: 1px; }
+      .path-title { font-size: 31px; font-weight: 800; }
+      .label { font-size: 16px; font-weight: 700; letter-spacing: 1.5px; }
+      .step { font-size: 23px; font-weight: 700; }
+      .body { font-size: 18px; }
+      .foot { font-size: 17px; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#f4f0e7"/>
+  <path d="M0 0H1600V250H0Z" fill="#e7e0d2"/>
+  <g opacity="0.28" stroke="#aebbc1" stroke-width="1">
+    <path d="M0 45H1600M0 90H1600M0 135H1600M0 180H1600M0 225H1600"/>
+    <path d="M50 0V250M100 0V250M150 0V250M200 0V250M250 0V250M300 0V250M350 0V250M400 0V250M450 0V250M500 0V250M550 0V250M600 0V250M650 0V250M700 0V250M750 0V250M800 0V250M850 0V250M900 0V250M950 0V250M1000 0V250M1050 0V250M1100 0V250M1150 0V250M1200 0V250M1250 0V250M1300 0V250M1350 0V250M1400 0V250M1450 0V250M1500 0V250M1550 0V250"/>
+  </g>
+
+  <text x="800" y="88" text-anchor="middle" class="mono label" fill="#d54c4c">S²E LAB // FIND YOUR PATH</text>
+  <text x="800" y="157" text-anchor="middle" class="sans title" fill="#172331">WAYS TO JOIN THE S²E LAB</text>
+  <text x="800" y="205" text-anchor="middle" class="sans subtitle" fill="#495968">Choose the path that matches where you are in your studies.</text>
+
+  <rect x="530" y="275" width="540" height="70" rx="4" fill="#233142"/>
+  <rect x="540" y="285" width="540" height="70" rx="4" fill="#d54c4c"/>
+  <rect x="530" y="275" width="540" height="70" rx="4" fill="#233142"/>
+  <text x="800" y="319" text-anchor="middle" class="mono question" fill="#ffffff">WHICH STUDENT PATH DESCRIBES YOU?</text>
+
+  <g fill="none" stroke="#aebbc1" stroke-width="4">
+    <path d="M800 345V390H285V430"/>
+    <path d="M800 345V430"/>
+    <path d="M800 390H1315V430"/>
+  </g>
+  <g fill="#d54c4c">
+    <rect x="279" y="424" width="12" height="12" transform="rotate(45 285 430)"/>
+    <rect x="794" y="424" width="12" height="12" transform="rotate(45 800 430)"/>
+    <rect x="1309" y="424" width="12" height="12" transform="rotate(45 1315 430)"/>
+  </g>
+
+  <!-- Ph.D. path -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="430" width="430" height="470" rx="8" fill="#ffffff"/>
+    <rect x="70" y="430" width="430" height="10" rx="5" fill="#407088"/>
+  </g>
+  <circle cx="118" cy="487" r="24" fill="#d54c4c"/>
+  <text x="118" y="495" text-anchor="middle" class="mono label" fill="#ffffff">01</text>
+  <text x="155" y="498" class="sans path-title" fill="#172331">Ph.D. students</text>
+  <text x="105" y="565" class="mono label" fill="#d54c4c">REQUIRED</text>
+  <text x="105" y="604" class="sans step" fill="#172331">Apply to the Ph.D. program</text>
+  <text x="105" y="639" class="sans body" fill="#495968">
+    <tspan x="105" dy="0">Use Notre Dame’s formal admissions</tspan>
+    <tspan x="105" dy="27">process and list Prof. Santos as a</tspan>
+    <tspan x="105" dy="27">faculty member of interest.</tspan>
+  </text>
+  <path d="M105 742H465" stroke="#d5d0c7" stroke-width="2" stroke-dasharray="8 7"/>
+  <text x="105" y="780" class="mono label" fill="#d54c4c">OPTIONAL</text>
+  <text x="105" y="817" class="sans step" fill="#172331">Email Prof. Santos</text>
+  <text x="105" y="850" class="sans body" fill="#495968">Follow the Ph.D.-specific email guidelines.</text>
+
+  <!-- Master's path -->
+  <g filter="url(#shadow)">
+    <rect x="585" y="430" width="430" height="470" rx="8" fill="#ffffff"/>
+    <rect x="585" y="430" width="430" height="10" rx="5" fill="#407088"/>
+  </g>
+  <circle cx="633" cy="487" r="24" fill="#d54c4c"/>
+  <text x="633" y="495" text-anchor="middle" class="mono label" fill="#ffffff">02</text>
+  <text x="670" y="498" class="sans path-title" fill="#172331">Master’s students</text>
+  <rect x="620" y="540" width="360" height="132" rx="4" fill="#edf1f2"/>
+  <text x="645" y="575" class="mono label" fill="#d54c4c">ELIGIBILITY</text>
+  <text x="645" y="613" class="sans step" fill="#172331">Already at Notre Dame?</text>
+  <text x="645" y="646" class="sans body" fill="#495968">For current ND master’s students only.</text>
+  <path d="M800 672V720" stroke="#407088" stroke-width="4"/>
+  <path d="M790 712L800 724L810 712" fill="none" stroke="#407088" stroke-width="4"/>
+  <text x="620" y="770" class="mono label" fill="#d54c4c">NEXT STEP</text>
+  <text x="620" y="807" class="sans step" fill="#172331">Email Prof. Santos</text>
+  <text x="620" y="840" class="sans body" fill="#495968">
+    <tspan x="620" dy="0">Attach CV + transcripts.</tspan>
+    <tspan x="620" dy="27">No research statement needed.</tspan>
+  </text>
+
+  <!-- Undergraduate path -->
+  <g filter="url(#shadow)">
+    <rect x="1100" y="430" width="430" height="470" rx="8" fill="#ffffff"/>
+    <rect x="1100" y="430" width="430" height="10" rx="5" fill="#407088"/>
+  </g>
+  <circle cx="1148" cy="487" r="24" fill="#d54c4c"/>
+  <text x="1148" y="495" text-anchor="middle" class="mono label" fill="#ffffff">03</text>
+  <text x="1185" y="498" class="sans path-title" fill="#172331">Undergraduates</text>
+  <text x="1135" y="565" class="mono label" fill="#d54c4c">REQUIRED</text>
+  <text x="1135" y="604" class="sans step" fill="#172331">Apply through STRAND</text>
+  <text x="1135" y="639" class="sans body" fill="#495968">
+    <tspan x="1135" dy="0">Find an S²E Lab project and apply</tspan>
+    <tspan x="1135" dy="27">through Notre Dame’s undergraduate</tspan>
+    <tspan x="1135" dy="27">research platform.</tspan>
+  </text>
+  <path d="M1135 742H1495" stroke="#d5d0c7" stroke-width="2" stroke-dasharray="8 7"/>
+  <text x="1135" y="780" class="mono label" fill="#d54c4c">OPTIONAL</text>
+  <text x="1135" y="817" class="sans step" fill="#172331">Email Prof. Santos</text>
+  <text x="1135" y="850" class="sans body" fill="#495968">Attach CV + transcripts; no research statement.</text>
+
+  <text x="800" y="954" text-anchor="middle" class="sans foot" fill="#66717a">Every path starts with curiosity, initiative, and a genuine interest in S²E Lab research.</text>
+</svg>

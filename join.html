@@ -10,8 +10,13 @@ permalink: /join/
       <div class="row join-hero__row">
         <div class="col-md-7 join-hero__copy">
           <p class="join-kicker">S<sup>2</sup>E LAB // RECRUITING</p>
-          <h1>We want you<br><span>to build secure software.</span></h1>
-          <p class="join-lede">We welcome curious, driven students who want to work at the intersection of <strong>software engineering</strong> and <strong>software security</strong>.</p>
+          <h1>We want
+            <span class="text-gold">you</span>
+            to help advance the fields of
+            <span class="text-danger">software security</span> and
+            <span class="text-danger">software engineering</span>.
+          </h1>
+          <p class="join-lede">We welcome curious, ambitious, and driven students who want to work at the intersection of <strong>software engineering</strong> and <strong>software security</strong>.</p>
           <div class="join-actions">
             <a class="join-button join-button--primary" href="#opportunities">Explore opportunities <span aria-hidden="true">↓</span></a>
           </div>
@@ -34,60 +39,112 @@ permalink: /join/
         <p>Choose the path that matches where you are in your studies. Every path starts with intellectual curiosity, initiative, and a genuine interest in our research.</p>
       </div>
 
-      <div class="row join-cards">
+      <div class="join-paths" aria-label="Application paths by student type">
+        <div class="join-paths__start">Which student path describes you?</div>
+        <div class="row join-cards">
         <div class="col-md-4">
-          <article class="join-card">
+          <article class="join-card join-path">
             <span class="join-card__number">01</span>
             <h3>Ph.D. students</h3>
-            <p>Strong candidates typically bring at least two of the following:</p>
-            <ul>
-              <li>Prior research in software engineering, security, or programming languages</li>
-              <li>Strong software development skills</li>
-              <li>A degree in computer science, software engineering, computer engineering, or a related field</li>
-            </ul>
-            <a href="https://cse.nd.edu/graduate/phd-in-computer-science-and-engineering/">Ph.D. program &amp; application <span aria-hidden="true">↗</span></a>
+            <div class="join-path__step">
+              <span class="join-path__label">Required</span>
+              <strong>Apply to the Ph.D. program</strong>
+              <p>Submit your application through Notre Dame’s formal admissions process and list Prof. Santos as a faculty member of interest.</p>
+              <a href="https://cse.nd.edu/graduate/phd-in-computer-science-and-engineering/">Ph.D. program &amp; application <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="join-path__step join-path__step--optional">
+              <span class="join-path__label">Optional</span>
+              <strong>Email Prof. Santos</strong>
+              <p>If you choose to reach out, follow the email guidelines and include the Ph.D.-specific materials below.</p>
+              <a href="#email-guidelines">Read the email guidelines <span aria-hidden="true">↓</span></a>
+              <a class="join-path__email" href="mailto:{{ site.email }}?subject=%5BProspective%20PhD%20Student%5D%20Semester%20Year">Start your email <span aria-hidden="true">→</span></a>
+            </div>
           </article>
         </div>
         <div class="col-md-4">
-          <article class="join-card">
+          <article class="join-card join-path">
             <span class="join-card__number">02</span>
             <h3>Master’s students</h3>
-            <p>Notre Dame master’s students looking for a thesis, project, or capstone advisor are welcome to get in touch.</p>
-            <p>Include your transcript and a short summary of the research topics that interest you.</p>
-            <a href="mailto:{{ site.email }}?subject=%5BProspective%20MS%20Student%5D%20Semester%20Year">Start an email <span aria-hidden="true">→</span></a>
+            <div class="join-path__gate">
+              <span class="join-path__label">Eligibility</span>
+              <strong>Already at Notre Dame?</strong>
+              <p>This path is for current ND master’s students looking for a capstone advisor.</p>
+            </div>
+            <div class="join-path__step">
+              <span class="join-path__label">Next step</span>
+              <strong>Email Prof. Santos</strong>
+              <p>Follow the email guidelines and attach only your CV and transcripts—no research statement is needed.</p>
+              <a href="#email-guidelines">Read the email guidelines <span aria-hidden="true">↓</span></a>
+              <a class="join-path__email" href="mailto:{{ site.email }}?subject=%5BProspective%20MS%20Student%5D%20Semester%20Year">Start your email <span aria-hidden="true">→</span></a>
+            </div>
           </article>
         </div>
         <div class="col-md-4">
-          <article class="join-card">
+          <article class="join-card join-path">
             <span class="join-card__number">03</span>
             <h3>Undergraduates</h3>
-            <p>Notre Dame undergraduates interested in research for credit are encouraged to reach out.</p>
-            <p>Include your transcript and the number of research credits you hope to take.</p>
-            <a href="mailto:{{ site.email }}?subject=%5BProspective%20Undergraduate%20Student%5D%20Semester%20Year">Start an email <span aria-hidden="true">→</span></a>
+            <div class="join-path__step">
+              <span class="join-path__label">Required</span>
+              <strong>Apply through STRAND</strong>
+              <p>Find an S<sup>2</sup>E Lab project and submit your application through Notre Dame’s undergraduate research platform.</p>
+              <a href="https://strand.nd.edu/">Visit STRAND <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="join-path__step join-path__step--optional">
+              <span class="join-path__label">Optional</span>
+              <strong>Email Prof. Santos</strong>
+              <p>If you reach out, follow the guidelines and attach only your CV and transcripts—no research statement is needed.</p>
+              <a href="#email-guidelines">Read the email guidelines <span aria-hidden="true">↓</span></a>
+              <a class="join-path__email" href="mailto:{{ site.email }}?subject=%5BProspective%20Undergraduate%20Student%5D%20Semester%20Year">Start your email <span aria-hidden="true">→</span></a>
+            </div>
           </article>
+        </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="join-section join-section--dark">
+  <section id="email-guidelines" class="join-section join-section--dark">
     <div class="container">
       <div class="row">
         <div class="col-md-5">
-          <p class="join-kicker">02 // YOUR APPLICATION</p>
-          <h2>Help us understand what drives you.</h2>
-          <p class="join-muted">Emailing before applying is optional. Admission decisions are made through Notre Dame’s formal selection process; listing Prof. Santos as a faculty member of interest helps bring your application to our attention.</p>
+          <p class="join-kicker">02 // EMAIL MATERIALS</p>
+          <h2>Attach the right documents.</h2>
+          <p class="join-muted">The materials and subject line depend on your student path. Emailing does not replace the required Ph.D. or STRAND application.</p>
+          <div class="join-email-notes">
+            <h3>Before you send</h3>
+            <ul>
+              <li>Use the subject-line format shown for your student type.</li>
+              <li>Attach every document requested for your path.</li>
+              <li>Briefly introduce yourself and explain why you are interested in the S<sup>2</sup>E Lab.</li>
+              <li>Because of the volume of inquiries, Prof. Santos may not be able to reply to every message. Please do not send repeated reminder emails.</li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-6 col-md-offset-1">
           <div class="join-checklist">
-            <h3>Prospective Ph.D. email checklist</h3>
-            <ol>
-              <li><span>01</span><div><strong>Curriculum vitae</strong><small>Your education, research, technical experience, and publications.</small></div></li>
-              <li><span>02</span><div><strong>Transcripts</strong><small>Unofficial copies are fine for an introductory email.</small></div></li>
-              <li><span>03</span><div><strong>One-page research statement</strong><small>Connect your background and interests to the work of the S<sup>2</sup>E Lab.</small></div></li>
-              <li><span>04</span><div><strong>Relevant test scores</strong><small>Include TOEFL or other scores when applicable. The CSE Ph.D. program does not require the GRE.</small></div></li>
-            </ol>
-            <div class="join-subject"><span>SUBJECT</span><code>[Prospective PhD Student] Fall 20XX</code></div>
+            <h3>What to attach</h3>
+            <div class="join-materials">
+              <div class="join-materials__group">
+                <span class="join-materials__audience">Ph.D. students</span>
+                <ul>
+                  <li>Curriculum vitae</li>
+                  <li>Transcripts</li>
+                  <li>One-page research statement</li>
+                  <li>Relevant test scores, if applicable</li>
+                </ul>
+                <div class="join-subject"><span>SUBJECT</span><code>[Prospective PhD Student] Fall 20XX</code></div>
+              </div>
+              <div class="join-materials__group join-materials__group--simple">
+                <span class="join-materials__audience">Master’s + undergraduate students</span>
+                <ul>
+                  <li>Curriculum vitae</li>
+                  <li>Transcripts</li>
+                </ul>
+                <p><strong>No research statement required.</strong></p>
+                <div class="join-subject"><span>MS SUBJECT</span><code>[Prospective MS Student] Fall 20XX</code></div>
+                <div class="join-subject"><span>UNDERGRAD SUBJECT</span><code>[Prospective Undergraduate Student] Fall 20XX</code></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -112,7 +169,14 @@ permalink: /join/
         </div>
       </div>
       <div class="join-values">
-        <span>SELF-MOTIVATION</span><span>DISCIPLINE</span><span>INITIATIVE</span><span>COMMUNICATION</span><span>KINDNESS</span>
+        <h3>How we show up</h3>
+        <div class="join-values__heading">
+          
+          <p>The habits and values that help our lab—and everyone in it—thrive.</p>
+        </div>
+        <div class="join-values__tags">
+          <span>SELF-MOTIVATION</span><span>DISCIPLINE</span><span>INITIATIVE</span><span>COMMUNICATION</span><span>KINDNESS</span>
+        </div>
       </div>
     </div>
   </section>
@@ -120,9 +184,9 @@ permalink: /join/
   <section class="join-cta">
     <div class="container">
       <p class="join-kicker">04 // READY?</p>
-      <h2>Bring your questions.<br>Bring your ideas.</h2>
-      <p>Tell us what you want to investigate—and why S<sup>2</sup>E is the right place to do it.</p>
-      <a class="join-button join-button--primary" href="mailto:{{ site.email }}">Get in touch <span aria-hidden="true">→</span></a>
+      <h2>Bring your <span class="text-gold">questions</span>.<br>Bring your <span class="text-gold">ideas</span>.</h2>
+      <p>Follow the path for your student type to take the right next step.</p>
+      <a class="join-button join-button--primary" href="#opportunities">Choose your path <span aria-hidden="true">↑</span></a>
     </div>
   </section>
 </main>
