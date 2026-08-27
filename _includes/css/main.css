@@ -806,38 +806,40 @@ body a:hover, body a:focus { color: var(--console-gold); }
 
 /* Photos */
 .photo-page {
-	background: #f7f8fa;
+	background: transparent;
 	padding-bottom: 80px;
 }
 
 .photo-page__header {
-	background: {{ site.colors.secondary }};
-	color: #fff;
-	margin-top: 70px;
+	background: rgba(12, 20, 27, .92);
+	border-bottom: 1px solid var(--console-line);
+	color: var(--console-text);
+	margin-top: 0;
 	padding: 72px 0 62px;
 	text-align: center;
 }
 
 .photo-page__header h1 {
-	color: #fff;
-	font-size: 48px;
-	font-weight: 700;
-	letter-spacing: -1px;
+	color: var(--console-text);
+	font: 600 clamp(42px, 5vw, 62px)/1 var(--console-display);
+	letter-spacing: .02em;
 	margin: 8px 0 16px;
+	text-transform: uppercase;
 }
 
 .photo-page__eyebrow,
 .photo-event__date {
-	color: #9fc3d4;
+	color: var(--console-blue);
+	font-family: var(--console-mono);
 	font-size: 13px;
-	font-weight: 700;
+	font-weight: 500;
 	letter-spacing: 2px;
 	margin: 0;
 	text-transform: uppercase;
 }
 
 .photo-page__intro {
-	color: #d8e1e7;
+	color: #bdc5cb;
 	font-size: 18px;
 	margin: 0 auto;
 	max-width: 620px;
@@ -848,7 +850,7 @@ body a:hover, body a:focus { color: var(--console-gold); }
 }
 
 .photo-event {
-	border-bottom: 1px solid #dfe4e8;
+	border-bottom: 1px solid var(--console-line);
 	padding: 62px 0;
 }
 
@@ -861,9 +863,9 @@ body a:hover, body a:focus { color: var(--console-gold); }
 }
 
 .photo-event__heading h2 {
-	color: {{ site.colors.secondary }};
-	font-size: 28px;
-	font-weight: 700;
+	color: var(--console-text);
+	font: 600 30px/1.15 var(--console-display);
+	letter-spacing: .02em;
 	margin: 6px 0 0;
 }
 
@@ -878,9 +880,10 @@ body a:hover, body a:focus { color: var(--console-gold); }
 }
 
 .photo-card {
-	background: #fff;
-	border-radius: 3px;
-	box-shadow: 0 4px 18px rgba(35, 49, 66, 0.11);
+	background: var(--console-panel);
+	border: 1px solid var(--console-line);
+	border-radius: 0;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, .2);
 	margin: 0;
 	overflow: hidden;
 }
@@ -896,7 +899,8 @@ body a:hover, body a:focus { color: var(--console-gold); }
 	display: block;
 	height: 100%;
 	object-fit: cover;
-	transition: transform 220ms ease;
+	filter: saturate(.78) contrast(1.03);
+	transition: transform 220ms ease, filter 220ms ease;
 	width: 100%;
 }
 
@@ -905,7 +909,8 @@ body a:hover, body a:focus { color: var(--console-gold); }
 }
 
 .photo-card__caption {
-	color: #52606c;
+	color: #bdc5cb;
+	font-family: var(--console-mono);
 	font-size: 16px;
 	line-height: 1.6;
 	margin: 0;
@@ -914,9 +919,10 @@ body a:hover, body a:focus { color: var(--console-gold); }
 
 .photo-card__zoom {
 	align-items: center;
-	background: rgba(35, 49, 66, 0.84);
-	border-radius: 50%;
-	color: #fff;
+	background: rgba(8, 13, 18, .9);
+	border: 1px solid var(--console-blue);
+	border-radius: 0;
+	color: var(--console-blue);
 	display: flex;
 	font-size: 18px;
 	height: 44px;
@@ -932,6 +938,7 @@ body a:hover, body a:focus { color: var(--console-gold); }
 
 .photo-card a:hover img,
 .photo-card a:focus img {
+	filter: saturate(1) contrast(1.03);
 	transform: scale(1.025);
 }
 
@@ -943,7 +950,6 @@ body a:hover, body a:focus { color: var(--console-gold); }
 
 @media (max-width: 767px) {
 	.photo-page__header {
-		margin-top: 50px;
 		padding: 54px 20px 46px;
 	}
 
