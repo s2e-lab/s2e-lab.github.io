@@ -106,7 +106,7 @@ undergraduates:
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
-    img: ewaelde.jpg
+    img: man_placeholder.jpg
     time: Spring 2026 - Present
   - name: Katherine Comito 
     position: Undergraduate Student
@@ -142,7 +142,7 @@ undergraduates:
     position: Undergraduate Student
     text: Computer Sience
     org: ND
-    img: man_placeholder.jpg
+    img: jnkouka.jpg
     time: Fall 2026 - Present
 alumni_graduates:
   - name: Tom O'Connor
