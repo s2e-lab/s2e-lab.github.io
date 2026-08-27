@@ -1,8 +1,9 @@
 # Members information. Shown on About page.
 professors:
   - name: Joanna C. S. Santos
-    position: Assistant Professor (ND)
-    text: Computer Science and Engineering
+    position: Assistant Professor
+    text: Computer Science and Engineering (ND)
+    institution: ND
     img: jdasilv2.jpg
     orcid: 0000-0001-8743-2516
     social:
@@ -12,12 +13,15 @@ professors:
         url: https://www.linkedin.com/in/joannacss/
       - title: github 
         url: https://www.github.com/joannacss/
+      - title: twitter 
+        url: https://www.twitter.com/joannacss/
     time: Fall 2021 - Present
       
 postdocs:
   - name: Nishat Raihan
     position: Provost's Postdoctoral Fellow
     text: Computer Science and Engineering (ND)
+    institution: ND
     img: mraihan.png
     orcid: 0000-0001-6242-398X
     social:
@@ -31,6 +35,7 @@ graduates:
   - name: Beatrice Casey
     position: Ph.D. Student
     text: Computer Science and Engineering
+    institution: ND
     img: bcasey6.jpg
     orcid: 0009-0001-0097-2120
     social:
@@ -42,6 +47,7 @@ graduates:
   - name: Vinicius Carvalho Lopes
     position: Ph.D. Student
     text: Computer Science and Engineering
+    institution: ND
     img: vlopes.jpg
     orcid: 0000-0002-7980-8488
     social:
@@ -51,6 +57,7 @@ graduates:
   - name: Mohammed Latif Siddiq 
     position: Ph.D. Student
     text: Computer Science and Engineering
+    institution: ND
     img: msiddiq3.jpg
     orcid: 0000-0002-7984-3611
     social:
@@ -65,6 +72,7 @@ graduates:
     position: Ph.D. Student
     text: Computer Science and Engineering
     org: ND
+    institution: ND
     img: xzhao24.png
     orcid: 0000-0001-5507-4814
     social:
@@ -77,6 +85,7 @@ graduates:
     position: Ph.D. Student
     text: Computer Science and Engineering
     org: ND
+    institution: ND
     img: pjohns24.png
     orcid: 0009-0008-1985-0001
     time: Spring 2026 - Present
@@ -85,6 +94,7 @@ undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: mzampino.jpg
     orcid: 0009-0006-7717-7906
     time: Summer 2025 - Present  
@@ -92,6 +102,7 @@ undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: cgarci32.png
     orcid: 0009-0001-1721-2179
     time: Summer 2025 - Present        
@@ -99,37 +110,50 @@ undergraduates:
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
+    institution: ND
     img: ewaelde.jpg
     time: Spring 2026 - Present
   - name: Katherine Comito 
     position: Undergraduate Student
     text: Computer Sience
     org: ND
+    institution: ND
     img: kcomito.jpg
     time: Fall 2026 - Present
   - name: Stefan Oleksiienko
     position: Undergraduate Student
     text: Computer Sience
     org: ND
+    institution: ND
     img: soleksii.jpg
     time: Fall 2026 - Present
   - name: João Vitor Nunes Lima Ziliotto
     position: Undergraduate Student
     text: Computer Sience
     org: ND
+    institution: ND
     img: jziliott.jpg
     time: Fall 2026 - Present
   - name: Humyra Ferdus
     position: Undergraduate Student
     text: Computer Sience
     org: ND
+    institution: ND
     img: hferdus.png
+    time: Fall 2026 - Present
+  - name: Anika Joseph
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    institution: ND
+    img: ajoseph7.jpg    
     time: Fall 2026 - Present
 alumni_graduates:
   - name: Tom O'Connor
     position: M.Sc. Student
     text: Computer Science and Engineering
     org: ND
+    institution: ND
     img: tconnor.jpg
     time: Spring 2025 - Fall 2025
   - name: Luka Cvetko
@@ -141,12 +165,14 @@ alumni_graduates:
         url: https://www.linkedin.com/in/luka-cvetko-649655162
     time: Jan. 2024 - May. 2024
     org: ND
+    institution: ND
 
 alumni_undergraduates:
   - name: Natalie Sekerak
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
+    institution: ND
     img: nsekerak.jpg
     orcid: 0009-0005-6626-1961
     time: Fall 2025 - Present  
@@ -154,6 +180,7 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
+    institution: ND
     img: atsianti.jpg
     orcid: 0009-0006-3094-0521
     time: Fall 2025 - Present  
@@ -161,6 +188,7 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: acotaj.jpg
     orcid: 0009-0001-6571-2215
     time: Fall 2024 - Present  
@@ -168,6 +196,7 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: kdamian.jpg
     orcid: 0009-0007-9843-6169
     time: Fall 2024 - Present
@@ -175,6 +204,7 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: agaylord.jpg
     orcid: 0009-0008-3708-8225
     time: Spring 2025 - Present
@@ -182,6 +212,7 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
+    institution: ND
     img: aislam.jpg
     orcid: 0009-0005-4713-3040
     time: Spring 2025 - Present
@@ -189,12 +220,14 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: mmaninan.jpg
     time: Spring 2024; Spring 2025 - Present
   - name: Celeste Mannel
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: cmannel.jpg
     orcid: 0009-0001-0324-9376
     time: Spring 2025 - Fall 2025
@@ -202,30 +235,35 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: epaz.jpg
     time: Summer 2023; Spring 2025 - Fall 2025
   - name: Anna Arnett
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: aarnett2.jpg
     time: Fall 2025 - Fall 2025
   - name: Neol Gutierrez
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: ngutier4.png
     time: Spring 2024   
   - name: Sajith Devareddy
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: sdevared.jpg
     time: Spring 2024   
   - name: Antonio Karam
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
+    institution: ND
     img: akaram.jpg
     orcid: 0009-0007-3755-1403
     time: Fall 2024 
@@ -233,6 +271,7 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: mleal.jpg
     orcid: 0009-0000-6613-6267
     time: Fall 2024 
@@ -240,113 +279,132 @@ alumni_undergraduates:
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: aafeminke.jpg
     time: Spring 2025 
   - name: Abby Kleist
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: akleist.jpg
     time: Spring 2025   
   - name: Jack Decker
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: jdecker.jpg
     time: Spring 2025 
   - name: Leyang Li
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: leyangli.jpg
     time: Aug. 2024 - Dec. 2024
   - name: Grace K. Odmark
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: godmark.jpg
     time: Aug. 2024 - Dec. 2024
   - name: Rena Steele
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: rsteele.jpg
     time: Aug. 2024 - Dec. 2024
   - name: Varun   Taneja
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
+    institution: ND
     img: vtaneja.jpg
     time: Aug. 2024 - Dec. 2024
   - name: Matthew Spadafore
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: mspadafo.jpg
     time: Jan. 2024 - May. 2024
   - name: Lindsay Roney
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: lroney.jpg
     time: Fall 2023 - Spring 2024  
   - name: Claudia Kuczun
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: ckuczun.jpg
     time: Aug. 2023 - Dec. 2023
   - name: Jiahao Zhang
     position: Undergraduate Student
     text: Computer Science
     org: SUSTech
+    institution: SUSTech
     img: jzhang.jpg
     time: Aug. 2023 - Dec. 2023
   - name: Anna Muller
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: amuller.jpg
     time: Fall 2023 - Fall 2023
   - name: Dan Krill
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: dkrill.jpg
     time: Fall 2023 - Fall 2023
   - name: Mark Rumsey
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: mrumsey.jpg
     time: Summer 2023 - Fall 2023
   - name: Eva Gorzkiewicz
     position: Undergraduate Student
     text: Computer Science
+    institution: ND
     img: egorzkie.jpg
     time: Summer 2023 - Fall 2023
   - name: George Perry
     position: Undergraduate Student
     text: Computer Science 
     org: ND
+    institution: ND
     img: gperry.jpg
     time: Fall 2022 - Fall 2023
   - name: Angel Ortiz
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: aortiz.jpeg
     time: Summer 2023
   - name: Desereé Frink-Larcart 
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: dfrinkla.jpg
     time: Spring 2023 - Spring 2023
   - name: Joshua Agron
     position: Undergraduate Student
     text: Computer Science
     org: ND
+    institution: ND
     img: jagron.jpg
     time: Fall 2021 - Spring 2022
   - name: Mark Cheng
@@ -354,6 +412,7 @@ alumni_undergraduates:
     new_position: Consultant at Deloitte
     text: Computer Engineering
     org: ND
+    institution: ND
     img: mcheng3.jpg
     time: Spring 2022 - Spring 2022
     social:
@@ -364,6 +423,7 @@ alumni_undergraduates:
     new_position: Embedded Software Engineer at Caterpillar
     text: Computer Science
     org: ND
+    institution: ND
     img: mcambp24.jpg
     time: Fall 2021 - Fall 2021
     social:
@@ -374,72 +434,84 @@ visiting:
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: tanvir.jpg
     time: Fall 2022-23 <span class="label label-default">Remote</span>
   - name: Simantika Dristi 
     position: Undergraduate Student 
     text: Computer Science & Engineering 
     org: BUET 
+    institution: BUET
     img: dristi.jpg 
     time: Fall 2023 <span class="label label-default">Remote</span> 
   - name: Joy Saha 
     position: Undergraduate Student 
     text: Computer Science & Engineering 
     org: BUET 
+    institution: BUET
     img: joy_saha.jpg 
     time: Fall 2023 <span class="label label-default">Remote</span>
   - name: Noshin Ulfat
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: ulfat.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Fahmid Al Rifat
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: fahmid.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Abdus Samee
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: samee.JPG
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Sk Ruhul Azgor
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: ruhul.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Md. Asif Haider
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: asif.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shehabul Islam Sawraz
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: sawraz.jpg
     time: Fall 2022 <span class="label label-default">Remote</span>
   - name: Shafayat Hossain Majumder
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: shafayat.jpg
     time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Maisha Rahman Mim
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: maisha.png
     time: Summer 2022 <span class="label label-default">Remote</span>
   - name: Sourov Jajodia
     position: Undergraduate Student
     text: Computer Science & Engineering
     org: BUET
+    institution: BUET
     img: sourov.png
     time: Summer 2022 <span class="label label-default">Remote</span>
   
