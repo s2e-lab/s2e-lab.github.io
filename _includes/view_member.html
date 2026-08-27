@@ -7,27 +7,30 @@
 
 
     {% if include.is_alumni %}
-        {% for member in include.member_list %}
-            <div class="row">
-                <div class="col-sm-8">
-                    <b>{{ member.name }}</b> ({{ member.position }}- {{ member.text }}{% if member.org %} - {{ member.org }}{% endif %})
-                    <!-- {% include member_contact.html member=member %} -->
+        <div class="alumni-grid">
+            {% for member in include.member_list %}
+            <article class="alumni-card">
+                <div class="thumbnail alumni-card__photo">
+                    <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="Profile photo of {{ member.name }}">
                 </div>
-                <div class="col-sm-4">
-                        {{member.time}}
-                </div>  
-            </div>
-        {% endfor %}
+                <h4>{{ member.name }}</h4>
+                <p class="alumni-card__position">{{ member.position }}</p>
+                <p class="alumni-card__field">{{ member.text }}{% if member.org %} ({{ member.org }}){% endif %}</p>
+                <p class="alumni-card__time">{{ member.time }}</p>
+            </article>
+            {% endfor %}
+        </div>
     {% else %}
-        {% for member in include.member_list %}
-            <!-- <div class="col-sm-6"> -->
+        <div class="member-grid{% if include.two_columns %} member-grid--two-columns{% endif %}">
+            {% for member in include.member_list %}
+            <article class="member-card">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="{% if include.two_columns %}col-sm-4{% else %}col-md-2{% endif %}">
                         <div class="thumbnail">
                             <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="Profile photo of {{member.name}}">                 
                         </div>
                     </div>
-                    <div class="col-md-10">
+                    <div class="{% if include.two_columns %}col-sm-8{% else %}col-md-10{% endif %}">
                         <h4 class="mt-1">{{ member.name }}</h4>
                         <h5 class="ctitle mt-1">{{ member.position }}</h5>
                         <h6 class="mt-1">{{member.time}}</h6>
@@ -38,8 +41,9 @@
                         {% include member_contact.html member=member %}
                     </div>
                 </div>
-            <!-- </div>          -->
-        {% endfor %}
+            </article>
+            {% endfor %}
+        </div>
     {% endif %}
     </div>
 </div>

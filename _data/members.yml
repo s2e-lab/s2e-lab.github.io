@@ -8,8 +8,10 @@ professors:
     social:
       - title: globe
         url: https://joannacss.github.io        
-      - title: linkedin #use for email address
+      - title: linkedin 
         url: https://www.linkedin.com/in/joannacss/
+      - title: github 
+        url: https://www.github.com/joannacss/
     time: Fall 2021 - Present
       
 postdocs:
@@ -121,9 +123,26 @@ undergraduates:
     position: Undergraduate Student
     text: Computer Sience
     org: ND
-    img: hferdus.jpg
+    img: hferdus.png
     time: Fall 2026 - Present
-alumni:
+alumni_graduates:
+  - name: Tom O'Connor
+    position: M.Sc. Student
+    text: Computer Science and Engineering
+    org: ND
+    img: tconnor.jpg
+    time: Spring 2025 - Fall 2025
+  - name: Luka Cvetko
+    position: M.Sc. Student
+    text: Computer Science and Engineering
+    img: lcvetko.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/luka-cvetko-649655162
+    time: Jan. 2024 - May. 2024
+    org: ND
+
+alumni_undergraduates:
   - name: Natalie Sekerak
     position: Undergraduate Student
     text: Computer Engineering
@@ -172,12 +191,6 @@ alumni:
     org: ND
     img: mmaninan.jpg
     time: Spring 2024; Spring 2025 - Present
-  - name: Tom O'Connor
-    position: M.Sc. Student
-    text: Computer Science and Engineering
-    org: ND
-    img: tconnor.jpg
-    time: Spring 2025 - Fall 2025
   - name: Celeste Mannel
     position: Undergraduate Student
     text: Computer Science
@@ -265,15 +278,6 @@ alumni:
     org: ND
     img: vtaneja.jpg
     time: Aug. 2024 - Dec. 2024
-  - name: Luka Cvetko 
-    position: M.Sc.Student
-    text: Computer Science and Engineering
-    img: lcvetko.jpg
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/luka-cvetko-649655162
-    time: Jan. 2024 - May. 2024
-    org: ND
   - name: Matthew Spadafore
     position: Undergraduate Student
     text: Computer Science
