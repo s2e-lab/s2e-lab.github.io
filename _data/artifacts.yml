@@ -1,6 +1,7 @@
 - name: "Seneca"
   url: "s2e-lab/seneca"
   description: "A taint-based call graph construction algorithm for Java object deserialization."
+  paper: https://doi.org/10.1145/3649851
   tags: 
     - java
     - call graph
@@ -35,3 +36,21 @@
     - prompts
     - LLM 
 
+- name: "Multi-SALLM"
+  url: "s2e-lab/SALLM/tree/multi-sallm"
+  description: "We extend the original SALLM dataset of English-only prompts into a multilingual dataset covering 23 natural languages and two more programming languages (Java & C++)."
+  tags:
+    - security
+    - dataset
+    - prompts
+    - LLM
+
+- name: "TRIVUL"
+  url: "s2e-lab/TRIVUL"
+  description: "A multi-agent framework for improving the precision of Java static vulnerability detection."
+  tags:
+    - java
+    - security
+    - static analysis
+    - LLM
+    - tool

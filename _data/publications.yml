@@ -7,6 +7,8 @@ international:
     year: 2026
     has_infographic: false
     to_appear: true
+    preprint: ase26-preprint.pdf
+    doi: 10.1145/3832783.3837470
     authors:
       - Mohammed Latif Siddiq
       - Prince Noah Johnson
@@ -28,6 +30,8 @@ international:
     year: 2026
     has_infographic: false
     to_appear: true
+    doi: 10.4230/LIPIcs.ESEM.2026.9538
+    preprint: esem26-preprint.pdf
     authors:
       - Vinicius Carvalho Lopes
       - Christian Garcia
@@ -52,6 +56,8 @@ international:
     year: 2026
     has_infographic: false
     to_appear: true
+    preprint: express16-preprint.pdf
+    doi: 10.1145/3842650.3843175
     authors:
       - Xinye Zhao
       - Joanna C. S. Santos
@@ -72,6 +78,7 @@ international:
     year: 2026
     has_infographic: false
     to_appear: true
+    preprint: qce26-preprint.pdf
     authors:
       - Beatrice Casey
       - Kaia Damian
@@ -121,6 +128,7 @@ international:
       - Joanna C. S. Santos
       - Marcos Zampieri
     doi: 10.1007/s10515-026-00646-5
+    preprint: asej26-preprint.pdf
     bibtex: |
       @article{siddiq2026multisallm,
         title={Multi-Sallm: A Multilingual Security Assessment of Generated Code},
