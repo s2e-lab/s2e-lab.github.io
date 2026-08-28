@@ -181,7 +181,7 @@ alumni_graduates:
     img: lcvetko.jpg
     social:
       - title: linkedin
-        url: https://www.linkedin.com/in/luka-cvetko-649655162
+        url: https://www.linkedin.com/in/lukacvetkohr
     time: Jan. 2024 - May. 2024
     org: ND
 
@@ -191,13 +191,20 @@ alumni_undergraduates:
     text: Computer Engineering
     org: ND
     img: nsekerak.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/natalie-sekerak-b5b116259
     orcid: 0009-0005-6626-1961
     time: Fall 2025 - Present  
   - name: Anthony   Tsiantis
     position: Undergraduate Student
+    new_position: M.S. Student at Carnegie Mellon University
     text: Computer Engineering
     org: ND
     img: atsianti.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/anthony-tsiantis
     orcid: 0009-0006-3094-0521
     time: Fall 2025 - Present  
   - name: Andrew Cotaj
@@ -205,6 +212,9 @@ alumni_undergraduates:
     text: Computer Science
     org: ND
     img: acotaj.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/andrew-cotaj
     orcid: 0009-0001-6571-2215
     time: Fall 2024 - Present  
   - name: Kaia Damian
@@ -212,20 +222,31 @@ alumni_undergraduates:
     text: Computer Science
     org: ND
     img: kdamian.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/kaia-damian-183328259
     orcid: 0009-0007-9843-6169
     time: Fall 2024 - Present
   - name: Andrew Gaylord
     position: Undergraduate Student
+    new_position: M.S. Student in Cybersecurity at Brown University
     text: Computer Science
     org: ND
     img: agaylord.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/andrew-gaylord6
     orcid: 0009-0008-3708-8225
     time: Spring 2025 - Present
   - name: Arvin Islam-Gomes
     position: Undergraduate Student
+    new_position: M.S. Student at University of Notre Dame
     text: Computer Engineering
     org: ND
     img: aislam.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/arvin-islam-gomes-atemp
     orcid: 0009-0005-4713-3040
     time: Spring 2025 - Spring 2026
   - name: Miguel Jose Maninang
@@ -233,43 +254,68 @@ alumni_undergraduates:
     text: Computer Science
     org: ND
     img: mmaninan.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/miguelmaninang
     time: Spring 2024; Spring 2025 - Present
   - name: Celeste Mannel
     position: Undergraduate Student
+    new_position: Software Engineer at Microsoft
     text: Computer Science
     org: ND
     img: cmannel.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/celeste-mannel
     orcid: 0009-0001-0324-9376
     time: Spring 2025 - Fall 2025
   - name: Emmanuel de La Paz
     position: Undergraduate Student
+    new_position: Software Engineer at Palo Alto Networks
     text: Computer Science
     org: ND
     img: epaz.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/emmanueldlp
     time: Summer 2023; Spring 2025 - Fall 2025
   - name: Anna Arnett
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: aarnett2.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/annaarnett4
     time: Fall 2025 - Fall 2025
   - name: Neol Gutierrez
     position: Undergraduate Student
+    new_position: Software Engineer at UBS
     text: Computer Science
     org: ND
     img: ngutier4.png
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/neolgutierrez
     time: Spring 2024 - Spring 2025
   - name: Sajith Devareddy
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: sdevared.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/sajdev
     time: Spring 2024 - Spring 2025; Spring 2026
   - name: Antonio Karam
     position: Undergraduate Student
+    new_position: Security Engineer at Oracle
     text: Computer Engineering
     org: ND
     img: akaram.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/antonio-karam
     orcid: 0009-0007-3755-1403
     time: Fall 2024 - Spring 2025
   - name: Maria C. Leal
@@ -287,9 +333,13 @@ alumni_undergraduates:
     time: Spring 2025 
   - name: Abby Kleist
     position: Undergraduate Student
+    new_position: PDK Engineer at Polar Semiconductor
     text: Computer Science
     org: ND
     img: akleist.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/abby-kleist
     time: Spring 2025   
   - name: Jack Decker
     position: Undergraduate Student
@@ -302,6 +352,9 @@ alumni_undergraduates:
     text: Computer Science
     org: ND
     img: leyangli.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/leyang-li
     time: Aug. 2024 - Dec. 2024
   - name: Grace K. Odmark
     position: Undergraduate Student
@@ -314,24 +367,37 @@ alumni_undergraduates:
     text: Computer Science
     org: ND
     img: rsteele.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/rena-steele
     time: Aug. 2024 - Dec. 2024
   - name: Varun   Taneja
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
     img: vtaneja.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/varuntaneja7
     time: Aug. 2024 - Dec. 2024
   - name: Matthew Spadafore
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mspadafo.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/matthew-spadafore
     time: Jan. 2024 - May. 2024
   - name: Lindsay Roney
     position: Undergraduate Student
+    new_position: Associate Security Consultant at IBM
     text: Computer Science
     org: ND
     img: lroney.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/lindsay-roney
     time: Fall 2023 - Spring 2024  
   - name: Claudia Kuczun
     position: Undergraduate Student
@@ -350,30 +416,46 @@ alumni_undergraduates:
     text: Computer Science
     org: ND
     img: amuller.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/annamuller2
     time: Fall 2023 - Fall 2023
   - name: Dan Krill
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: dkrill.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/dkrill
     time: Fall 2023 - Fall 2023
   - name: Mark Rumsey
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mrumsey.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/mark-rumsey1
     time: Summer 2023 - Fall 2023
   - name: Eva Gorzkiewicz
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: egorzkie.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/eva-gorzkiewicz
     time: Summer 2023 - Fall 2023
   - name: George Perry
     position: Undergraduate Student
+    new_position: Software Engineer at Crate and Barrel
     text: Computer Science 
     org: ND
     img: gperry.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/georgeperry1617
     time: Fall 2022 - Fall 2023
   - name: Angel Ortiz
     position: Undergraduate Student
@@ -383,15 +465,23 @@ alumni_undergraduates:
     time: Summer 2023
   - name: Desereé Frink-Larcart 
     position: Undergraduate Student
+    new_position: Analyst at Google
     text: Computer Science
     org: ND
     img: dfrinkla.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/desere%C3%A9-frink-larcart-b69362197
     time: Spring 2023 - Spring 2023
   - name: Joshua Agron
     position: Undergraduate Student
+    new_position: Cybersecurity Engineer at AT&T
     text: Computer Science
     org: ND
     img: jagron.jpg
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/joshua-agron
     time: Fall 2021 - Spring 2022
   - name: Mark Cheng
     position: Undergraduate Student
