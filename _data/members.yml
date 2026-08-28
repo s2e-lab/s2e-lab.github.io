@@ -2,7 +2,7 @@
 professors:
   - name: Joanna C. S. Santos
     position: Assistant Professor
-    text: Computer Science and Engineering (ND)
+    text: Computer Science and Engineering
     org: ND
     img: jdasilv2.jpg
     orcid: 0000-0001-8743-2516
@@ -15,12 +15,12 @@ professors:
         url: https://www.github.com/joannacss/
       - title: twitter 
         url: https://www.twitter.com/joannacss/
-    time: Fall 2021 - Present
+    time: Aug. 2021 - Present
       
 postdocs:
   - name: Nishat Raihan
     position: Provost's Postdoctoral Fellow
-    text: Computer Science and Engineering (ND)
+    text: Computer Science and Engineering
     org: ND
     img: mraihan.png
     orcid: 0000-0001-6242-398X
@@ -79,14 +79,20 @@ graduates:
         url: https://xinye-zhao.github.io/
       - title: linkedin
         url: https://www.linkedin.com/in/xinye-zhao/
-    time: Spring 2026 - Present
+    time: Jan. 2026 - Present
   - name: Prince Noah Johnson
     position: Ph.D. Student
     text: Computer Science and Engineering
     org: ND
     img: pjohns24.png
     orcid: 0009-0008-1985-0001
-    time: Spring 2026 - Present
+    time: Jan. 2026 - Present
+  - name: Jada Calista Ruzek
+    position: M.Sc. Student
+    text: Computer Science and Engineering
+    org: ND
+    img: jruzek.png
+    time: Jan. 2026 - Present
 undergraduates:
   - name: Matthew Zampino
     position: Undergraduate Student
@@ -143,6 +149,18 @@ undergraduates:
     text: Computer Sience
     org: ND
     img: jnkouka.jpg
+    time: Fall 2026 - Present
+  - name: Mariana Junqueira Lira
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    img: mjunquei.jpg
+    time: Fall 2026 - Present
+  - name: Jorge Luis Moreno Melo 
+    position: Undergraduate Student
+    text: Computer Sience
+    org: ND
+    img: photo_placeholder.png
     time: Fall 2026 - Present
 alumni_graduates:
   - name: Tom O'Connor
@@ -234,27 +252,27 @@ alumni_undergraduates:
     text: Computer Science
     org: ND
     img: ngutier4.png
-    time: Spring 2024   
+    time: Spring 2024 - Spring 2025
   - name: Sajith Devareddy
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: sdevared.jpg
-    time: Spring 2024   
+    time: Spring 2024 - Spring 2025; Spring 2026
   - name: Antonio Karam
     position: Undergraduate Student
     text: Computer Engineering
     org: ND
     img: akaram.jpg
     orcid: 0009-0007-3755-1403
-    time: Fall 2024 
+    time: Fall 2024 - Spring 2025
   - name: Maria C. Leal
     position: Undergraduate Student
     text: Computer Science
     org: ND
     img: mleal.jpg
     orcid: 0009-0000-6613-6267
-    time: Fall 2024 
+    time: Fall 2024 - Spring 2025
   - name: Aaron Afeminke
     position: Undergraduate Student
     text: Computer Science

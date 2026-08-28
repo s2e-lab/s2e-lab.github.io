@@ -1,23 +1,92 @@
 international:
-  - qce-2027:
-    id: qce-2027
+  - ase-2026:
+    id: ase-2026
+    title: "Execution-as-Configuration: Security Smells in Model Configuration Artifacts"
+    venue: "41st IEEE/ACM International Conference on Automated Software Engineering"
+    venue_abbr: ASE'26
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Mohammed Latif Siddiq
+      - Prince Noah Johnson
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{siddiq2026execution,
+        title={Execution-as-Configuration: Security Smells in Model Configuration Artifacts},
+        author={Siddiq, Mohammed Latif and Johnson, Prince Noah and Santos, Joanna C. S.},
+        booktitle={Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering},
+        year={2026},
+        note={To appear}
+      }
+  - esem-2026:
+    id: esem-2026
+    title: "On the Quality of Vulnerability-Contributing Commit Datasets: A Systematic Review and Exploit-Based Evaluation"
+    venue: "20th International Conference on Empirical Software Engineering and Measurement"
+    venue_abbr: ESEM'26
+    venue_location: München, Germany
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Vinicius Carvalho Lopes
+      - Christian Garcia
+      - Matthew Zampino
+      - Joanna C. S. Santos
+      - Adriana Sejfia
+    bibtex: |
+      @inproceedings{lopes2026quality,
+        title={On the Quality of Vulnerability-Contributing Commit Datasets: A Systematic Review and Exploit-Based Evaluation},
+        author={Lopes, Vinicius Carvalho and Garcia, Christian and Zampino, Matthew and Santos, Joanna C. S. and Sejfia, Adriana},
+        booktitle={Proceedings of the 20th International Conference on Empirical Software Engineering and Measurement},
+        year={2026},
+        location={München, Germany},
+        note={To appear}
+      }
+  - express-2026:
+    id: express-2026
+    title: "Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis"
+    venue: "2nd Workshop on Explainable and Reliable Software Systems"
+    venue_abbr: EXPRESS'26
+    venue_location: Oakland, CA, USA
+    year: 2026
+    has_infographic: false
+    to_appear: true
+    authors:
+      - Xinye Zhao
+      - Joanna C. S. Santos
+    bibtex: |
+      @inproceedings{zhao2026budgetaware,
+        title={Towards Budget-Aware Early Candidate Selection for Vulnerability Analysis},
+        author={Zhao, Xinye and Santos, Joanna C. S.},
+        booktitle={Proceedings of the 2nd Workshop on Explainable and Reliable Software Systems},
+        year={2026},
+        note={To appear}
+      }
+  - qce-2026:
+    id: qce-2026
     title: "Towards Quantum-Based Detection of Data Tampering Attacks"
     venue: "IEEE International Conference on Quantum Computing and Engineering"
-    venue_abbr: QCE'27 Poster
-    year: 2027
+    venue_abbr: QCE'26 Poster
+    venue_location: Notre Dame, IN, USA
+    year: 2026
     has_infographic: false
     to_appear: true
     authors:
       - Beatrice Casey
+      - Kaia Damian
+      - Andrew Cotaj
       - Joanna C. S. Santos
     bibtex: |
-      @inproceedings{casey2027quantum,
+      @inproceedings{casey2026quantum,
         title={Towards Quantum-Based Detection of Data Tampering Attacks},
-        author={Casey, Beatrice and Santos, Joanna C. S.},
+        author={Casey, Beatrice and Damian, Kaia and Cotaj, Andrew and Santos, Joanna C. S.},
         booktitle={IEEE International Conference on Quantum Computing and Engineering},
-        year={2027},
+        year={2026},
+        location={Notre Dame, IN, USA},
         note={Poster, to appear}
       }
+    preprint: qce26-preprint.pdf
   - cyber-ai-supply-chain-2026:
     id: cyber-ai-supply-chain-2026
     title: "Cyber-AI Supply Chain Vulnerabilities"
@@ -360,8 +429,8 @@ international:
         year={2025}
       }
 
-  - sigcsets-2025:
-    id: sigcsets-2025
+  - sigcse-2025:
+    id: sigcse-2025
     title: "Large Language Models in Computer Science Education: A Systematic Literature Review"
     venue: 56th ACM Technical Symposium on Computer Science Education
     venue_abbr: SIGCSE TS'25
