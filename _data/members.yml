@@ -93,6 +93,12 @@ graduates:
     org: ND
     img: jruzek.png
     time: Jan. 2026 - Present
+  - name: Michael Bai
+    position: M.Sc. Student
+    text: Computer Science and Engineering
+    org: ND
+    img: mbai.jpg
+    time: Jan. 2026 - Present
 undergraduates:
   - name: Matthew Zampino
     position: Undergraduate Student
