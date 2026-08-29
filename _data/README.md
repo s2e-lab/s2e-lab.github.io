@@ -10,9 +10,10 @@ It has miscellaneous lab metadata.
 - `postdocs`
 - `graduates`
 - `undergraduates`
-- `alumni_graduates`
-- `alumni_undergraduates`
-- `visiting`
+- `alumni`
+  - `graduates`
+  - `undergraduates`
+  - `visiting`
 
 Each member supports the following fields:
 
@@ -48,6 +49,34 @@ graduates:
       - title: linkedin
         url: https://www.linkedin.com/in/example/
     time: Fall 2026 - Present
+```
+
+Alumni are grouped by their status while they were affiliated with the lab:
+
+```yaml
+alumni:
+  graduates:
+    - name: Example Graduate Alumnus
+      position: M.Sc. Student
+      text: Computer Science and Engineering
+      org: ND
+      img: graduate-example.jpg
+      time: Fall 2025 - Spring 2026
+  undergraduates:
+    - name: Example Undergraduate Alumna
+      position: Undergraduate Student
+      new_position: Software Engineer at Example Company
+      text: Computer Science
+      org: ND
+      img: undergraduate-example.jpg
+      time: Fall 2025 - Spring 2026
+  visiting:
+    - name: Example Visiting Student
+      position: Undergraduate Student
+      text: Computer Science and Engineering
+      org: BUET
+      img: visiting-example.jpg
+      time: Summer 2025
 ```
 
 Mascots use a smaller format under `mascots`:
