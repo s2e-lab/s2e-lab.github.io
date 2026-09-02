@@ -91,12 +91,24 @@ graduates:
     text: Computer Science and Engineering
     org: ND
     img: jruzek.png
+    orcid: 0009-0006-6413-7876
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/ruzekjc
+      - title: github
+        url: https://github.com/ruzekjc
     time: Jan. 2026 - Present
   - name: Michael Bai
     position: M.Sc. Student
     text: Computer Science and Engineering
     org: ND
     img: mbai.jpg
+    orcid: 0009-0009-9603-8874
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/michaelbai30/
+      - title: github
+        url: https://github.com/michaelbai30
     time: Jan. 2026 - Present
 
 undergraduates:
@@ -106,6 +118,9 @@ undergraduates:
     org: ND
     img: mzampino.jpg
     orcid: 0009-0006-7717-7906
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/matthew-zampino/
     time: Summer 2025 - Present  
   - name: Christian   Garcia
     position: Undergraduate Student
@@ -125,48 +140,94 @@ undergraduates:
     text: Computer Sience
     org: ND
     img: kcomito.jpg
+    orcid: 0009-0009-7777-8893
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/katherine-comito
+      - title: github
+        url: https://github.com/kathgab
     time: Fall 2026 - Present
-  - name: Stefan Oleksiienko
+  - name: Sviatoslav Oleksiienko
     position: Undergraduate Student
     text: Computer Sience
     org: ND
     img: soleksii.jpg
+    orcid: 0009-0000-6912-1861
+    social:
+      - title: globe
+        url: https://oleksiienko.dev/
+      - title: linkedin
+        url: https://www.linkedin.com/in/soleksii/
+      - title: github
+        url: https://github.com/sviatil0
     time: Fall 2026 - Present
-  - name: João Vitor Nunes Lima Ziliotto
+  - name: João Vitor Nunes de Lima Ziliotto
     position: Undergraduate Student
     text: Computer Sience
     org: ND
     img: jziliott.jpg
+    orcid: 0009-0005-4283-434X
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/joao-nunes-lz/
+      - title: github
+        url: https://github.com/JoaoVNLZ
     time: Fall 2026 - Present
   - name: Humyra Ferdus
     position: Undergraduate Student
     text: Computer Sience
     org: ND
     img: hferdus.png
+    orcid: 0009-0004-0704-3836
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/humyra-ferdus
+      - title: github
+        url: https://github.com/humyra-ferdus
     time: Fall 2026 - Present
-  - name: Anika Joseph
+  - name: Anika Maria Joseph
     position: Undergraduate Student
     text: Computer Sience
     org: ND
     img: ajoseph7.jpg    
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/anikamjoseph
     time: Fall 2026 - Present
-  - name: Freeman Nkouka
+  - name: Jacob Freeman Nkouka
     position: Undergraduate Student
     text: Computer Sience
     org: ND
     img: jnkouka.jpg
+    social:
+      - title: globe
+        url: https://freemankn.github.io/
+      - title: linkedin
+        url: https://www.linkedin.com/in/freeman-nkouka/
     time: Fall 2026 - Present
   - name: Mariana Junqueira Lira
     position: Undergraduate Student
     text: Computer Sience
     org: ND
     img: mjunquei.jpg
+    orcid: 0009-0003-7755-7237
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/marianajlira
+      - title: github
+        url: https://github.com/marijlira21-dot
     time: Fall 2026 - Present
   - name: Jorge Luis Moreno Melo 
     position: Undergraduate Student
     text: Computer Sience
     org: ND
     img: photo_placeholder.png
+    orcid: 0009-0009-6001-7713
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/jorge-luis-moreno-melo/
+      - title: github
+        url: https://github.com/23jmorenomelo
     time: Fall 2026 - Present
 
 alumni:
