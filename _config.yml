@@ -17,8 +17,6 @@ kramdown:
 permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
-include:
-  - teaching/sse-book/build/_assets
 
 # ORIGINAL TEMPLATE'S COLORS
 # Palette: https://palettes.shecodes.io/palettes/1291
@@ -65,16 +63,8 @@ collections:
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  # - title: dribbble
-  #   url:
-  # - title: facebook
-  #   url:
-  - title: twitter
-    url: https://twitter.com/joannacss
-  # - title: instagram
-  #   url:
-  # - title: tumblr
-  #   url:
+  - title: huggingface
+    url: https://huggingface.com/s2e-lab/
   - title: github
     url: https://github.com/s2e-lab/
 

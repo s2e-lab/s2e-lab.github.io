@@ -1,10 +1,22 @@
 <div id="blue">
+    {% assign is_publications = false %}
+    {% assign heading_columns = 12 %}
+    {% if page.wrap_title == "Publications" or page.title == "Publications" %}
+        {% assign is_publications = true %}
+        {% assign heading_columns = 6 %}
+    {% endif %}
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h1 class="pubText">{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+            <div class="col-md-{{ heading_columns }}">
+                <h1 class="pubText">
+                    {% if page.wrap_title %}
+                        {{ page.wrap_title }}
+                    {% else %}
+                        {{ page.title }}
+                    {% endif %}
+                </h1>
             </div>
-            {% if page.wrap_title == "Publications" or page.title == "Publications" %}
+            {% if is_publications %}
                 <div class="col-md-6">
                     <ul class="list-inline list-social-icons my-0 text-left">
                     <li class="text-muted-wrap">See also on:</li>
