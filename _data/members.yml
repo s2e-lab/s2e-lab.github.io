@@ -137,7 +137,7 @@ undergraduates:
     time: Spring 2026 - Present
   - name: Katherine Comito 
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: kcomito.jpg
     orcid: 0009-0009-7777-8893
@@ -149,7 +149,7 @@ undergraduates:
     time: Fall 2026 - Present
   - name: Sviatoslav Oleksiienko
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: soleksii.jpg
     orcid: 0009-0000-6912-1861
@@ -163,7 +163,7 @@ undergraduates:
     time: Fall 2026 - Present
   - name: João Vitor Nunes de Lima Ziliotto
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: jziliott.jpg
     orcid: 0009-0005-4283-434X
@@ -175,7 +175,7 @@ undergraduates:
     time: Fall 2026 - Present
   - name: Humyra Ferdus
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: hferdus.png
     orcid: 0009-0004-0704-3836
@@ -187,7 +187,7 @@ undergraduates:
     time: Fall 2026 - Present
   - name: Anika Maria Joseph
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: ajoseph7.jpg    
     social:
@@ -196,7 +196,7 @@ undergraduates:
     time: Fall 2026 - Present
   - name: Jacob Freeman Nkouka
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: jnkouka.jpg
     social:
@@ -207,7 +207,7 @@ undergraduates:
     time: Fall 2026 - Present
   - name: Mariana Junqueira Lira
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: mjunquei.jpg
     orcid: 0009-0003-7755-7237
@@ -219,7 +219,7 @@ undergraduates:
     time: Fall 2026 - Present
   - name: Jorge Luis Moreno Melo 
     position: Undergraduate Student
-    text: Computer Sience
+    text: Computer Science
     org: ND
     img: photo_placeholder.png
     orcid: 0009-0009-6001-7713
@@ -254,7 +254,7 @@ alumni:
       social:
         - title: linkedin
           url: https://www.linkedin.com/in/lukacvetkohr
-      time: Jan. 2024 - May. 2024
+      time: Jan. 2024 - May 2024
       org: ND
   
   undergraduates:
@@ -460,7 +460,7 @@ alumni:
       social:
         - title: linkedin
           url: https://www.linkedin.com/in/matthew-spadafore
-      time: Jan. 2024 - May. 2024
+      time: Jan. 2024 - May 2024
     - name: Lindsay Roney
       position: Undergraduate Student
       new_position: Associate Security Consultant at IBM
