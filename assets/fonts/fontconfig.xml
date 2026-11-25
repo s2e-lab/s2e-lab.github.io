@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <include ignore_missing="yes">/opt/homebrew/etc/fonts/fonts.conf</include>
+  <dir>/Users/joannacss/Documents/Portfolio/GitHub/s2e-lab/s2e-lab.github.io/assets/fonts</dir>
+  <cachedir>/private/tmp/s2e-flowchart-font-cache</cachedir>
+</fontconfig>
